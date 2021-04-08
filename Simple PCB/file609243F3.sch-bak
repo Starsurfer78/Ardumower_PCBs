@@ -710,4 +710,106 @@ Wire Wire Line
 Connection ~ 4100 6150
 Wire Wire Line
 	4100 6150 4200 6150
+$Comp
+L Device:R R?
+U 1 1 6096C7A3
+P 5750 4000
+F 0 "R?" V 5650 4000 50  0000 C CNN
+F 1 "1K5" V 5750 4000 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 5680 4000 50  0001 C CNN
+F 3 "~" H 5750 4000 50  0001 C CNN
+	1    5750 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+24V #PWR?
+U 1 1 6096C7A9
+P 5450 4000
+F 0 "#PWR?" H 5450 3850 50  0001 C CNN
+F 1 "+24V" H 5465 4173 50  0000 C CNN
+F 2 "" H 5450 4000 50  0001 C CNN
+F 3 "" H 5450 4000 50  0001 C CNN
+	1    5450 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 4000 5600 4000
+Wire Wire Line
+	5900 4000 6050 4000
+$Comp
+L power:GND #PWR?
+U 1 1 6096C7B1
+P 6450 4000
+F 0 "#PWR?" H 6450 3750 50  0001 C CNN
+F 1 "GND" V 6455 3872 50  0000 R CNN
+F 2 "" H 6450 4000 50  0001 C CNN
+F 3 "" H 6450 4000 50  0001 C CNN
+	1    6450 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Zimprich:LED D?
+U 1 1 6096C7B7
+P 6250 4000
+F 0 "D?" H 6250 3755 50  0000 C CNN
+F 1 "LED_24V" H 6250 3846 50  0000 C CNN
+F 2 "LED_THT:LED_D3.0mm" H 6250 4000 60  0001 C CNN
+F 3 "" H 6250 4000 60  0000 C CNN
+	1    6250 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Jumper:Jumper_2_Open JP?
+U 1 1 6096C7BD
+P 6300 3450
+F 0 "JP?" H 6300 3685 50  0000 C CNN
+F 1 "24V" H 6300 3594 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 6300 3450 50  0001 C CNN
+F 3 "~" H 6300 3450 50  0001 C CNN
+	1    6300 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 6096C7C3
+P 5450 3250
+F 0 "J?" V 5414 3062 50  0000 R CNN
+F 1 "24V IN" V 5550 3300 50  0000 R CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 5450 3250 50  0001 C CNN
+F 3 "~" H 5450 3250 50  0001 C CNN
+	1    5450 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N5819 D?
+U 1 1 6096C7C9
+P 7200 3450
+F 0 "D?" H 7200 3233 50  0000 C CNN
+F 1 "1N5819" H 7200 3324 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 7200 3275 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 7200 3450 50  0001 C CNN
+	1    7200 3450
+	-1   0    0    1   
+$EndComp
+Text GLabel 7550 3450 2    50   Output ~ 0
++24V
+Wire Wire Line
+	6500 3450 7050 3450
+Wire Wire Line
+	5550 3450 6100 3450
+$Comp
+L power:GND #PWR?
+U 1 1 6096C7D2
+P 5450 3450
+F 0 "#PWR?" H 5450 3200 50  0001 C CNN
+F 1 "GND" H 5455 3277 50  0000 C CNN
+F 2 "" H 5450 3450 50  0001 C CNN
+F 3 "" H 5450 3450 50  0001 C CNN
+	1    5450 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7350 3450 7550 3450
+Text GLabel 7400 3450 3    50   Output ~ 0
+LED_24V
 $EndSCHEMATC
