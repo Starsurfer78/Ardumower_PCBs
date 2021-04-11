@@ -62,25 +62,23 @@ $EndComp
 Wire Wire Line
 	2500 2250 2500 2400
 Wire Wire Line
-	1550 2250 1800 2250
+	1550 2250 1650 2250
 Wire Wire Line
 	2500 2700 2500 2900
 Wire Wire Line
 	2500 3500 2500 3700
-Wire Wire Line
-	2450 2900 2500 2900
 Connection ~ 2500 2900
 Wire Wire Line
 	2500 2900 2500 3200
 $Comp
 L Lötpad_2,5mm:DIODE D2
 U 1 1 6071023D
-P 2000 2250
-F 0 "D2" H 2000 2442 40  0000 C CNN
-F 1 "SB1240" H 2000 2366 40  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2000 2250 60  0001 C CNN
-F 3 "" H 2000 2250 60  0000 C CNN
-	1    2000 2250
+P 1850 2250
+F 0 "D2" H 1850 2442 40  0000 C CNN
+F 1 "SB1240" H 1850 2366 40  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 1850 2250 60  0001 C CNN
+F 3 "" H 1850 2250 60  0000 C CNN
+	1    1850 2250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -558,8 +556,6 @@ Wire Wire Line
 Wire Wire Line
 	6500 2400 7050 2400
 Wire Wire Line
-	2200 2250 2500 2250
-Wire Wire Line
 	6500 2400 6500 3050
 Wire Wire Line
 	6500 3050 6550 3050
@@ -569,8 +565,8 @@ Connection ~ 1550 3700
 Wire Wire Line
 	1550 3700 650  3700
 Wire Wire Line
-	1550 3700 2500 3700
-Text GLabel 2450 2900 0    50   Output ~ 0
+	1550 3700 2000 3700
+Text GLabel 2250 3900 0    50   Output ~ 0
 pinChargeVoltage
 Wire Wire Line
 	1550 3200 1550 3700
@@ -622,4 +618,47 @@ Wire Wire Line
 	9700 2250 10100 2250
 Wire Wire Line
 	9700 3700 10100 3700
+$Comp
+L Device:R R9
+U 1 1 60730CD6
+P 2150 2550
+F 0 "R9" H 2220 2596 50  0000 L CNN
+F 1 "4.7k" H 2220 2505 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 2080 2550 50  0001 C CNN
+F 3 "~" H 2150 2550 50  0001 C CNN
+	1    2150 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2250 2900 2250 3900
+Wire Wire Line
+	2250 2900 2500 2900
+Connection ~ 1650 2250
+Wire Wire Line
+	1650 2250 1800 2250
+Wire Wire Line
+	2050 2250 2150 2250
+Wire Wire Line
+	2150 2400 2150 2250
+Connection ~ 2150 2250
+Wire Wire Line
+	2150 2250 2500 2250
+$Comp
+L Device:LED D6
+U 1 1 6073C265
+P 2000 2850
+F 0 "D6" V 2039 2732 50  0000 R CNN
+F 1 "LED" V 1948 2732 50  0000 R CNN
+F 2 "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm" H 2000 2850 50  0001 C CNN
+F 3 "~" H 2000 2850 50  0001 C CNN
+	1    2000 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2150 2700 2000 2700
+Wire Wire Line
+	2000 3000 2000 3700
+Connection ~ 2000 3700
+Wire Wire Line
+	2000 3700 2500 3700
 $EndSCHEMATC
