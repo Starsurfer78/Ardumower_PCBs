@@ -26,7 +26,7 @@ Software Azuritber: https://github.com/Boilevin/AzuritBer
 
 Ardumower Original Software: https://github.com/Ardumower
 
-![Vorschau Due PCB](https://github.com/Starsurfer78/Ardumower_PCBs/blob/main/Simple%20PCB/Images/Ardumower_PCB_oben.png)
+![Vorschau Due PCB](https://github.com/Starsurfer78/Ardumower_PCBs/blob/main/DUE_PCB/Images/Ardumower_PCB_oben.png)
 
 ![Vorschau Charging Board](https://github.com/Starsurfer78/Ardumower_PCBs/blob/main/Charging_PCB/charge_pcb.png)
 
