@@ -520,7 +520,6 @@ Text GLabel 5100 6050 1    50   Input ~ 0
 pinChargeEnable
 Text GLabel 5500 6050 1    50   Output ~ 0
 pinBatteryVoltage
-NoConn ~ 3750 5650
 Wire Wire Line
 	650  2250 1050 2250
 Wire Wire Line
@@ -661,4 +660,92 @@ Wire Wire Line
 Connection ~ 2000 3700
 Wire Wire Line
 	2000 3700 2500 3700
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 6073B4AE
+P 2600 5200
+F 0 "H1" H 2700 5249 50  0000 L CNN
+F 1 "MountingHole_Pad" H 2700 5158 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom" H 2600 5200 50  0001 C CNN
+F 3 "~" H 2600 5200 50  0001 C CNN
+	1    2600 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 6073E1F7
+P 2600 5700
+F 0 "H2" H 2700 5749 50  0000 L CNN
+F 1 "MountingHole_Pad" H 2700 5658 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom" H 2600 5700 50  0001 C CNN
+F 3 "~" H 2600 5700 50  0001 C CNN
+	1    2600 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 6073E399
+P 2600 6200
+F 0 "H3" H 2700 6249 50  0000 L CNN
+F 1 "MountingHole_Pad" H 2700 6158 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom" H 2600 6200 50  0001 C CNN
+F 3 "~" H 2600 6200 50  0001 C CNN
+	1    2600 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 6073E5C5
+P 2600 6650
+F 0 "H4" H 2700 6699 50  0000 L CNN
+F 1 "MountingHole_Pad" H 2700 6608 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom" H 2600 6650 50  0001 C CNN
+F 3 "~" H 2600 6650 50  0001 C CNN
+	1    2600 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lötpad_2,5mm:GND #PWR0101
+U 1 1 6073E8B8
+P 2600 5300
+F 0 "#PWR0101" H 2600 5050 60  0001 C CNN
+F 1 "GND" H 2605 5119 60  0000 C CNN
+F 2 "" H 2600 5300 60  0000 C CNN
+F 3 "" H 2600 5300 60  0000 C CNN
+	1    2600 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lötpad_2,5mm:GND #PWR0102
+U 1 1 607463A7
+P 2600 5800
+F 0 "#PWR0102" H 2600 5550 60  0001 C CNN
+F 1 "GND" H 2605 5619 60  0000 C CNN
+F 2 "" H 2600 5800 60  0000 C CNN
+F 3 "" H 2600 5800 60  0000 C CNN
+	1    2600 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lötpad_2,5mm:GND #PWR0103
+U 1 1 60746674
+P 2600 6300
+F 0 "#PWR0103" H 2600 6050 60  0001 C CNN
+F 1 "GND" H 2605 6119 60  0000 C CNN
+F 2 "" H 2600 6300 60  0000 C CNN
+F 3 "" H 2600 6300 60  0000 C CNN
+	1    2600 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Lötpad_2,5mm:GND #PWR0104
+U 1 1 60746896
+P 2600 6750
+F 0 "#PWR0104" H 2600 6500 60  0001 C CNN
+F 1 "GND" H 2605 6569 60  0000 C CNN
+F 2 "" H 2600 6750 60  0000 C CNN
+F 3 "" H 2600 6750 60  0000 C CNN
+	1    2600 6750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
