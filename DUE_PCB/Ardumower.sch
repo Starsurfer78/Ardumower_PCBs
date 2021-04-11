@@ -1469,4 +1469,10 @@ U 609243F4
 F0 "Connector_Motor" 50
 F1 "file609243F3.sch" 50
 $EndSheet
+Wire Wire Line
+	2700 850  3550 850 
+Wire Wire Line
+	3550 850  3550 5800
+Wire Wire Line
+	3550 5800 4850 5800
 $EndSCHEMATC
