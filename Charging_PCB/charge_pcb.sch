@@ -62,7 +62,7 @@ $EndComp
 Wire Wire Line
 	2500 2250 2500 2400
 Wire Wire Line
-	1550 2250 1650 2250
+	1550 2250 1600 2250
 Wire Wire Line
 	2500 2700 2500 2900
 Wire Wire Line
@@ -559,27 +559,21 @@ Wire Wire Line
 Wire Wire Line
 	6500 3050 6550 3050
 Connection ~ 6500 2400
-Connection ~ 1550 2250
-Connection ~ 1550 3700
-Wire Wire Line
-	1550 3700 650  3700
-Wire Wire Line
-	1550 3700 2000 3700
 Text GLabel 2250 3900 0    50   Output ~ 0
 pinChargeVoltage
 Wire Wire Line
-	1550 3200 1550 3700
+	1600 3200 1600 3700
 Wire Wire Line
-	1550 2250 1550 2900
+	1600 2250 1600 2900
 $Comp
 L Diode:MBR745 D1
 U 1 1 60702097
-P 1550 3050
-F 0 "D1" V 1504 3130 50  0000 L CNN
-F 1 "MBR1045" V 1595 3130 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-2_Vertical" H 1550 2875 50  0001 C CNN
-F 3 "http://www.onsemi.com/pub_link/Collateral/MBR735-D.PDF" H 1550 3050 50  0001 C CNN
-	1    1550 3050
+P 1600 3050
+F 0 "D1" V 1554 3130 50  0000 L CNN
+F 1 "MBR1045" V 1645 3130 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-2_Vertical" H 1600 2875 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MBR735-D.PDF" H 1600 3050 50  0001 C CNN
+	1    1600 3050
 	0    1    1    0   
 $EndComp
 $Comp
@@ -632,9 +626,6 @@ Wire Wire Line
 	2250 2900 2250 3900
 Wire Wire Line
 	2250 2900 2500 2900
-Connection ~ 1650 2250
-Wire Wire Line
-	1650 2250 1800 2250
 Wire Wire Line
 	2050 2250 2150 2250
 Wire Wire Line
@@ -748,4 +739,12 @@ F 3 "" H 2600 6750 60  0000 C CNN
 	1    2600 6750
 	1    0    0    -1  
 $EndComp
+Connection ~ 1600 2250
+Connection ~ 1600 3700
+Wire Wire Line
+	1600 3700 2000 3700
+Wire Wire Line
+	650  3700 1600 3700
+Wire Wire Line
+	1600 2250 1650 2250
 $EndSCHEMATC
