@@ -271,20 +271,9 @@ Text GLabel 1950 2950 0    50   Input ~ 0
 pinSonarRightEcho
 Text GLabel 1900 4200 0    50   Input ~ 0
 pinSonarLeftEcho
-$Comp
-L Connector:Screw_Terminal_01x04 J15
-U 1 1 60770CE6
-P 2900 4700
-F 0 "J15" H 2980 4692 50  0000 L CNN
-F 1 "Bumper" H 2980 4601 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2900 4700 50  0001 C CNN
-F 3 "~" H 2900 4700 50  0001 C CNN
-	1    2900 4700
-	1    0    0    -1  
-$EndComp
-Text GLabel 2700 4700 0    50   Input ~ 0
+Text GLabel 2200 5000 0    50   Input ~ 0
 pinBumperRight
-Text GLabel 2700 4900 0    50   Input ~ 0
+Text GLabel 2200 4700 0    50   Input ~ 0
 pinBumperLeft
 $Comp
 L Connector:Screw_Terminal_01x03 J11
@@ -674,17 +663,6 @@ F 3 "" H 1350 5900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR023
-U 1 1 6097EBFF
-P 2450 4600
-F 0 "#PWR023" H 2450 4350 50  0001 C CNN
-F 1 "GND" V 2455 4472 50  0000 R CNN
-F 2 "" H 2450 4600 50  0001 C CNN
-F 3 "" H 2450 4600 50  0001 C CNN
-	1    2450 4600
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR018
 U 1 1 6097F3DC
 P 2000 3300
@@ -742,19 +720,6 @@ F 2 "" H 800 850 50  0001 C CNN
 F 3 "" H 800 850 50  0001 C CNN
 	1    800  850 
 	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2450 4600 2700 4600
-$Comp
-L power:GND #PWR030
-U 1 1 609BE8A2
-P 2700 4800
-F 0 "#PWR030" H 2700 4550 50  0001 C CNN
-F 1 "GND" V 2705 4672 50  0000 R CNN
-F 2 "" H 2700 4800 50  0001 C CNN
-F 3 "" H 2700 4800 50  0001 C CNN
-	1    2700 4800
-	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR03
@@ -1638,6 +1603,138 @@ F 1 "+5VA" V 10465 2728 50  0000 L CNN
 F 2 "" H 10450 2600 50  0001 C CNN
 F 3 "" H 10450 2600 50  0001 C CNN
 	1    10450 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 6091DE79
+P 11950 2050
+F 0 "H2" H 12050 2099 50  0000 L CNN
+F 1 "MountingHole_Pad" H 12050 2008 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom" H 11950 2050 50  0001 C CNN
+F 3 "~" H 11950 2050 50  0001 C CNN
+	1    11950 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR055
+U 1 1 609238F5
+P 11950 2150
+F 0 "#PWR055" H 11950 1900 50  0001 C CNN
+F 1 "GND" H 11955 1977 50  0000 C CNN
+F 2 "" H 11950 2150 50  0001 C CNN
+F 3 "" H 11950 2150 50  0001 C CNN
+	1    11950 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 6092EAEB
+P 11950 1600
+F 0 "H1" H 12050 1649 50  0000 L CNN
+F 1 "MountingHole_Pad" H 12050 1558 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom" H 11950 1600 50  0001 C CNN
+F 3 "~" H 11950 1600 50  0001 C CNN
+	1    11950 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR054
+U 1 1 6092F555
+P 11950 1700
+F 0 "#PWR054" H 11950 1450 50  0001 C CNN
+F 1 "GND" H 11955 1527 50  0000 C CNN
+F 2 "" H 11950 1700 50  0001 C CNN
+F 3 "" H 11950 1700 50  0001 C CNN
+	1    11950 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 609317B3
+P 11950 3000
+F 0 "H4" H 12050 3049 50  0000 L CNN
+F 1 "MountingHole_Pad" H 12050 2958 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom" H 11950 3000 50  0001 C CNN
+F 3 "~" H 11950 3000 50  0001 C CNN
+	1    11950 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR057
+U 1 1 60932237
+P 11950 3100
+F 0 "#PWR057" H 11950 2850 50  0001 C CNN
+F 1 "GND" H 11955 2927 50  0000 C CNN
+F 2 "" H 11950 3100 50  0001 C CNN
+F 3 "" H 11950 3100 50  0001 C CNN
+	1    11950 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 60932241
+P 11950 2550
+F 0 "H3" H 12050 2599 50  0000 L CNN
+F 1 "MountingHole_Pad" H 12050 2508 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom" H 11950 2550 50  0001 C CNN
+F 3 "~" H 11950 2550 50  0001 C CNN
+	1    11950 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR056
+U 1 1 6093224B
+P 11950 2650
+F 0 "#PWR056" H 11950 2400 50  0001 C CNN
+F 1 "GND" H 11955 2477 50  0000 C CNN
+F 2 "" H 11950 2650 50  0001 C CNN
+F 3 "" H 11950 2650 50  0001 C CNN
+	1    11950 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J15
+U 1 1 609D47E3
+P 2400 4600
+F 0 "J15" H 2480 4592 50  0000 L CNN
+F 1 "Bumper Left" H 2480 4501 50  0000 L CNN
+F 2 "Zimprich:Pin_Header_KK110_1x02_3D" H 2400 4600 50  0001 C CNN
+F 3 "~" H 2400 4600 50  0001 C CNN
+	1    2400 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR023
+U 1 1 609D52AA
+P 2200 4600
+F 0 "#PWR023" H 2200 4350 50  0001 C CNN
+F 1 "GND" V 2205 4472 50  0000 R CNN
+F 2 "" H 2200 4600 50  0001 C CNN
+F 3 "" H 2200 4600 50  0001 C CNN
+	1    2200 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J31
+U 1 1 609DA7EE
+P 2400 4900
+F 0 "J31" H 2480 4892 50  0000 L CNN
+F 1 "Bumper Right" H 2480 4801 50  0000 L CNN
+F 2 "Zimprich:Pin_Header_KK110_1x02_3D" H 2400 4900 50  0001 C CNN
+F 3 "~" H 2400 4900 50  0001 C CNN
+	1    2400 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR030
+U 1 1 609DA7F8
+P 2200 4900
+F 0 "#PWR030" H 2200 4650 50  0001 C CNN
+F 1 "GND" V 2205 4772 50  0000 R CNN
+F 2 "" H 2200 4900 50  0001 C CNN
+F 3 "" H 2200 4900 50  0001 C CNN
+	1    2200 4900
 	0    1    1    0   
 $EndComp
 $EndSCHEMATC

@@ -424,7 +424,7 @@ IOREV
 Text GLabel 2450 5900 0    50   Input ~ 0
 pinMotorRightPWM
 $Comp
-L Lötpad_2,5mm:MC33926 U?
+L Ardumower-rescue:MC33926-Lötpad_2,5mm U?
 U 1 1 60958C90
 P 3300 6450
 AR Path="/60958C90" Ref="U?"  Part="1" 
@@ -437,7 +437,7 @@ F 3 "" H 3450 6500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Lötpad_2,5mm:MC33926 U?
+L Ardumower-rescue:MC33926-Lötpad_2,5mm U?
 U 1 1 60958C96
 P 3300 4300
 AR Path="/60958C96" Ref="U?"  Part="1" 

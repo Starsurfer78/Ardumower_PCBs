@@ -351,7 +351,7 @@ Wire Wire Line
 Text GLabel 1350 7650 0    50   Input ~ 0
 pinRain
 $Comp
-L Lötpad_2,5mm:SPEAKER SP1
+L Ardumower-rescue:SPEAKER-Lötpad_2,5mm SP1
 U 1 1 607B6900
 P 10450 5450
 F 0 "SP1" H 10728 5511 70  0000 L CNN
@@ -405,7 +405,7 @@ $EndComp
 Wire Wire Line
 	10000 2600 9850 2600
 $Comp
-L Zimprich:LED D6
+L Ardumower-rescue:LED-Zimprich D6
 U 1 1 60874952
 P 9650 3200
 F 0 "D6" H 9650 3415 50  0000 C CNN
@@ -442,7 +442,7 @@ $EndComp
 Wire Wire Line
 	10150 3200 10300 3200
 $Comp
-L Zimprich:LED D7
+L Ardumower-rescue:LED-Zimprich D7
 U 1 1 608829D4
 P 9650 3550
 F 0 "D7" H 9650 3765 50  0000 C CNN
@@ -479,7 +479,7 @@ $EndComp
 Wire Wire Line
 	10150 3550 10300 3550
 $Comp
-L Zimprich:LED D8
+L Ardumower-rescue:LED-Zimprich D8
 U 1 1 60886E74
 P 9650 3950
 F 0 "D8" H 9650 4165 50  0000 C CNN
@@ -527,7 +527,7 @@ F 3 "" H 9450 2600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Zimprich:LED D5
+L Ardumower-rescue:LED-Zimprich D5
 U 1 1 608B4966
 P 9650 2600
 F 0 "D5" H 9650 2355 50  0000 C CNN
@@ -549,7 +549,7 @@ F 3 "" H 9450 2150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Zimprich:LED D4
+L Ardumower-rescue:LED-Zimprich D4
 U 1 1 608BB0E1
 P 9650 2150
 F 0 "D4" H 9650 1905 50  0000 C CNN
@@ -1208,7 +1208,7 @@ Wire Wire Line
 	4850 5000 4850 4900
 Connection ~ 4850 5000
 $Comp
-L arduino:Arduino_Due_Shield XA1
+L Ardumower-rescue:Arduino_Due_Shield-arduino XA1
 U 1 1 606B55C4
 P 6150 3650
 F 0 "XA1" H 6150 1269 60  0000 C CNN
@@ -1248,17 +1248,6 @@ Connection ~ 7600 6300
 Wire Wire Line
 	7600 6300 7600 6200
 $Comp
-L Jumper:Jumper_2_Open JP3
-U 1 1 6093F36B
-P 9000 900
-F 0 "JP3" H 9000 1135 50  0000 C CNN
-F 1 "3.3V" H 9000 1044 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9000 900 50  0001 C CNN
-F 3 "~" H 9000 900 50  0001 C CNN
-	1    9000 900 
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Screw_Terminal_01x02 J24
 U 1 1 6093FCF7
 P 8150 700
@@ -1280,8 +1269,6 @@ F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 8550 900 50  0001 C CNN
 	1    8550 900 
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	9200 900  9750 900 
 $Comp
 L power:GND #PWR042
 U 1 1 6093FD0E
@@ -1291,17 +1278,6 @@ F 1 "GND" H 8155 727 50  0000 C CNN
 F 2 "" H 8150 900 50  0001 C CNN
 F 3 "" H 8150 900 50  0001 C CNN
 	1    8150 900 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:Jumper_2_Open JP2
-U 1 1 609431CB
-P 4650 850
-F 0 "JP2" H 4650 1085 50  0000 C CNN
-F 1 "5V" H 4650 994 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4650 850 50  0001 C CNN
-F 3 "~" H 4650 850 50  0001 C CNN
-	1    4650 850 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1315,8 +1291,6 @@ F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 4200 850 50  0001 C CNN
 	1    4200 850 
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	4850 850  5400 850 
 $Comp
 L power:GND #PWR035
 U 1 1 60943BCE
@@ -1354,13 +1328,13 @@ $EndComp
 $Comp
 L power:+5VA #PWR040
 U 1 1 609619C9
-P 5400 850
-F 0 "#PWR040" H 5400 700 50  0001 C CNN
-F 1 "+5VA" V 5415 977 50  0000 L CNN
-F 2 "" H 5400 850 50  0001 C CNN
-F 3 "" H 5400 850 50  0001 C CNN
-	1    5400 850 
-	1    0    0    -1  
+P 4700 1000
+F 0 "#PWR040" H 4700 850 50  0001 C CNN
+F 1 "+5VA" V 4715 1127 50  0000 L CNN
+F 2 "" H 4700 1000 50  0001 C CNN
+F 3 "" H 4700 1000 50  0001 C CNN
+	1    4700 1000
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:+5VA #PWR024
@@ -1448,13 +1422,13 @@ Wire Wire Line
 $Comp
 L power:+3.3VA #PWR050
 U 1 1 609E46D2
-P 9750 900
-F 0 "#PWR050" H 9750 750 50  0001 C CNN
-F 1 "+3.3VA" H 9765 1073 50  0000 C CNN
-F 2 "" H 9750 900 50  0001 C CNN
-F 3 "" H 9750 900 50  0001 C CNN
-	1    9750 900 
-	1    0    0    -1  
+P 9050 1050
+F 0 "#PWR050" H 9050 900 50  0001 C CNN
+F 1 "+3.3VA" H 9065 1223 50  0000 C CNN
+F 2 "" H 9050 1050 50  0001 C CNN
+F 3 "" H 9050 1050 50  0001 C CNN
+	1    9050 1050
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:+3.3VA #PWR01
@@ -1735,6 +1709,50 @@ F 1 "GND" V 2205 4772 50  0000 R CNN
 F 2 "" H 2200 4900 50  0001 C CNN
 F 3 "" H 2200 4900 50  0001 C CNN
 	1    2200 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:Jumper_3_Open JP2
+U 1 1 60948348
+P 4700 850
+F 0 "JP2" H 4700 1074 50  0000 C CNN
+F 1 "Sel 5V" H 4700 983 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4700 850 50  0001 C CNN
+F 3 "~" H 4700 850 50  0001 C CNN
+	1    4700 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0101
+U 1 1 60951F44
+P 4950 850
+F 0 "#PWR0101" H 4950 700 50  0001 C CNN
+F 1 "+5V" V 4965 978 50  0000 L CNN
+F 2 "" H 4950 850 50  0001 C CNN
+F 3 "" H 4950 850 50  0001 C CNN
+	1    4950 850 
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper:Jumper_3_Open JP3
+U 1 1 609585C0
+P 9050 900
+F 0 "JP3" H 9050 1124 50  0000 C CNN
+F 1 "Sel 3.3V" H 9050 1033 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9050 900 50  0001 C CNN
+F 3 "~" H 9050 900 50  0001 C CNN
+	1    9050 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0102
+U 1 1 60962BB7
+P 9300 900
+F 0 "#PWR0102" H 9300 750 50  0001 C CNN
+F 1 "+3.3V" V 9315 1028 50  0000 L CNN
+F 2 "" H 9300 900 50  0001 C CNN
+F 3 "" H 9300 900 50  0001 C CNN
+	1    9300 900 
 	0    1    1    0   
 $EndComp
 $EndSCHEMATC
