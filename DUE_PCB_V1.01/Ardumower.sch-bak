@@ -1209,7 +1209,7 @@ U 1 1 609D47E3
 P 2450 4400
 F 0 "J15" H 2530 4392 50  0000 L CNN
 F 1 "Bumper Left" H 2530 4301 50  0000 L CNN
-F 2 "Zimprich:Pin_Header_KK110_1x02_3D" H 2450 4400 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2450 4400 50  0001 C CNN
 F 3 "~" H 2450 4400 50  0001 C CNN
 	1    2450 4400
 	1    0    0    -1  
@@ -1681,7 +1681,7 @@ U 1 1 60A85A05
 P 9050 6200
 F 0 "J26" H 9130 6242 50  0000 L CNN
 F 1 "TX0/RX0" H 9130 6151 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal" H 9050 6200 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 9050 6200 50  0001 C CNN
 F 3 "~" H 9050 6200 50  0001 C CNN
 	1    9050 6200
 	1    0    0    -1  
