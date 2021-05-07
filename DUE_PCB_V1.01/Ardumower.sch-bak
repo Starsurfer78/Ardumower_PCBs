@@ -985,39 +985,6 @@ $EndSheet
 Wire Wire Line
 	3550 5800 4850 5800
 $Comp
-L Connector:Screw_Terminal_01x02 J24
-U 1 1 6093FCF7
-P 4600 650
-F 0 "J24" V 4564 462 50  0000 R CNN
-F 1 "3.3V IN" V 4700 700 50  0000 R CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 4600 650 50  0001 C CNN
-F 3 "~" H 4600 650 50  0001 C CNN
-	1    4600 650 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR042
-U 1 1 6093FD0E
-P 4600 850
-F 0 "#PWR042" H 4600 600 50  0001 C CNN
-F 1 "GND" H 4605 677 50  0000 C CNN
-F 2 "" H 4600 850 50  0001 C CNN
-F 3 "" H 4600 850 50  0001 C CNN
-	1    4600 850 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR035
-U 1 1 60943BCE
-P 3800 850
-F 0 "#PWR035" H 3800 600 50  0001 C CNN
-F 1 "GND" H 3805 677 50  0000 C CNN
-F 2 "" H 3800 850 50  0001 C CNN
-F 3 "" H 3800 850 50  0001 C CNN
-	1    3800 850 
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:Screw_Terminal_01x03 J10
 U 1 1 60776476
 P 2750 1300
@@ -1026,17 +993,6 @@ F 1 "P_Left" H 2830 1251 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2750 1300 50  0001 C CNN
 F 3 "~" H 2750 1300 50  0001 C CNN
 	1    2750 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5VA #PWR040
-U 1 1 609619C9
-P 4200 850
-F 0 "#PWR040" H 4200 700 50  0001 C CNN
-F 1 "+5VA" V 4215 977 50  0000 L CNN
-F 2 "" H 4200 850 50  0001 C CNN
-F 3 "" H 4200 850 50  0001 C CNN
-	1    4200 850 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1067,30 +1023,8 @@ Wire Wire Line
 	2550 3000 2550 3150
 Wire Wire Line
 	2550 3600 2550 3750
-$Comp
-L power:+3.3VA #PWR050
-U 1 1 609E46D2
-P 5100 850
-F 0 "#PWR050" H 5100 700 50  0001 C CNN
-F 1 "+3.3VA" H 5115 1023 50  0000 C CNN
-F 2 "" H 5100 850 50  0001 C CNN
-F 3 "" H 5100 850 50  0001 C CNN
-	1    5100 850 
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	-500 7150 -150 7150
-$Comp
-L Connector:Screw_Terminal_01x02 J20
-U 1 1 60943BB7
-P 3800 650
-F 0 "J20" V 3764 462 50  0000 R CNN
-F 1 "5V IN" V 3900 700 50  0000 R CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 3800 650 50  0001 C CNN
-F 3 "~" H 3800 650 50  0001 C CNN
-	1    3800 650 
-	0    -1   -1   0   
-$EndComp
 $Comp
 L power:+3.3VA #PWR052
 U 1 1 60A913E3
@@ -1310,10 +1244,6 @@ Wire Wire Line
 	1300 5000 1300 5300
 Wire Wire Line
 	900  850  3550 850 
-Wire Wire Line
-	3900 850  4200 850 
-Wire Wire Line
-	4700 850  5100 850 
 $Comp
 L Device:R R12
 U 1 1 60986E74
@@ -1425,43 +1355,6 @@ F 3 "~" H 10050 3250 50  0001 C CNN
 $EndComp
 Text GLabel 10350 3250 2    50   Input ~ 0
 DUE_5V
-$Comp
-L Connector:Screw_Terminal_01x03 J23
-U 1 1 609EC3DF
-P 6150 750
-F 0 "J23" H 6230 792 50  0000 L CNN
-F 1 "5V Power" H 6230 701 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6150 750 50  0001 C CNN
-F 3 "~" H 6150 750 50  0001 C CNN
-	1    6150 750 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5VA #PWR041
-U 1 1 609EFC4F
-P 5950 850
-F 0 "#PWR041" H 5950 700 50  0001 C CNN
-F 1 "+5VA" V 5965 977 50  0000 L CNN
-F 2 "" H 5950 850 50  0001 C CNN
-F 3 "" H 5950 850 50  0001 C CNN
-	1    5950 850 
-	0    -1   -1   0   
-$EndComp
-Text GLabel 5950 650  0    50   Input ~ 0
-DUE_5V
-$Comp
-L Connector:Screw_Terminal_01x03 J25
-U 1 1 60A17D66
-P 7300 750
-F 0 "J25" H 7380 792 50  0000 L CNN
-F 1 "3.3V Power" H 7380 701 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7300 750 50  0001 C CNN
-F 3 "~" H 7300 750 50  0001 C CNN
-	1    7300 750 
-	1    0    0    -1  
-$EndComp
-Text GLabel 7100 650  0    50   Input ~ 0
-DUE_3.3V
 Wire Wire Line
 	3550 850  3550 5800
 Wire Wire Line
@@ -1482,39 +1375,6 @@ F 2 "Arduino:Arduino_Due_Shield" H 6850 6400 60  0001 C CNN
 F 3 "https://store.arduino.cc/arduino-due" H 6850 6400 60  0001 C CNN
 	1    6150 3650
 	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3VA #PWR044
-U 1 1 60A31825
-P 7100 850
-F 0 "#PWR044" H 7100 700 50  0001 C CNN
-F 1 "+3.3VA" V 7115 977 50  0000 L CNN
-F 2 "" H 7100 850 50  0001 C CNN
-F 3 "" H 7100 850 50  0001 C CNN
-	1    7100 850 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3.3V #PWR043
-U 1 1 60A378F8
-P 7100 750
-F 0 "#PWR043" H 7100 600 50  0001 C CNN
-F 1 "+3.3V" V 7115 878 50  0000 L CNN
-F 2 "" H 7100 750 50  0001 C CNN
-F 3 "" H 7100 750 50  0001 C CNN
-	1    7100 750 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+5V #PWR039
-U 1 1 60A3E518
-P 5950 750
-F 0 "#PWR039" H 5950 600 50  0001 C CNN
-F 1 "+5V" V 5965 878 50  0000 L CNN
-F 2 "" H 5950 750 50  0001 C CNN
-F 3 "" H 5950 750 50  0001 C CNN
-	1    5950 750 
-	0    -1   -1   0   
 $EndComp
 $Comp
 L power:+5V #PWR024
@@ -1866,5 +1726,105 @@ F 2 "" H 11700 6150 50  0001 C CNN
 F 3 "" H 11700 6150 50  0001 C CNN
 	1    11700 6150
 	0    1    1    0   
+$EndComp
+$Comp
+L Device:Jumper_NC_Dual JP1
+U 1 1 60B975FC
+P 4450 850
+F 0 "JP1" H 4450 1089 50  0000 C CNN
+F 1 "Jumper_NC_Dual" H 4450 998 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4450 850 50  0001 C CNN
+F 3 "~" H 4450 850 50  0001 C CNN
+	1    4450 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NC_Dual JP2
+U 1 1 60B98CB4
+P 7550 850
+F 0 "JP2" H 7550 1089 50  0000 C CNN
+F 1 "Jumper_NC_Dual" H 7550 998 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7550 850 50  0001 C CNN
+F 3 "~" H 7550 850 50  0001 C CNN
+	1    7550 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR035
+U 1 1 60B9BA6C
+P 3800 850
+F 0 "#PWR035" H 3800 600 50  0001 C CNN
+F 1 "GND" H 3805 677 50  0000 C CNN
+F 2 "" H 3800 850 50  0001 C CNN
+F 3 "" H 3800 850 50  0001 C CNN
+	1    3800 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x02 J20
+U 1 1 60B9C602
+P 3800 650
+F 0 "J20" V 3764 462 50  0000 R CNN
+F 1 "5V IN" V 3900 700 50  0000 R CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 3800 650 50  0001 C CNN
+F 3 "~" H 3800 650 50  0001 C CNN
+	1    3800 650 
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3900 850  4200 850 
+Wire Wire Line
+	4700 850  4900 850 
+$Comp
+L power:+5V #PWR039
+U 1 1 60BA71F4
+P 4450 950
+F 0 "#PWR039" H 4450 800 50  0001 C CNN
+F 1 "+5V" V 4465 1078 50  0000 L CNN
+F 2 "" H 4450 950 50  0001 C CNN
+F 3 "" H 4450 950 50  0001 C CNN
+	1    4450 950 
+	-1   0    0    1   
+$EndComp
+Text GLabel 4900 850  2    50   Input ~ 0
+DUE_5V
+$Comp
+L Connector:Screw_Terminal_01x02 J23
+U 1 1 60BBB17E
+P 6800 650
+F 0 "J23" V 6764 462 50  0000 R CNN
+F 1 "3.3V IN" V 6900 700 50  0000 R CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 6800 650 50  0001 C CNN
+F 3 "~" H 6800 650 50  0001 C CNN
+	1    6800 650 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR040
+U 1 1 60BBBCE0
+P 6800 850
+F 0 "#PWR040" H 6800 600 50  0001 C CNN
+F 1 "GND" H 6805 677 50  0000 C CNN
+F 2 "" H 6800 850 50  0001 C CNN
+F 3 "" H 6800 850 50  0001 C CNN
+	1    6800 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 850  7300 850 
+Text GLabel 8050 850  2    50   Input ~ 0
+DUE_3.3V
+Wire Wire Line
+	7800 850  8050 850 
+$Comp
+L power:+3.3V #PWR041
+U 1 1 60BC6357
+P 7550 900
+F 0 "#PWR041" H 7550 750 50  0001 C CNN
+F 1 "+3.3V" V 7565 1028 50  0000 L CNN
+F 2 "" H 7550 900 50  0001 C CNN
+F 3 "" H 7550 900 50  0001 C CNN
+	1    7550 900 
+	-1   0    0    1   
 $EndComp
 $EndSCHEMATC
