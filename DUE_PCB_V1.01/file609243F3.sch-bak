@@ -400,277 +400,6 @@ Text GLabel 2050 2050 0    50   Input ~ 0
 MotorBreak
 Text GLabel 2050 1950 0    50   Input ~ 0
 pinMotorLeftDir
-Text GLabel 2450 6300 0    50   Input ~ 0
-pinMotorEnable
-Text GLabel 2450 5500 0    50   Output ~ 0
-pinMotorRightSense
-Text GLabel 2450 5600 0    50   Output ~ 0
-pinMotorRightFault
-$Comp
-L power:GND #PWR?
-U 1 1 60958C88
-P 2450 5700
-AR Path="/60958C88" Ref="#PWR?"  Part="1" 
-AR Path="/609243F4/60958C88" Ref="#PWR068"  Part="1" 
-F 0 "#PWR068" H 2450 5450 50  0001 C CNN
-F 1 "GND" V 2455 5527 50  0000 C CNN
-F 2 "" H 2450 5700 50  0001 C CNN
-F 3 "" H 2450 5700 50  0001 C CNN
-	1    2450 5700
-	0    1    1    0   
-$EndComp
-Text GLabel 2450 5800 0    50   Input ~ 0
-IOREV
-Text GLabel 2450 5900 0    50   Input ~ 0
-pinMotorRightPWM
-$Comp
-L Lötpad_2,5mm:MC33926 U?
-U 1 1 60958C90
-P 3300 6450
-AR Path="/60958C90" Ref="U?"  Part="1" 
-AR Path="/609243F4/60958C90" Ref="U2"  Part="1" 
-F 0 "U2" H 3250 7907 60  0000 C CNN
-F 1 "MC33926" H 3250 7801 60  0000 C CNN
-F 2 "Zimprich:MC_33926_31polig_mit_Bohrloch_neue_Masse" H 3450 6500 60  0001 C CNN
-F 3 "" H 3450 6500 60  0000 C CNN
-	1    3300 6450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Lötpad_2,5mm:MC33926 U?
-U 1 1 60958C96
-P 3300 4300
-AR Path="/60958C96" Ref="U?"  Part="1" 
-AR Path="/609243F4/60958C96" Ref="U1"  Part="1" 
-F 0 "U1" H 3250 5757 60  0000 C CNN
-F 1 "MC33926" H 3250 5651 60  0000 C CNN
-F 2 "Zimprich:MC_33926_31polig_mit_Bohrloch_neue_Masse" H 3450 4350 60  0001 C CNN
-F 3 "" H 3450 4350 60  0000 C CNN
-	1    3300 4300
-	1    0    0    -1  
-$EndComp
-Text GLabel 2450 6000 0    50   Input ~ 0
-pinMotorRightDir
-NoConn ~ 2450 6100
-NoConn ~ 2450 6200
-Text GLabel 2450 6400 0    50   Output ~ 0
-pinMotorLeftSense
-Text GLabel 2450 6500 0    50   Output ~ 0
-pinMotorLeftFault
-$Comp
-L power:GND #PWR?
-U 1 1 60958CA1
-P 2450 6600
-AR Path="/60958CA1" Ref="#PWR?"  Part="1" 
-AR Path="/609243F4/60958CA1" Ref="#PWR069"  Part="1" 
-F 0 "#PWR069" H 2450 6350 50  0001 C CNN
-F 1 "GND" V 2455 6472 50  0000 R CNN
-F 2 "" H 2450 6600 50  0001 C CNN
-F 3 "" H 2450 6600 50  0001 C CNN
-	1    2450 6600
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60958CA7
-P 2450 7100
-AR Path="/60958CA7" Ref="#PWR?"  Part="1" 
-AR Path="/609243F4/60958CA7" Ref="#PWR070"  Part="1" 
-F 0 "#PWR070" H 2450 6850 50  0001 C CNN
-F 1 "GND" V 2455 6972 50  0000 R CNN
-F 2 "" H 2450 7100 50  0001 C CNN
-F 3 "" H 2450 7100 50  0001 C CNN
-	1    2450 7100
-	0    1    1    0   
-$EndComp
-NoConn ~ 2450 7200
-NoConn ~ 2250 3950
-NoConn ~ 2250 4050
-NoConn ~ 2250 5050
-Text GLabel 2450 6700 0    50   Input ~ 0
-IOREV
-Text GLabel 2450 7000 0    50   Input ~ 0
-IOREV
-Text GLabel 2450 6800 0    50   Input ~ 0
-pinMotorLeftPWM
-Text GLabel 2450 6900 0    50   Input ~ 0
-pinMotorLeftDir
-Text GLabel 2250 3750 0    50   Input ~ 0
-pinMotorMowPWM
-$Comp
-L power:GND #PWR?
-U 1 1 60958CB6
-P 2250 4950
-AR Path="/60958CB6" Ref="#PWR?"  Part="1" 
-AR Path="/609243F4/60958CB6" Ref="#PWR067"  Part="1" 
-F 0 "#PWR067" H 2250 4700 50  0001 C CNN
-F 1 "GND" V 2255 4822 50  0000 R CNN
-F 2 "" H 2250 4950 50  0001 C CNN
-F 3 "" H 2250 4950 50  0001 C CNN
-	1    2250 4950
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60958CBC
-P 2250 4450
-AR Path="/60958CBC" Ref="#PWR?"  Part="1" 
-AR Path="/609243F4/60958CBC" Ref="#PWR066"  Part="1" 
-F 0 "#PWR066" H 2250 4200 50  0001 C CNN
-F 1 "GND" V 2255 4322 50  0000 R CNN
-F 2 "" H 2250 4450 50  0001 C CNN
-F 3 "" H 2250 4450 50  0001 C CNN
-	1    2250 4450
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60958CC2
-P 2250 3550
-AR Path="/60958CC2" Ref="#PWR?"  Part="1" 
-AR Path="/609243F4/60958CC2" Ref="#PWR065"  Part="1" 
-F 0 "#PWR065" H 2250 3300 50  0001 C CNN
-F 1 "GND" V 2255 3422 50  0000 R CNN
-F 2 "" H 2250 3550 50  0001 C CNN
-F 3 "" H 2250 3550 50  0001 C CNN
-	1    2250 3550
-	0    1    1    0   
-$EndComp
-Text GLabel 2250 3350 0    50   Output ~ 0
-pinMotorMowSense
-Text GLabel 2250 3450 0    50   Output ~ 0
-pinMotorMowFault
-Text GLabel 2250 3650 0    50   Input ~ 0
-IOREV
-Text GLabel 2250 3850 0    50   Input ~ 0
-pinMotorMowDir
-Text GLabel 2250 4150 0    50   Input ~ 0
-pinMotorMowEnable
-Wire Wire Line
-	2250 3350 2450 3350
-Wire Wire Line
-	2250 3550 2450 3550
-Wire Wire Line
-	2250 3650 2450 3650
-Wire Wire Line
-	2250 3750 2350 3750
-Wire Wire Line
-	2250 3850 2300 3850
-Wire Wire Line
-	2250 3950 2450 3950
-Wire Wire Line
-	2250 4050 2450 4050
-Wire Wire Line
-	2250 4150 2450 4150
-Wire Wire Line
-	2250 4450 2450 4450
-Wire Wire Line
-	2250 4950 2450 4950
-Wire Wire Line
-	2250 5050 2450 5050
-Wire Wire Line
-	2250 3450 2400 3450
-Wire Wire Line
-	2450 4350 2400 4350
-Wire Wire Line
-	2400 4350 2400 3450
-Connection ~ 2400 3450
-Wire Wire Line
-	2400 3450 2450 3450
-Wire Wire Line
-	2450 4650 2350 4650
-Wire Wire Line
-	2350 4650 2350 3750
-Connection ~ 2350 3750
-Wire Wire Line
-	2350 3750 2450 3750
-Wire Wire Line
-	2450 4750 2300 4750
-Wire Wire Line
-	2300 4750 2300 3850
-Connection ~ 2300 3850
-Wire Wire Line
-	2300 3850 2450 3850
-Text GLabel 1850 4250 0    50   Input ~ 0
-IOREV
-Wire Wire Line
-	1850 4250 2450 4250
-Text GLabel 1850 4550 0    50   Input ~ 0
-IOREV
-Wire Wire Line
-	1850 4550 2450 4550
-Text GLabel 1850 4850 0    50   Input ~ 0
-IOREV
-Wire Wire Line
-	1850 4850 2450 4850
-$Comp
-L power:+24V #PWR?
-U 1 1 60958CEB
-P 4200 4000
-AR Path="/60958CEB" Ref="#PWR?"  Part="1" 
-AR Path="/609243F4/60958CEB" Ref="#PWR075"  Part="1" 
-F 0 "#PWR075" H 4200 3850 50  0001 C CNN
-F 1 "+24V" V 4215 4128 50  0000 L CNN
-F 2 "" H 4200 4000 50  0001 C CNN
-F 3 "" H 4200 4000 50  0001 C CNN
-	1    4200 4000
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+24V #PWR?
-U 1 1 60958CF1
-P 4200 6150
-AR Path="/60958CF1" Ref="#PWR?"  Part="1" 
-AR Path="/609243F4/60958CF1" Ref="#PWR076"  Part="1" 
-F 0 "#PWR076" H 4200 6000 50  0001 C CNN
-F 1 "+24V" V 4215 6278 50  0000 L CNN
-F 2 "" H 4200 6150 50  0001 C CNN
-F 3 "" H 4200 6150 50  0001 C CNN
-	1    4200 6150
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60958CF7
-P 4050 4100
-AR Path="/60958CF7" Ref="#PWR?"  Part="1" 
-AR Path="/609243F4/60958CF7" Ref="#PWR072"  Part="1" 
-F 0 "#PWR072" H 4050 3850 50  0001 C CNN
-F 1 "GND" V 4055 3972 50  0000 R CNN
-F 2 "" H 4050 4100 50  0001 C CNN
-F 3 "" H 4050 4100 50  0001 C CNN
-	1    4050 4100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60958CFD
-P 4050 6250
-AR Path="/60958CFD" Ref="#PWR?"  Part="1" 
-AR Path="/609243F4/60958CFD" Ref="#PWR073"  Part="1" 
-F 0 "#PWR073" H 4050 6000 50  0001 C CNN
-F 1 "GND" V 4055 6122 50  0000 R CNN
-F 2 "" H 4050 6250 50  0001 C CNN
-F 3 "" H 4050 6250 50  0001 C CNN
-	1    4050 6250
-	0    -1   -1   0   
-$EndComp
-Text GLabel 4050 3900 1    50   Input ~ 0
-+24V
-Wire Wire Line
-	4050 3900 4050 4000
-Wire Wire Line
-	4050 4000 4200 4000
-Connection ~ 4050 4000
-Wire Wire Line
-	4050 6150 4100 6150
-Text GLabel 4100 6050 1    50   Input ~ 0
-+24V
-Wire Wire Line
-	4100 6050 4100 6150
-Connection ~ 4100 6150
-Wire Wire Line
-	4100 6150 4200 6150
 $Comp
 L power:+5VA #PWR064
 U 1 1 60A3CEDE
@@ -704,12 +433,690 @@ F 3 "" H 6450 1750 50  0001 C CNN
 	1    6450 1750
 	1    0    0    -1  
 $EndComp
-Text GLabel 7000 3000 2    50   Input ~ 0
-pinFrontMotorLeft
-Text GLabel 7000 3150 2    50   Input ~ 0
-pinFrontMotorRight
-Text GLabel 6800 3000 0    50   Input ~ 0
+Text GLabel 2050 5100 0    50   Input ~ 0
+pinMotorLeft2PWM
+Text GLabel 2050 3550 0    50   Input ~ 0
+pinMotorRight2PWM
+Text GLabel 3900 3500 0    50   Input ~ 0
 pinOdometryRight2
-Text GLabel 6800 3150 0    50   Input ~ 0
+$Comp
+L Connector:Screw_Terminal_01x06 J32
+U 1 1 60C36724
+P 2250 3000
+F 0 "J32" H 2330 2992 50  0000 L CNN
+F 1 "Motor_Right1" H 2330 2901 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 2250 3000 50  0001 C CNN
+F 3 "~" H 2250 3000 50  0001 C CNN
+	1    2250 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x06 J33
+U 1 1 60C37F7A
+P 2250 3750
+F 0 "J33" H 2330 3742 50  0000 L CNN
+F 1 "Motor_Right2" H 2330 3651 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 2250 3750 50  0001 C CNN
+F 3 "~" H 2250 3750 50  0001 C CNN
+	1    2250 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x06 J34
+U 1 1 60C3AE4F
+P 2250 4550
+F 0 "J34" H 2330 4542 50  0000 L CNN
+F 1 "Motor_Left1" H 2330 4451 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 2250 4550 50  0001 C CNN
+F 3 "~" H 2250 4550 50  0001 C CNN
+	1    2250 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x06 J35
+U 1 1 60C3B1DB
+P 2250 5300
+F 0 "J35" H 2330 5292 50  0000 L CNN
+F 1 "Motor_Left2" H 2330 5201 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 2250 5300 50  0001 C CNN
+F 3 "~" H 2250 5300 50  0001 C CNN
+	1    2250 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x06 J36
+U 1 1 60C3EC13
+P 2250 6150
+F 0 "J36" H 2330 6142 50  0000 L CNN
+F 1 "Cutter_Motor" H 2330 6051 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 2250 6150 50  0001 C CNN
+F 3 "~" H 2250 6150 50  0001 C CNN
+	1    2250 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60C41A3D
+P 2050 3300
+AR Path="/60C41A3D" Ref="#PWR?"  Part="1" 
+AR Path="/609243F4/60C41A3D" Ref="#PWR0101"  Part="1" 
+F 0 "#PWR0101" H 2050 3050 50  0001 C CNN
+F 1 "GND" V 2055 3172 50  0000 R CNN
+F 2 "" H 2050 3300 50  0001 C CNN
+F 3 "" H 2050 3300 50  0001 C CNN
+	1    2050 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0102
+U 1 1 60C426C6
+P 2050 3200
+F 0 "#PWR0102" H 2050 3050 50  0001 C CNN
+F 1 "+5V" V 2065 3328 50  0000 L CNN
+F 2 "" H 2050 3200 50  0001 C CNN
+F 3 "" H 2050 3200 50  0001 C CNN
+	1    2050 3200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0103
+U 1 1 60C4349C
+P 2050 3100
+F 0 "#PWR0103" H 2050 2950 50  0001 C CNN
+F 1 "+3.3V" V 2065 3228 50  0000 L CNN
+F 2 "" H 2050 3100 50  0001 C CNN
+F 3 "" H 2050 3100 50  0001 C CNN
+	1    2050 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60C447B5
+P 2050 4050
+AR Path="/60C447B5" Ref="#PWR?"  Part="1" 
+AR Path="/609243F4/60C447B5" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 2050 3800 50  0001 C CNN
+F 1 "GND" V 2055 3922 50  0000 R CNN
+F 2 "" H 2050 4050 50  0001 C CNN
+F 3 "" H 2050 4050 50  0001 C CNN
+	1    2050 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0105
+U 1 1 60C44BF3
+P 2050 3950
+F 0 "#PWR0105" H 2050 3800 50  0001 C CNN
+F 1 "+5V" V 2065 4078 50  0000 L CNN
+F 2 "" H 2050 3950 50  0001 C CNN
+F 3 "" H 2050 3950 50  0001 C CNN
+	1    2050 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0106
+U 1 1 60C44BFD
+P 2050 3850
+F 0 "#PWR0106" H 2050 3700 50  0001 C CNN
+F 1 "+3.3V" V 2065 3978 50  0000 L CNN
+F 2 "" H 2050 3850 50  0001 C CNN
+F 3 "" H 2050 3850 50  0001 C CNN
+	1    2050 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60C471F8
+P 2050 4850
+AR Path="/60C471F8" Ref="#PWR?"  Part="1" 
+AR Path="/609243F4/60C471F8" Ref="#PWR0107"  Part="1" 
+F 0 "#PWR0107" H 2050 4600 50  0001 C CNN
+F 1 "GND" V 2055 4722 50  0000 R CNN
+F 2 "" H 2050 4850 50  0001 C CNN
+F 3 "" H 2050 4850 50  0001 C CNN
+	1    2050 4850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0108
+U 1 1 60C47664
+P 2050 4750
+F 0 "#PWR0108" H 2050 4600 50  0001 C CNN
+F 1 "+5V" V 2065 4878 50  0000 L CNN
+F 2 "" H 2050 4750 50  0001 C CNN
+F 3 "" H 2050 4750 50  0001 C CNN
+	1    2050 4750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0109
+U 1 1 60C4766E
+P 2050 4650
+F 0 "#PWR0109" H 2050 4500 50  0001 C CNN
+F 1 "+3.3V" V 2065 4778 50  0000 L CNN
+F 2 "" H 2050 4650 50  0001 C CNN
+F 3 "" H 2050 4650 50  0001 C CNN
+	1    2050 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60C49F7B
+P 2050 5600
+AR Path="/60C49F7B" Ref="#PWR?"  Part="1" 
+AR Path="/609243F4/60C49F7B" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 2050 5350 50  0001 C CNN
+F 1 "GND" V 2055 5472 50  0000 R CNN
+F 2 "" H 2050 5600 50  0001 C CNN
+F 3 "" H 2050 5600 50  0001 C CNN
+	1    2050 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0111
+U 1 1 60C4A415
+P 2050 5500
+F 0 "#PWR0111" H 2050 5350 50  0001 C CNN
+F 1 "+5V" V 2065 5628 50  0000 L CNN
+F 2 "" H 2050 5500 50  0001 C CNN
+F 3 "" H 2050 5500 50  0001 C CNN
+	1    2050 5500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0112
+U 1 1 60C4A41F
+P 2050 5400
+F 0 "#PWR0112" H 2050 5250 50  0001 C CNN
+F 1 "+3.3V" V 2065 5528 50  0000 L CNN
+F 2 "" H 2050 5400 50  0001 C CNN
+F 3 "" H 2050 5400 50  0001 C CNN
+	1    2050 5400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60C4C97E
+P 2050 6450
+AR Path="/60C4C97E" Ref="#PWR?"  Part="1" 
+AR Path="/609243F4/60C4C97E" Ref="#PWR0113"  Part="1" 
+F 0 "#PWR0113" H 2050 6200 50  0001 C CNN
+F 1 "GND" V 2055 6322 50  0000 R CNN
+F 2 "" H 2050 6450 50  0001 C CNN
+F 3 "" H 2050 6450 50  0001 C CNN
+	1    2050 6450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0114
+U 1 1 60C4CE46
+P 2050 6350
+F 0 "#PWR0114" H 2050 6200 50  0001 C CNN
+F 1 "+5V" V 2065 6478 50  0000 L CNN
+F 2 "" H 2050 6350 50  0001 C CNN
+F 3 "" H 2050 6350 50  0001 C CNN
+	1    2050 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0115
+U 1 1 60C4CE50
+P 2050 6250
+F 0 "#PWR0115" H 2050 6100 50  0001 C CNN
+F 1 "+3.3V" V 2065 6378 50  0000 L CNN
+F 2 "" H 2050 6250 50  0001 C CNN
+F 3 "" H 2050 6250 50  0001 C CNN
+	1    2050 6250
+	0    -1   -1   0   
+$EndComp
+Text GLabel 2050 2800 0    50   Input ~ 0
+pinMotorRightPWM
+Text GLabel 2050 2900 0    50   Input ~ 0
+pinMotorRightDir
+Text GLabel 2050 3000 0    50   Input ~ 0
+pinMotorEnable
+Text GLabel 2050 4350 0    50   Input ~ 0
+pinMotorLeftPWM
+Text GLabel 2050 4450 0    50   Input ~ 0
+pinMotorLeftDir
+Text GLabel 2050 4550 0    50   Input ~ 0
+pinMotorEnable
+Text GLabel 2050 5950 0    50   Input ~ 0
+pinMotorMowPWM
+Text GLabel 2050 6050 0    50   Input ~ 0
+pinMotorMowDir
+Text GLabel 2050 6150 0    50   Input ~ 0
+pinMotorMowEnable
+Text GLabel 2050 3650 0    50   Input ~ 0
+pinMotorRightDir
+Text GLabel 2050 5200 0    50   Input ~ 0
+pinMotorLeftDir
+$Comp
+L Connector:Screw_Terminal_01x04 J37
+U 1 1 60C5F921
+P 4900 3000
+F 0 "J37" H 4980 2992 50  0000 L CNN
+F 1 "ODORight1" H 4980 2901 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4900 3000 50  0001 C CNN
+F 3 "~" H 4900 3000 50  0001 C CNN
+	1    4900 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60C60566
+P 4200 3200
+AR Path="/60C60566" Ref="#PWR?"  Part="1" 
+AR Path="/609243F4/60C60566" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 4200 2950 50  0001 C CNN
+F 1 "GND" V 4205 3072 50  0000 R CNN
+F 2 "" H 4200 3200 50  0001 C CNN
+F 3 "" H 4200 3200 50  0001 C CNN
+	1    4200 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0117
+U 1 1 60C60990
+P 4700 3100
+F 0 "#PWR0117" H 4700 2950 50  0001 C CNN
+F 1 "+5V" V 4715 3228 50  0000 L CNN
+F 2 "" H 4700 3100 50  0001 C CNN
+F 3 "" H 4700 3100 50  0001 C CNN
+	1    4700 3100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0118
+U 1 1 60C6099A
+P 4700 3000
+F 0 "#PWR0118" H 4700 2850 50  0001 C CNN
+F 1 "+3.3V" V 4715 3128 50  0000 L CNN
+F 2 "" H 4700 3000 50  0001 C CNN
+F 3 "" H 4700 3000 50  0001 C CNN
+	1    4700 3000
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3900 2900 0    50   Input ~ 0
+pinOdometryRight
+Wire Wire Line
+	3950 2900 3900 2900
+$Comp
+L Device:R R?
+U 1 1 60C6559B
+P 4100 2900
+AR Path="/60C6559B" Ref="R?"  Part="1" 
+AR Path="/609243F4/60C6559B" Ref="R31"  Part="1" 
+F 0 "R31" V 4000 2900 50  0000 C CNN
+F 1 "1KO" V 4100 2900 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 4030 2900 50  0001 C CNN
+F 3 "~" H 4100 2900 50  0001 C CNN
+	1    4100 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4250 2900 4300 2900
+Wire Wire Line
+	4200 3200 4300 3200
+$Comp
+L Device:R R?
+U 1 1 60C6D2C0
+P 4300 3050
+AR Path="/60C6D2C0" Ref="R?"  Part="1" 
+AR Path="/609243F4/60C6D2C0" Ref="R36"  Part="1" 
+F 0 "R36" V 4200 3050 50  0000 C CNN
+F 1 "1.5KO" V 4300 3050 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 4230 3050 50  0001 C CNN
+F 3 "~" H 4300 3050 50  0001 C CNN
+	1    4300 3050
+	1    0    0    -1  
+$EndComp
+Connection ~ 4300 2900
+Wire Wire Line
+	4300 2900 4700 2900
+Connection ~ 4300 3200
+Wire Wire Line
+	4300 3200 4700 3200
+$Comp
+L Connector:Screw_Terminal_01x04 J38
+U 1 1 60C6E586
+P 4900 3600
+F 0 "J38" H 4980 3592 50  0000 L CNN
+F 1 "ODORight2" H 4980 3501 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4900 3600 50  0001 C CNN
+F 3 "~" H 4900 3600 50  0001 C CNN
+	1    4900 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60C6EA1E
+P 4200 3800
+AR Path="/60C6EA1E" Ref="#PWR?"  Part="1" 
+AR Path="/609243F4/60C6EA1E" Ref="#PWR0119"  Part="1" 
+F 0 "#PWR0119" H 4200 3550 50  0001 C CNN
+F 1 "GND" V 4205 3672 50  0000 R CNN
+F 2 "" H 4200 3800 50  0001 C CNN
+F 3 "" H 4200 3800 50  0001 C CNN
+	1    4200 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0120
+U 1 1 60C6EA28
+P 4700 3700
+F 0 "#PWR0120" H 4700 3550 50  0001 C CNN
+F 1 "+5V" V 4715 3828 50  0000 L CNN
+F 2 "" H 4700 3700 50  0001 C CNN
+F 3 "" H 4700 3700 50  0001 C CNN
+	1    4700 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0121
+U 1 1 60C6EA32
+P 4700 3600
+F 0 "#PWR0121" H 4700 3450 50  0001 C CNN
+F 1 "+3.3V" V 4715 3728 50  0000 L CNN
+F 2 "" H 4700 3600 50  0001 C CNN
+F 3 "" H 4700 3600 50  0001 C CNN
+	1    4700 3600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3950 3500 3900 3500
+$Comp
+L Device:R R?
+U 1 1 60C6EA3E
+P 4100 3500
+AR Path="/60C6EA3E" Ref="R?"  Part="1" 
+AR Path="/609243F4/60C6EA3E" Ref="R32"  Part="1" 
+F 0 "R32" V 4000 3500 50  0000 C CNN
+F 1 "1KO" V 4100 3500 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 4030 3500 50  0001 C CNN
+F 3 "~" H 4100 3500 50  0001 C CNN
+	1    4100 3500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4250 3500 4300 3500
+Wire Wire Line
+	4200 3800 4300 3800
+$Comp
+L Device:R R?
+U 1 1 60C6EA4A
+P 4300 3650
+AR Path="/60C6EA4A" Ref="R?"  Part="1" 
+AR Path="/609243F4/60C6EA4A" Ref="R37"  Part="1" 
+F 0 "R37" V 4200 3650 50  0000 C CNN
+F 1 "1.5KO" V 4300 3650 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 4230 3650 50  0001 C CNN
+F 3 "~" H 4300 3650 50  0001 C CNN
+	1    4300 3650
+	1    0    0    -1  
+$EndComp
+Connection ~ 4300 3500
+Wire Wire Line
+	4300 3500 4700 3500
+Connection ~ 4300 3800
+Wire Wire Line
+	4300 3800 4700 3800
+$Comp
+L Connector:Screw_Terminal_01x04 J39
+U 1 1 60C730B4
+P 4900 4450
+F 0 "J39" H 4980 4442 50  0000 L CNN
+F 1 "ODOLeft1" H 4980 4351 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4900 4450 50  0001 C CNN
+F 3 "~" H 4900 4450 50  0001 C CNN
+	1    4900 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60C730BE
+P 4200 4650
+AR Path="/60C730BE" Ref="#PWR?"  Part="1" 
+AR Path="/609243F4/60C730BE" Ref="#PWR0122"  Part="1" 
+F 0 "#PWR0122" H 4200 4400 50  0001 C CNN
+F 1 "GND" V 4205 4522 50  0000 R CNN
+F 2 "" H 4200 4650 50  0001 C CNN
+F 3 "" H 4200 4650 50  0001 C CNN
+	1    4200 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0123
+U 1 1 60C730C8
+P 4700 4550
+F 0 "#PWR0123" H 4700 4400 50  0001 C CNN
+F 1 "+5V" V 4715 4678 50  0000 L CNN
+F 2 "" H 4700 4550 50  0001 C CNN
+F 3 "" H 4700 4550 50  0001 C CNN
+	1    4700 4550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0124
+U 1 1 60C730D2
+P 4700 4450
+F 0 "#PWR0124" H 4700 4300 50  0001 C CNN
+F 1 "+3.3V" V 4715 4578 50  0000 L CNN
+F 2 "" H 4700 4450 50  0001 C CNN
+F 3 "" H 4700 4450 50  0001 C CNN
+	1    4700 4450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3950 4350 3900 4350
+$Comp
+L Device:R R?
+U 1 1 60C730DD
+P 4100 4350
+AR Path="/60C730DD" Ref="R?"  Part="1" 
+AR Path="/609243F4/60C730DD" Ref="R33"  Part="1" 
+F 0 "R33" V 4000 4350 50  0000 C CNN
+F 1 "1KO" V 4100 4350 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 4030 4350 50  0001 C CNN
+F 3 "~" H 4100 4350 50  0001 C CNN
+	1    4100 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4250 4350 4300 4350
+Wire Wire Line
+	4200 4650 4300 4650
+$Comp
+L Device:R R?
+U 1 1 60C730E9
+P 4300 4500
+AR Path="/60C730E9" Ref="R?"  Part="1" 
+AR Path="/609243F4/60C730E9" Ref="R38"  Part="1" 
+F 0 "R38" V 4200 4500 50  0000 C CNN
+F 1 "1.5KO" V 4300 4500 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 4230 4500 50  0001 C CNN
+F 3 "~" H 4300 4500 50  0001 C CNN
+	1    4300 4500
+	1    0    0    -1  
+$EndComp
+Connection ~ 4300 4350
+Wire Wire Line
+	4300 4350 4700 4350
+Connection ~ 4300 4650
+Wire Wire Line
+	4300 4650 4700 4650
+Text GLabel 3900 4350 0    50   Input ~ 0
+pinOdometryLeft
+$Comp
+L Connector:Screw_Terminal_01x04 J40
+U 1 1 60C79971
+P 4900 5250
+F 0 "J40" H 4980 5242 50  0000 L CNN
+F 1 "ODOLeft2" H 4980 5151 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4900 5250 50  0001 C CNN
+F 3 "~" H 4900 5250 50  0001 C CNN
+	1    4900 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60C79EFD
+P 4200 5450
+AR Path="/60C79EFD" Ref="#PWR?"  Part="1" 
+AR Path="/609243F4/60C79EFD" Ref="#PWR0125"  Part="1" 
+F 0 "#PWR0125" H 4200 5200 50  0001 C CNN
+F 1 "GND" V 4205 5322 50  0000 R CNN
+F 2 "" H 4200 5450 50  0001 C CNN
+F 3 "" H 4200 5450 50  0001 C CNN
+	1    4200 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0126
+U 1 1 60C79F07
+P 4700 5350
+F 0 "#PWR0126" H 4700 5200 50  0001 C CNN
+F 1 "+5V" V 4715 5478 50  0000 L CNN
+F 2 "" H 4700 5350 50  0001 C CNN
+F 3 "" H 4700 5350 50  0001 C CNN
+	1    4700 5350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0127
+U 1 1 60C79F11
+P 4700 5250
+F 0 "#PWR0127" H 4700 5100 50  0001 C CNN
+F 1 "+3.3V" V 4715 5378 50  0000 L CNN
+F 2 "" H 4700 5250 50  0001 C CNN
+F 3 "" H 4700 5250 50  0001 C CNN
+	1    4700 5250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3950 5150 3900 5150
+$Comp
+L Device:R R?
+U 1 1 60C79F1C
+P 4100 5150
+AR Path="/60C79F1C" Ref="R?"  Part="1" 
+AR Path="/609243F4/60C79F1C" Ref="R34"  Part="1" 
+F 0 "R34" V 4000 5150 50  0000 C CNN
+F 1 "1KO" V 4100 5150 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 4030 5150 50  0001 C CNN
+F 3 "~" H 4100 5150 50  0001 C CNN
+	1    4100 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4250 5150 4300 5150
+Wire Wire Line
+	4200 5450 4300 5450
+$Comp
+L Device:R R?
+U 1 1 60C79F28
+P 4300 5300
+AR Path="/60C79F28" Ref="R?"  Part="1" 
+AR Path="/609243F4/60C79F28" Ref="R39"  Part="1" 
+F 0 "R39" V 4200 5300 50  0000 C CNN
+F 1 "1.5KO" V 4300 5300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 4230 5300 50  0001 C CNN
+F 3 "~" H 4300 5300 50  0001 C CNN
+	1    4300 5300
+	1    0    0    -1  
+$EndComp
+Connection ~ 4300 5150
+Wire Wire Line
+	4300 5150 4700 5150
+Connection ~ 4300 5450
+Wire Wire Line
+	4300 5450 4700 5450
+Text GLabel 3900 5150 0    50   Input ~ 0
 pinOdometryLeft2
+$Comp
+L Connector:Screw_Terminal_01x04 J41
+U 1 1 60C7ECD7
+P 4900 6050
+F 0 "J41" H 4980 6042 50  0000 L CNN
+F 1 "ODOCutter" H 4980 5951 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4900 6050 50  0001 C CNN
+F 3 "~" H 4900 6050 50  0001 C CNN
+	1    4900 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60C7F2DD
+P 4200 6250
+AR Path="/60C7F2DD" Ref="#PWR?"  Part="1" 
+AR Path="/609243F4/60C7F2DD" Ref="#PWR0128"  Part="1" 
+F 0 "#PWR0128" H 4200 6000 50  0001 C CNN
+F 1 "GND" V 4205 6122 50  0000 R CNN
+F 2 "" H 4200 6250 50  0001 C CNN
+F 3 "" H 4200 6250 50  0001 C CNN
+	1    4200 6250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0129
+U 1 1 60C7F2E7
+P 4700 6150
+F 0 "#PWR0129" H 4700 6000 50  0001 C CNN
+F 1 "+5V" V 4715 6278 50  0000 L CNN
+F 2 "" H 4700 6150 50  0001 C CNN
+F 3 "" H 4700 6150 50  0001 C CNN
+	1    4700 6150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0130
+U 1 1 60C7F2F1
+P 4700 6050
+F 0 "#PWR0130" H 4700 5900 50  0001 C CNN
+F 1 "+3.3V" V 4715 6178 50  0000 L CNN
+F 2 "" H 4700 6050 50  0001 C CNN
+F 3 "" H 4700 6050 50  0001 C CNN
+	1    4700 6050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3950 5950 3900 5950
+$Comp
+L Device:R R?
+U 1 1 60C7F2FC
+P 4100 5950
+AR Path="/60C7F2FC" Ref="R?"  Part="1" 
+AR Path="/609243F4/60C7F2FC" Ref="R35"  Part="1" 
+F 0 "R35" V 4000 5950 50  0000 C CNN
+F 1 "1KO" V 4100 5950 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 4030 5950 50  0001 C CNN
+F 3 "~" H 4100 5950 50  0001 C CNN
+	1    4100 5950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4250 5950 4300 5950
+Wire Wire Line
+	4200 6250 4300 6250
+$Comp
+L Device:R R?
+U 1 1 60C7F308
+P 4300 6100
+AR Path="/60C7F308" Ref="R?"  Part="1" 
+AR Path="/609243F4/60C7F308" Ref="R40"  Part="1" 
+F 0 "R40" V 4200 6100 50  0000 C CNN
+F 1 "1.5KO" V 4300 6100 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 4230 6100 50  0001 C CNN
+F 3 "~" H 4300 6100 50  0001 C CNN
+	1    4300 6100
+	1    0    0    -1  
+$EndComp
+Connection ~ 4300 5950
+Wire Wire Line
+	4300 5950 4700 5950
+Connection ~ 4300 6250
+Wire Wire Line
+	4300 6250 4700 6250
+Text GLabel 3900 5950 0    50   Input ~ 0
+pinMotorMowRpm
 $EndSCHEMATC
