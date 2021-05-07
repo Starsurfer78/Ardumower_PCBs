@@ -704,4 +704,12 @@ F 3 "" H 6450 1750 50  0001 C CNN
 	1    6450 1750
 	1    0    0    -1  
 $EndComp
+Text GLabel 7000 3000 2    50   Input ~ 0
+pinFrontMotorLeft
+Text GLabel 7000 3150 2    50   Input ~ 0
+pinFrontMotorRight
+Text GLabel 6800 3000 0    50   Input ~ 0
+pinOdometryRight2
+Text GLabel 6800 3150 0    50   Input ~ 0
+pinOdometryLeft2
 $EndSCHEMATC

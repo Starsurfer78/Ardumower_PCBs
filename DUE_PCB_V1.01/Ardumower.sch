@@ -124,9 +124,9 @@ pinPerimeterLeft
 Text GLabel 4850 3800 0    50   Input ~ 0
 pinPerimeterCenter
 Text GLabel 7450 1900 2    50   Output ~ 0
-pinFrontMotorLeft
+pinMotorLeft2PWM
 Text GLabel 7450 2000 2    50   Output ~ 0
-pinFrontMotorRight
+pinMotorRight2PWM
 Text GLabel 7450 2600 2    50   Output ~ 0
 pinLED
 Text GLabel 7450 5800 2    50   Output ~ 0
@@ -408,10 +408,6 @@ F 3 "~" H 9950 4250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10100 4250 10250 4250
-Text GLabel 9850 1750 2    50   Input ~ 0
-pinFrontMotorLeft
-Text GLabel 9850 1900 2    50   Input ~ 0
-pinFrontMotorRight
 $Comp
 L power:GND #PWR046
 U 1 1 608B41F0
