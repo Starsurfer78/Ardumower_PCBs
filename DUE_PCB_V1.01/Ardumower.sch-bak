@@ -155,10 +155,10 @@ Text GLabel 7450 5700 2    50   Output ~ 0
 pinRemoteSwitch
 Text GLabel 4850 3900 0    50   Input ~ 0
 pinVoltageMeasurement
-Text GLabel 7450 4500 2    50   Input ~ 0
-pinLawnFrontRecv
+Text GLabel 7450 4500 2    50   Output ~ 0
+pinMotorLeft2Dir
 Text GLabel 7450 4600 2    50   Output ~ 0
-pinLawnFrontSend
+pinMotorRight2Dir
 Text GLabel 7450 4700 2    50   Input ~ 0
 pinLawnBackRecv
 Text GLabel 7450 4800 2    50   Output ~ 0
