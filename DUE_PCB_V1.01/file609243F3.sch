@@ -492,16 +492,11 @@ Wire Wire Line
 	2950 4250 3100 4250
 Wire Wire Line
 	4150 1300 3100 1300
-Connection ~ 3100 4250
-Wire Wire Line
-	3100 4250 4150 4250
 Wire Wire Line
 	4150 3500 3100 3500
 Connection ~ 3100 3500
 Wire Wire Line
 	3100 3500 3100 4250
-Wire Wire Line
-	4150 2750 3100 2750
 Connection ~ 3100 2750
 Wire Wire Line
 	3100 2750 3100 3500
@@ -547,8 +542,6 @@ F 3 "" H 2200 3850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1950 3950 1950 4150
-Wire Wire Line
-	1950 4150 4150 4150
 $Comp
 L Device:Jumper_NC_Dual JP4
 U 1 1 60D5D861
@@ -598,9 +591,20 @@ Wire Wire Line
 Wire Wire Line
 	2450 3400 4150 3400
 Connection ~ 2450 1900
-Wire Wire Line
-	4150 2650 2450 2650
 Connection ~ 2450 2650
 Wire Wire Line
 	2450 2650 2450 3400
+Text GLabel 3450 1800 2    50   Output ~ 0
+pinMotorRight2Dir
+Connection ~ 3100 4250
+Wire Wire Line
+	4150 2750 3100 2750
+Wire Wire Line
+	4150 2650 2450 2650
+Text GLabel 3500 3300 2    50   Output ~ 0
+pinMotorLeft2Dir
+Wire Wire Line
+	1950 4150 4150 4150
+Wire Wire Line
+	3100 4250 4150 4250
 $EndSCHEMATC
