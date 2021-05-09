@@ -1172,70 +1172,7 @@ ReservePinA10
 Text GLabel 9550 1300 0    50   Input ~ 0
 ReservePinA10
 Wire Wire Line
-	2050 5000 2100 5000
-$Comp
-L Device:R R9
-U 1 1 6095136A
-P 2100 5150
-F 0 "R9" V 2000 5150 50  0000 C CNN
-F 1 "10k" V 2100 5150 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2030 5150 50  0001 C CNN
-F 3 "~" H 2100 5150 50  0001 C CNN
-	1    2100 5150
-	-1   0    0    1   
-$EndComp
-Connection ~ 2100 5000
-Wire Wire Line
-	2100 5000 2250 5000
-$Comp
-L Device:R R8
-U 1 1 6095AC18
-P 2100 4650
-F 0 "R8" V 2000 4650 50  0000 C CNN
-F 1 "10k" V 2100 4650 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2030 4650 50  0001 C CNN
-F 3 "~" H 2100 4650 50  0001 C CNN
-	1    2100 4650
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2050 4500 2100 4500
-Connection ~ 2100 4500
-Wire Wire Line
-	2100 4500 2250 4500
-Wire Wire Line
-	2100 4800 1300 4800
-Wire Wire Line
-	1300 4800 1300 5000
-Wire Wire Line
-	1300 5300 2100 5300
-Text GLabel 1200 5000 0    50   Output ~ 0
-IOREV
-Wire Wire Line
-	1200 5000 1300 5000
-Connection ~ 1300 5000
-Wire Wire Line
-	1300 5000 1300 5300
-Wire Wire Line
 	900  850  3550 850 
-$Comp
-L Device:R R13
-U 1 1 60986E74
-P 2850 6100
-F 0 "R13" V 2750 6100 50  0000 C CNN
-F 1 "10k" V 2850 6100 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 2780 6100 50  0001 C CNN
-F 3 "~" H 2850 6100 50  0001 C CNN
-	1    2850 6100
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	2650 6250 2850 6250
-Connection ~ 2850 6250
-Wire Wire Line
-	2850 6250 3100 6250
-Wire Wire Line
-	2850 5950 2700 5950
 Wire Wire Line
 	10350 2400 10200 2400
 Wire Wire Line
@@ -1505,10 +1442,7 @@ F 3 "" H 1050 7450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2850 5950 3100 5950
-Wire Wire Line
 	3100 5950 3100 6150
-Connection ~ 2850 5950
 $Comp
 L Connector:Screw_Terminal_01x05 J25
 U 1 1 60A85A05
@@ -1823,4 +1757,12 @@ F 3 "" H 10400 3650 50  0001 C CNN
 	1    10400 3650
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	2050 5000 2250 5000
+Wire Wire Line
+	2050 4500 2250 4500
+Wire Wire Line
+	2650 6250 3100 6250
+Wire Wire Line
+	2700 5950 3100 5950
 $EndSCHEMATC

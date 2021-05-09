@@ -27,8 +27,6 @@ Text GLabel 4150 2350 0    50   Input ~ 0
 pinMotorLeftPWM
 Text GLabel 4150 2450 0    50   Input ~ 0
 pinMotorLeftDir
-Text GLabel 4150 2550 0    50   Input ~ 0
-pinMotorEnable
 Text GLabel 4150 3850 0    50   Input ~ 0
 pinMotorMowPWM
 Text GLabel 4150 3950 0    50   Input ~ 0
@@ -594,17 +592,31 @@ Connection ~ 2450 1900
 Connection ~ 2450 2650
 Wire Wire Line
 	2450 2650 2450 3400
-Text GLabel 3450 1800 2    50   Output ~ 0
-pinMotorRight2Dir
 Connection ~ 3100 4250
 Wire Wire Line
 	4150 2750 3100 2750
 Wire Wire Line
 	4150 2650 2450 2650
-Text GLabel 3500 3300 2    50   Output ~ 0
-pinMotorLeft2Dir
 Wire Wire Line
 	1950 4150 4150 4150
 Wire Wire Line
 	3100 4250 4150 4250
+Text GLabel 2750 5050 0    50   Input ~ 0
+pinMotorLeftSense
+Text GLabel 2750 5200 0    50   Input ~ 0
+pinMotorRightSense
+Text GLabel 2050 5800 2    50   Input ~ 0
+pinMotorRightFault
+Text GLabel 2050 5600 2    50   Input ~ 0
+pinMotorLeftFault
+Text GLabel 2050 5700 2    50   Input ~ 0
+pinMotorMowFault
+Text GLabel 2700 4850 0    50   Input ~ 0
+pinMotorMowRpm
+Text GLabel 4150 1800 0    50   Input ~ 0
+pinMotorEnable
+Text GLabel 4150 2550 0    50   Input ~ 0
+pinMotorEnable
+Text GLabel 4150 3300 0    50   Input ~ 0
+pinMotorEnable
 $EndSCHEMATC

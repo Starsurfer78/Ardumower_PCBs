@@ -607,4 +607,16 @@ Wire Wire Line
 	1950 4150 4150 4150
 Wire Wire Line
 	3100 4250 4150 4250
+Text GLabel 2750 5050 0    50   Input ~ 0
+pinMotorLeftSense
+Text GLabel 2750 5200 0    50   Input ~ 0
+pinMotorRightSense
+Text GLabel 2050 5800 2    50   Input ~ 0
+pinMotorRightFault
+Text GLabel 2050 5600 2    50   Input ~ 0
+pinMotorLeftFault
+Text GLabel 2050 5700 2    50   Input ~ 0
+pinMotorMowFault
+Text GLabel 2700 4850 0    50   Input ~ 0
+pinMotorMowRpm
 $EndSCHEMATC
