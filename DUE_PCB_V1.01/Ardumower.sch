@@ -39,20 +39,16 @@ Text GLabel 4850 5800 0    50   Input ~ 0
 +9V
 Text GLabel 4850 2500 0    50   Input ~ 0
 SDA1
-Text GLabel -150 4850 0    50   Input ~ 0
+Text GLabel -600 4850 0    50   Input ~ 0
 SDA0
 Text GLabel -150 5600 0    50   Input ~ 0
 SDA0
-Text GLabel -150 6350 0    50   Input ~ 0
-SDA1
 Text GLabel 4850 2600 0    50   Input ~ 0
 SCL1
-Text GLabel -150 4950 0    50   Input ~ 0
+Text GLabel -1100 4950 0    50   Input ~ 0
 SCL0
 Text GLabel -150 5700 0    50   Input ~ 0
 SCL0
-Text GLabel -150 6450 0    50   Input ~ 0
-SCL1
 $Comp
 L Connector:Screw_Terminal_01x02 J5
 U 1 1 606D566F
@@ -529,17 +525,6 @@ F 1 "GND" V 1855 2922 50  0000 R CNN
 F 2 "" H 1850 3050 50  0001 C CNN
 F 3 "" H 1850 3050 50  0001 C CNN
 	1    1850 3050
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR07
-U 1 1 6097FEEB
-P -150 6250
-F 0 "#PWR07" H -150 6000 50  0001 C CNN
-F 1 "GND" V -145 6122 50  0000 R CNN
-F 2 "" H -150 6250 50  0001 C CNN
-F 3 "" H -150 6250 50  0001 C CNN
-	1    -150 6250
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1345,12 +1330,12 @@ $EndComp
 $Comp
 L power:+3.3V #PWR02
 U 1 1 60A55674
-P -150 4650
-F 0 "#PWR02" H -150 4500 50  0001 C CNN
-F 1 "+3.3V" V -135 4778 50  0000 L CNN
-F 2 "" H -150 4650 50  0001 C CNN
-F 3 "" H -150 4650 50  0001 C CNN
-	1    -150 4650
+P -1100 4500
+F 0 "#PWR02" H -1100 4350 50  0001 C CNN
+F 1 "+3.3V" V -1085 4628 50  0000 L CNN
+F 2 "" H -1100 4500 50  0001 C CNN
+F 3 "" H -1100 4500 50  0001 C CNN
+	1    -1100 4500
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1362,17 +1347,6 @@ F 1 "+3.3V" V -135 5528 50  0000 L CNN
 F 2 "" H -150 5400 50  0001 C CNN
 F 3 "" H -150 5400 50  0001 C CNN
 	1    -150 5400
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3.3V #PWR06
-U 1 1 60A57F6D
-P -150 6150
-F 0 "#PWR06" H -150 6000 50  0001 C CNN
-F 1 "+3.3V" V -135 6278 50  0000 L CNN
-F 2 "" H -150 6150 50  0001 C CNN
-F 3 "" H -150 6150 50  0001 C CNN
-	1    -150 6150
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1765,4 +1739,122 @@ Wire Wire Line
 	2650 6250 3100 6250
 Wire Wire Line
 	2700 5950 3100 5950
+$Comp
+L Device:R R?
+U 1 1 609850CF
+P -950 4650
+F 0 "R?" V -1050 4650 50  0000 C CNN
+F 1 "XXX" V -950 4650 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V -1020 4650 50  0001 C CNN
+F 3 "~" H -950 4650 50  0001 C CNN
+	1    -950 4650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6098F377
+P -500 4650
+F 0 "R?" V -600 4650 50  0000 C CNN
+F 1 "XXX" V -500 4650 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V -570 4650 50  0001 C CNN
+F 3 "~" H -500 4650 50  0001 C CNN
+	1    -500 4650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-1100 4500 -950 4500
+Connection ~ -950 4500
+Wire Wire Line
+	-950 4500 -500 4500
+Wire Wire Line
+	-500 4500 -150 4500
+Wire Wire Line
+	-150 4500 -150 4650
+Connection ~ -500 4500
+Wire Wire Line
+	-600 4850 -500 4850
+Wire Wire Line
+	-500 4800 -500 4850
+Connection ~ -500 4850
+Wire Wire Line
+	-500 4850 -150 4850
+Wire Wire Line
+	-1100 4950 -950 4950
+Wire Wire Line
+	-950 4950 -950 4800
+Wire Wire Line
+	-950 4950 -150 4950
+Connection ~ -950 4950
+Text GLabel -600 6350 0    50   Input ~ 0
+SDA1
+Text GLabel -1100 6450 0    50   Input ~ 0
+SCL1
+$Comp
+L power:GND #PWR?
+U 1 1 609A6BE2
+P -150 6250
+F 0 "#PWR?" H -150 6000 50  0001 C CNN
+F 1 "GND" V -145 6122 50  0000 R CNN
+F 2 "" H -150 6250 50  0001 C CNN
+F 3 "" H -150 6250 50  0001 C CNN
+	1    -150 6250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 609A6BEC
+P -1100 6000
+F 0 "#PWR?" H -1100 5850 50  0001 C CNN
+F 1 "+3.3V" V -1085 6128 50  0000 L CNN
+F 2 "" H -1100 6000 50  0001 C CNN
+F 3 "" H -1100 6000 50  0001 C CNN
+	1    -1100 6000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 609A6BF6
+P -950 6150
+F 0 "R?" V -1050 6150 50  0000 C CNN
+F 1 "XXX" V -950 6150 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V -1020 6150 50  0001 C CNN
+F 3 "~" H -950 6150 50  0001 C CNN
+	1    -950 6150
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 609A6C00
+P -500 6150
+F 0 "R?" V -600 6150 50  0000 C CNN
+F 1 "XXX" V -500 6150 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V -570 6150 50  0001 C CNN
+F 3 "~" H -500 6150 50  0001 C CNN
+	1    -500 6150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	-1100 6000 -950 6000
+Connection ~ -950 6000
+Wire Wire Line
+	-950 6000 -500 6000
+Wire Wire Line
+	-500 6000 -150 6000
+Connection ~ -500 6000
+Wire Wire Line
+	-600 6350 -500 6350
+Wire Wire Line
+	-500 6300 -500 6350
+Connection ~ -500 6350
+Wire Wire Line
+	-500 6350 -150 6350
+Wire Wire Line
+	-1100 6450 -950 6450
+Wire Wire Line
+	-950 6450 -950 6300
+Wire Wire Line
+	-950 6450 -150 6450
+Connection ~ -950 6450
+Wire Wire Line
+	-150 6000 -150 6150
 $EndSCHEMATC
