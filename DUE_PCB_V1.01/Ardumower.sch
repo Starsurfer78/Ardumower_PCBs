@@ -1168,7 +1168,7 @@ ReservePinD49
 Text GLabel 9850 1550 2    50   Input ~ 0
 ReservePinD49
 Text GLabel 4850 4200 0    50   Input ~ 0
-ReservePinA10
+pinMotorLeftSense2
 Text GLabel 9550 1300 0    50   Input ~ 0
 ReservePinA10
 Wire Wire Line
