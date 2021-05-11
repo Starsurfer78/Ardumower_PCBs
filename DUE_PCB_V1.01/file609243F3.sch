@@ -34,9 +34,9 @@ pinMotorMowDir
 Text GLabel 4150 4050 0    50   Input ~ 0
 pinMotorMowEnable
 Text GLabel 4150 1700 0    50   Input ~ 0
-pinMotorRightDir
+pinMotorRight2Dir
 Text GLabel 4150 3200 0    50   Input ~ 0
-pinMotorLeftDir
+pinMotorLeft2Dir
 $Comp
 L power:GND #PWR?
 U 1 1 60C60566
