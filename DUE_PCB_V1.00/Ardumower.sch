@@ -235,63 +235,41 @@ Wire Wire Line
 $Comp
 L Connector:Screw_Terminal_01x04 J10
 U 1 1 60757000
-P 2500 3250
-F 0 "J10" H 2580 3242 50  0000 L CNN
-F 1 "Sonar_R" H 2580 3151 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2500 3250 50  0001 C CNN
-F 3 "~" H 2500 3250 50  0001 C CNN
-	1    2500 3250
+P 3050 2900
+F 0 "J10" H 3130 2892 50  0000 L CNN
+F 1 "Sonar_R" H 3130 2801 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3050 2900 50  0001 C CNN
+F 3 "~" H 3050 2900 50  0001 C CNN
+	1    3050 2900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Screw_Terminal_01x04 J11
 U 1 1 607583E5
-P 2500 3900
-F 0 "J11" H 2580 3892 50  0000 L CNN
-F 1 "Sonar_C" H 2580 3801 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2500 3900 50  0001 C CNN
-F 3 "~" H 2500 3900 50  0001 C CNN
-	1    2500 3900
+P 3050 3550
+F 0 "J11" H 3130 3542 50  0000 L CNN
+F 1 "Sonar_C" H 3130 3451 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3050 3550 50  0001 C CNN
+F 3 "~" H 3050 3550 50  0001 C CNN
+	1    3050 3550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Screw_Terminal_01x04 J12
 U 1 1 60758E5B
-P 2500 4500
-F 0 "J12" H 2580 4492 50  0000 L CNN
-F 1 "Sonar_L" H 2580 4401 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 2500 4500 50  0001 C CNN
-F 3 "~" H 2500 4500 50  0001 C CNN
-	1    2500 4500
+P 3050 4150
+F 0 "J12" H 3130 4142 50  0000 L CNN
+F 1 "Sonar_L" H 3130 4051 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3050 4150 50  0001 C CNN
+F 3 "~" H 3050 4150 50  0001 C CNN
+	1    3050 4150
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5V #PWR024
-U 1 1 6075A993
-P 2300 3800
-F 0 "#PWR024" H 2300 3650 50  0001 C CNN
-F 1 "+5V" H 2315 3973 50  0000 C CNN
-F 2 "" H 2300 3800 50  0001 C CNN
-F 3 "" H 2300 3800 50  0001 C CNN
-	1    2300 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR025
-U 1 1 6075B07F
-P 2300 4400
-F 0 "#PWR025" H 2300 4250 50  0001 C CNN
-F 1 "+5V" H 2315 4573 50  0000 C CNN
-F 2 "" H 2300 4400 50  0001 C CNN
-F 3 "" H 2300 4400 50  0001 C CNN
-	1    2300 4400
-	1    0    0    -1  
-$EndComp
-Text GLabel 2300 4100 0    50   Input ~ 0
+Text GLabel 2850 3750 0    50   Input ~ 0
 pinSonarCenterEcho
-Text GLabel 2300 3450 0    50   Input ~ 0
+Text GLabel 2850 3100 0    50   Input ~ 0
 pinSonarRightEcho
-Text GLabel 2300 4700 0    50   Input ~ 0
+Text GLabel 2850 4350 0    50   Input ~ 0
 pinSonarLeftEcho
 $Comp
 L Connector:Screw_Terminal_01x04 J5
@@ -664,12 +642,12 @@ $EndComp
 $Comp
 L power:GND #PWR018
 U 1 1 6097F3DC
-P 1600 3700
-F 0 "#PWR018" H 1600 3450 50  0001 C CNN
-F 1 "GND" V 1605 3572 50  0000 R CNN
-F 2 "" H 1600 3700 50  0001 C CNN
-F 3 "" H 1600 3700 50  0001 C CNN
-	1    1600 3700
+P 2850 3550
+F 0 "#PWR018" H 2850 3300 50  0001 C CNN
+F 1 "GND" V 2855 3422 50  0000 R CNN
+F 2 "" H 2850 3550 50  0001 C CNN
+F 3 "" H 2850 3550 50  0001 C CNN
+	1    2850 3550
 	0    1    1    0   
 $EndComp
 $Comp
@@ -782,50 +760,27 @@ NoConn ~ 4850 5700
 NoConn ~ 4850 4200
 NoConn ~ 7450 5400
 NoConn ~ 7450 2200
-Wire Wire Line
-	2100 3700 2100 3900
-Wire Wire Line
-	2100 3900 2300 3900
 $Comp
 L power:GND #PWR019
 U 1 1 60A92EB8
-P 1600 4300
-F 0 "#PWR019" H 1600 4050 50  0001 C CNN
-F 1 "GND" V 1605 4172 50  0000 R CNN
-F 2 "" H 1600 4300 50  0001 C CNN
-F 3 "" H 1600 4300 50  0001 C CNN
-	1    1600 4300
+P 2850 4150
+F 0 "#PWR019" H 2850 3900 50  0001 C CNN
+F 1 "GND" V 2855 4022 50  0000 R CNN
+F 2 "" H 2850 4150 50  0001 C CNN
+F 3 "" H 2850 4150 50  0001 C CNN
+	1    2850 4150
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	2100 4300 2100 4500
-Wire Wire Line
-	2100 4500 2300 4500
 $Comp
 L power:GND #PWR020
 U 1 1 60A9B8D5
-P 1650 3050
-F 0 "#PWR020" H 1650 2800 50  0001 C CNN
-F 1 "GND" V 1655 2922 50  0000 R CNN
-F 2 "" H 1650 3050 50  0001 C CNN
-F 3 "" H 1650 3050 50  0001 C CNN
-	1    1650 3050
+P 2850 2900
+F 0 "#PWR020" H 2850 2650 50  0001 C CNN
+F 1 "GND" V 2855 2772 50  0000 R CNN
+F 2 "" H 2850 2900 50  0001 C CNN
+F 3 "" H 2850 2900 50  0001 C CNN
+	1    2850 2900
 	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2150 3050 2150 3250
-Wire Wire Line
-	2150 3250 2300 3250
-$Comp
-L power:+5V #PWR023
-U 1 1 60AAE1DB
-P 2300 3150
-F 0 "#PWR023" H 2300 3000 50  0001 C CNN
-F 1 "+5V" H 2315 3323 50  0000 C CNN
-F 2 "" H 2300 3150 50  0001 C CNN
-F 3 "" H 2300 3150 50  0001 C CNN
-	1    2300 3150
-	1    0    0    -1  
 $EndComp
 Text GLabel 7450 1500 2    50   Output ~ 0
 pinMotorMowPWM
@@ -836,108 +791,12 @@ Text GLabel 7450 3300 2    50   Output ~ 0
 pinMotorMowEnable
 Text GLabel 4850 4300 0    50   Input ~ 0
 pinMotorMowRpm
-Wire Wire Line
-	2150 3050 1900 3050
-Wire Wire Line
-	1650 3050 1900 3050
-Connection ~ 1900 3050
-Wire Wire Line
-	2300 3350 1900 3350
-Connection ~ 1900 3350
-$Comp
-L Device:R R6
-U 1 1 60A9C277
-P 1900 3200
-F 0 "R6" V 1800 3200 50  0000 C CNN
-F 1 "2KO" V 1900 3200 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1830 3200 50  0001 C CNN
-F 3 "~" H 1900 3200 50  0001 C CNN
-	1    1900 3200
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1850 3350 1900 3350
-$Comp
-L Device:R R3
-U 1 1 60A9C26D
-P 1700 3350
-F 0 "R3" V 1600 3350 50  0000 C CNN
-F 1 "1KO" V 1700 3350 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1630 3350 50  0001 C CNN
-F 3 "~" H 1700 3350 50  0001 C CNN
-	1    1700 3350
-	0    1    1    0   
-$EndComp
-Text GLabel 1550 3350 0    50   Output ~ 0
+Text GLabel 2850 3000 0    50   Output ~ 0
 pinSonarRightTrigger
-Wire Wire Line
-	1600 3700 1850 3700
-Wire Wire Line
-	2100 3700 1850 3700
-Connection ~ 1850 3700
-Wire Wire Line
-	2300 4000 1850 4000
-$Comp
-L Device:R R4
-U 1 1 60A59EEA
-P 1850 3850
-F 0 "R4" V 1750 3850 50  0000 C CNN
-F 1 "2KO" V 1850 3850 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1780 3850 50  0001 C CNN
-F 3 "~" H 1850 3850 50  0001 C CNN
-	1    1850 3850
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R1
-U 1 1 60A4F6FF
-P 1650 4000
-F 0 "R1" V 1550 4000 50  0000 C CNN
-F 1 "1KO" V 1650 4000 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1580 4000 50  0001 C CNN
-F 3 "~" H 1650 4000 50  0001 C CNN
-	1    1650 4000
-	0    1    1    0   
-$EndComp
-Text GLabel 1500 4000 0    50   Output ~ 0
+Text GLabel 2850 3650 0    50   Output ~ 0
 pinSonarCenterTrigger
-Wire Wire Line
-	1600 4300 1850 4300
-Wire Wire Line
-	2100 4300 1850 4300
-Connection ~ 1850 4300
-Wire Wire Line
-	2300 4600 1850 4600
-$Comp
-L Device:R R5
-U 1 1 60A9384A
-P 1850 4450
-F 0 "R5" V 1750 4450 50  0000 C CNN
-F 1 "2KO" V 1850 4450 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1780 4450 50  0001 C CNN
-F 3 "~" H 1850 4450 50  0001 C CNN
-	1    1850 4450
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R2
-U 1 1 60A93840
-P 1650 4600
-F 0 "R2" V 1550 4600 50  0000 C CNN
-F 1 "1KO" V 1650 4600 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 1580 4600 50  0001 C CNN
-F 3 "~" H 1650 4600 50  0001 C CNN
-	1    1650 4600
-	0    1    1    0   
-$EndComp
-Text GLabel 1500 4600 0    50   Output ~ 0
+Text GLabel 2850 4250 0    50   Output ~ 0
 pinSonarLeftTrigger
-Wire Wire Line
-	1800 4000 1850 4000
-Connection ~ 1850 4000
-Wire Wire Line
-	1800 4600 1850 4600
-Connection ~ 1850 4600
 $Comp
 L power:GND #PWR021
 U 1 1 6076CF93
@@ -1560,6 +1419,39 @@ F 1 "Buzzer OFF" H 9750 2950 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9750 3050 50  0001 C CNN
 F 3 "~" H 9750 3050 50  0001 C CNN
 	1    9750 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 60CD5141
+P 2850 2800
+F 0 "#PWR?" H 2850 2650 50  0001 C CNN
+F 1 "+3.3V" H 2865 2973 50  0000 C CNN
+F 2 "" H 2850 2800 50  0001 C CNN
+F 3 "" H 2850 2800 50  0001 C CNN
+	1    2850 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 60CD78FD
+P 2850 3450
+F 0 "#PWR?" H 2850 3300 50  0001 C CNN
+F 1 "+3.3V" H 2865 3623 50  0000 C CNN
+F 2 "" H 2850 3450 50  0001 C CNN
+F 3 "" H 2850 3450 50  0001 C CNN
+	1    2850 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 60CDB03B
+P 2850 4050
+F 0 "#PWR?" H 2850 3900 50  0001 C CNN
+F 1 "+3.3V" H 2865 4223 50  0000 C CNN
+F 2 "" H 2850 4050 50  0001 C CNN
+F 3 "" H 2850 4050 50  0001 C CNN
+	1    2850 4050
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
