@@ -13,56 +13,11 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Connector:Screw_Terminal_01x04 J2
-U 1 1 606BAE4D
-P 10700 3700
-F 0 "J2" H 10780 3692 50  0000 L CNN
-F 1 "I2C0_1" H 10780 3601 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 10700 3700 50  0001 C CNN
-F 3 "~" H 10700 3700 50  0001 C CNN
-	1    10700 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x04 J3
-U 1 1 606BF01B
-P 10700 4300
-F 0 "J3" H 10780 4292 50  0000 L CNN
-F 1 "I2C0_2" H 10780 4201 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 10700 4300 50  0001 C CNN
-F 3 "~" H 10700 4300 50  0001 C CNN
-	1    10700 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x04 J4
-U 1 1 606BFED6
-P 10700 4850
-F 0 "J4" H 10780 4842 50  0000 L CNN
-F 1 "I2C1_1" H 10780 4751 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 10700 4850 50  0001 C CNN
-F 3 "~" H 10700 4850 50  0001 C CNN
-	1    10700 4850
-	1    0    0    -1  
-$EndComp
 Text GLabel 4850 5800 0    50   Input ~ 0
 +9V
 Text GLabel 4850 2500 0    50   Input ~ 0
 SDA1
-Text GLabel 10500 3800 0    50   Input ~ 0
-SDA0
-Text GLabel 9950 4400 0    50   Input ~ 0
-SDA0
-Text GLabel 10500 4950 0    50   Input ~ 0
-SDA1
 Text GLabel 4850 2600 0    50   Input ~ 0
-SCL1
-Text GLabel 10500 3900 0    50   Input ~ 0
-SCL0
-Text GLabel 9350 4500 0    50   Input ~ 0
-SCL0
-Text GLabel 10500 5050 0    50   Input ~ 0
 SCL1
 $Comp
 L Connector:Screw_Terminal_01x02 J1
@@ -588,32 +543,6 @@ F 3 "" H 3100 2150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:GND #PWR07
-U 1 1 6097FEEB
-P 10500 4850
-F 0 "#PWR07" H 10500 4600 50  0001 C CNN
-F 1 "GND" V 10505 4722 50  0000 R CNN
-F 2 "" H 10500 4850 50  0001 C CNN
-F 3 "" H 10500 4850 50  0001 C CNN
-	1    10500 4850
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR05
-U 1 1 609801E6
-P 10500 4300
-F 0 "#PWR05" H 10500 4050 50  0001 C CNN
-F 1 "GND" V 10505 4172 50  0000 R CNN
-F 2 "" H 10500 4300 50  0001 C CNN
-F 3 "" H 10500 4300 50  0001 C CNN
-	1    10500 4300
-	0    1    1    0   
-$EndComp
-Text GLabel 8400 6350 0    50   Output ~ 0
-TX2
-Text GLabel 8400 6450 0    50   Input ~ 0
-RX2
-$Comp
 L power:GND #PWR01
 U 1 1 60998458
 P 800 850
@@ -635,50 +564,6 @@ F 1 "GND" V 1455 5022 50  0000 R CNN
 F 2 "" H 1450 5150 50  0001 C CNN
 F 3 "" H 1450 5150 50  0001 C CNN
 	1    1450 5150
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+3.3V #PWR02
-U 1 1 609C2617
-P 10500 3600
-F 0 "#PWR02" H 10500 3450 50  0001 C CNN
-F 1 "+3.3V" V 10515 3728 50  0000 L CNN
-F 2 "" H 10500 3600 50  0001 C CNN
-F 3 "" H 10500 3600 50  0001 C CNN
-	1    10500 3600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3.3V #PWR04
-U 1 1 609C72D8
-P 9400 4100
-F 0 "#PWR04" H 9400 3950 50  0001 C CNN
-F 1 "+3.3V" V 9415 4228 50  0000 L CNN
-F 2 "" H 9400 4100 50  0001 C CNN
-F 3 "" H 9400 4100 50  0001 C CNN
-	1    9400 4100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:+3.3V #PWR06
-U 1 1 609C9CA5
-P 10500 4750
-F 0 "#PWR06" H 10500 4600 50  0001 C CNN
-F 1 "+3.3V" V 10515 4878 50  0000 L CNN
-F 2 "" H 10500 4750 50  0001 C CNN
-F 3 "" H 10500 4750 50  0001 C CNN
-	1    10500 4750
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR03
-U 1 1 609CCF77
-P 10500 3700
-F 0 "#PWR03" H 10500 3450 50  0001 C CNN
-F 1 "GND" V 10505 3572 50  0000 R CNN
-F 2 "" H 10500 3700 50  0001 C CNN
-F 3 "" H 10500 3700 50  0001 C CNN
-	1    10500 3700
 	0    1    1    0   
 $EndComp
 NoConn ~ 4850 5600
@@ -809,83 +694,6 @@ Text GLabel 4700 6650 0    50   Input ~ 0
 pinRemoteMow
 Text GLabel 4700 6750 0    50   Input ~ 0
 pinRemoteSwitch
-$Comp
-L Connector:Screw_Terminal_01x04 J24
-U 1 1 608B5726
-P 8600 6250
-F 0 "J24" H 8680 6242 50  0000 L CNN
-F 1 "RX & TX" H 8680 6151 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 8600 6250 50  0001 C CNN
-F 3 "~" H 8600 6250 50  0001 C CNN
-	1    8600 6250
-	1    0    0    -1  
-$EndComp
-Text GLabel 8400 6250 0    50   Input ~ 0
-RX1
-Text GLabel 8400 6150 0    50   Output ~ 0
-TX1
-$Comp
-L Connector:Screw_Terminal_01x04 J22
-U 1 1 60946973
-P 7250 6250
-F 0 "J22" H 7330 6242 50  0000 L CNN
-F 1 "3.3V" H 7330 6151 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7250 6250 50  0001 C CNN
-F 3 "~" H 7250 6250 50  0001 C CNN
-	1    7250 6250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x04 J23
-U 1 1 60948535
-P 7900 6250
-F 0 "J23" H 7980 6242 50  0000 L CNN
-F 1 "GND" H 7980 6151 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7900 6250 50  0001 C CNN
-F 3 "~" H 7900 6250 50  0001 C CNN
-	1    7900 6250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR045
-U 1 1 6094FAF3
-P 7700 6150
-F 0 "#PWR045" H 7700 5900 50  0001 C CNN
-F 1 "GND" V 7705 6022 50  0000 R CNN
-F 2 "" H 7700 6150 50  0001 C CNN
-F 3 "" H 7700 6150 50  0001 C CNN
-	1    7700 6150
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7700 6450 7700 6350
-Connection ~ 7700 6150
-Connection ~ 7700 6250
-Wire Wire Line
-	7700 6250 7700 6150
-Connection ~ 7700 6350
-Wire Wire Line
-	7700 6350 7700 6250
-Wire Wire Line
-	7050 6450 7050 6350
-Connection ~ 7050 6250
-Wire Wire Line
-	7050 6250 7050 6150
-Connection ~ 7050 6350
-Wire Wire Line
-	7050 6350 7050 6250
-$Comp
-L power:+3.3V #PWR044
-U 1 1 60960EA7
-P 7050 6150
-F 0 "#PWR044" H 7050 6000 50  0001 C CNN
-F 1 "+3.3V" V 7065 6278 50  0000 L CNN
-F 2 "" H 7050 6150 50  0001 C CNN
-F 3 "" H 7050 6150 50  0001 C CNN
-	1    7050 6150
-	0    -1   -1   0   
-$EndComp
-Connection ~ 7050 6150
 $Comp
 L Connector:Screw_Terminal_01x02 J16
 U 1 1 608FC19B
@@ -1338,131 +1146,6 @@ F 3 "" H 2850 4050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R3
-U 1 1 60CF47C8
-P 10100 4250
-F 0 "R3" V 10000 4250 50  0000 C CNN
-F 1 "XXX" V 10100 4250 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 10030 4250 50  0001 C CNN
-F 3 "~" H 10100 4250 50  0001 C CNN
-	1    10100 4250
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R1
-U 1 1 60CF84E0
-P 9550 4350
-F 0 "R1" V 9450 4350 50  0000 C CNN
-F 1 "XXX" V 9550 4350 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 9480 4350 50  0001 C CNN
-F 3 "~" H 9550 4350 50  0001 C CNN
-	1    9550 4350
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	9950 4400 10100 4400
-Wire Wire Line
-	10100 4400 10500 4400
-Connection ~ 10100 4400
-Wire Wire Line
-	10500 4200 10500 4100
-Wire Wire Line
-	10500 4100 10100 4100
-Connection ~ 10100 4100
-Wire Wire Line
-	10100 4100 9550 4100
-Wire Wire Line
-	9350 4500 9550 4500
-Wire Wire Line
-	9550 4500 10500 4500
-Connection ~ 9550 4500
-Wire Wire Line
-	9550 4200 9550 4100
-Connection ~ 9550 4100
-Wire Wire Line
-	9550 4100 9400 4100
-$Comp
-L Connector:Screw_Terminal_01x04 J30
-U 1 1 60D185B1
-P 10700 5400
-F 0 "J30" H 10780 5392 50  0000 L CNN
-F 1 "I2C1_2" H 10780 5301 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 10700 5400 50  0001 C CNN
-F 3 "~" H 10700 5400 50  0001 C CNN
-	1    10700 5400
-	1    0    0    -1  
-$EndComp
-Text GLabel 9950 5500 0    50   Input ~ 0
-SDA1
-Text GLabel 9350 5600 0    50   Input ~ 0
-SCL1
-$Comp
-L power:GND #PWR068
-U 1 1 60D18FDB
-P 10500 5400
-F 0 "#PWR068" H 10500 5150 50  0001 C CNN
-F 1 "GND" V 10505 5272 50  0000 R CNN
-F 2 "" H 10500 5400 50  0001 C CNN
-F 3 "" H 10500 5400 50  0001 C CNN
-	1    10500 5400
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+3.3V #PWR051
-U 1 1 60D18FE5
-P 9400 5200
-F 0 "#PWR051" H 9400 5050 50  0001 C CNN
-F 1 "+3.3V" V 9415 5328 50  0000 L CNN
-F 2 "" H 9400 5200 50  0001 C CNN
-F 3 "" H 9400 5200 50  0001 C CNN
-	1    9400 5200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R R4
-U 1 1 60D18FEF
-P 10100 5350
-F 0 "R4" V 10000 5350 50  0000 C CNN
-F 1 "XXX" V 10100 5350 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 10030 5350 50  0001 C CNN
-F 3 "~" H 10100 5350 50  0001 C CNN
-	1    10100 5350
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R2
-U 1 1 60D18FF9
-P 9550 5450
-F 0 "R2" V 9450 5450 50  0000 C CNN
-F 1 "XXX" V 9550 5450 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 9480 5450 50  0001 C CNN
-F 3 "~" H 9550 5450 50  0001 C CNN
-	1    9550 5450
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	9950 5500 10100 5500
-Wire Wire Line
-	10100 5500 10500 5500
-Connection ~ 10100 5500
-Wire Wire Line
-	10500 5300 10500 5200
-Wire Wire Line
-	10500 5200 10100 5200
-Connection ~ 10100 5200
-Wire Wire Line
-	10100 5200 9550 5200
-Wire Wire Line
-	9350 5600 9550 5600
-Wire Wire Line
-	9550 5600 10500 5600
-Connection ~ 9550 5600
-Wire Wire Line
-	9550 5300 9550 5200
-Connection ~ 9550 5200
-Wire Wire Line
-	9550 5200 9400 5200
-$Comp
 L Connector:Screw_Terminal_01x03 J14
 U 1 1 60D52135
 P 10650 2850
@@ -1593,4 +1276,432 @@ Text GLabel 7450 5400 2    50   Input ~ 0
 pinReserveD49
 Text GLabel 4850 4200 0    50   Input ~ 0
 pinReserveA10
+Text GLabel 9000 6250 0    50   Input ~ 0
+RX1
+Text GLabel 9000 6150 0    50   Output ~ 0
+TX1
+$Comp
+L Connector:Screw_Terminal_01x04 J2
+U 1 1 606BAE4D
+P 10650 3350
+F 0 "J2" H 10730 3342 50  0000 L CNN
+F 1 "I2C0_1" H 10730 3251 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 10650 3350 50  0001 C CNN
+F 3 "~" H 10650 3350 50  0001 C CNN
+	1    10650 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x04 J3
+U 1 1 606BF01B
+P 10650 3950
+F 0 "J3" H 10730 3942 50  0000 L CNN
+F 1 "I2C0_2" H 10730 3851 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 10650 3950 50  0001 C CNN
+F 3 "~" H 10650 3950 50  0001 C CNN
+	1    10650 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Screw_Terminal_01x04 J4
+U 1 1 606BFED6
+P 10650 4500
+F 0 "J4" H 10730 4492 50  0000 L CNN
+F 1 "I2C1_1" H 10730 4401 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 10650 4500 50  0001 C CNN
+F 3 "~" H 10650 4500 50  0001 C CNN
+	1    10650 4500
+	1    0    0    -1  
+$EndComp
+Text GLabel 10450 3450 0    50   Input ~ 0
+SDA0
+Text GLabel 9900 4050 0    50   Input ~ 0
+SDA0
+Text GLabel 10450 4600 0    50   Input ~ 0
+SDA1
+Text GLabel 10450 3550 0    50   Input ~ 0
+SCL0
+Text GLabel 9300 4150 0    50   Input ~ 0
+SCL0
+Text GLabel 10450 4700 0    50   Input ~ 0
+SCL1
+$Comp
+L power:GND #PWR07
+U 1 1 6097FEEB
+P 10450 4500
+F 0 "#PWR07" H 10450 4250 50  0001 C CNN
+F 1 "GND" V 10455 4372 50  0000 R CNN
+F 2 "" H 10450 4500 50  0001 C CNN
+F 3 "" H 10450 4500 50  0001 C CNN
+	1    10450 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 609801E6
+P 10450 3950
+F 0 "#PWR05" H 10450 3700 50  0001 C CNN
+F 1 "GND" V 10455 3822 50  0000 R CNN
+F 2 "" H 10450 3950 50  0001 C CNN
+F 3 "" H 10450 3950 50  0001 C CNN
+	1    10450 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR02
+U 1 1 609C2617
+P 10450 3250
+F 0 "#PWR02" H 10450 3100 50  0001 C CNN
+F 1 "+3.3V" V 10465 3378 50  0000 L CNN
+F 2 "" H 10450 3250 50  0001 C CNN
+F 3 "" H 10450 3250 50  0001 C CNN
+	1    10450 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR04
+U 1 1 609C72D8
+P 9350 3750
+F 0 "#PWR04" H 9350 3600 50  0001 C CNN
+F 1 "+3.3V" V 9365 3878 50  0000 L CNN
+F 2 "" H 9350 3750 50  0001 C CNN
+F 3 "" H 9350 3750 50  0001 C CNN
+	1    9350 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR06
+U 1 1 609C9CA5
+P 10450 4400
+F 0 "#PWR06" H 10450 4250 50  0001 C CNN
+F 1 "+3.3V" V 10465 4528 50  0000 L CNN
+F 2 "" H 10450 4400 50  0001 C CNN
+F 3 "" H 10450 4400 50  0001 C CNN
+	1    10450 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 609CCF77
+P 10450 3350
+F 0 "#PWR03" H 10450 3100 50  0001 C CNN
+F 1 "GND" V 10455 3222 50  0000 R CNN
+F 2 "" H 10450 3350 50  0001 C CNN
+F 3 "" H 10450 3350 50  0001 C CNN
+	1    10450 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 60CF47C8
+P 10050 3900
+F 0 "R3" V 9950 3900 50  0000 C CNN
+F 1 "XXX" V 10050 3900 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 9980 3900 50  0001 C CNN
+F 3 "~" H 10050 3900 50  0001 C CNN
+	1    10050 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 60CF84E0
+P 9500 4000
+F 0 "R1" V 9400 4000 50  0000 C CNN
+F 1 "XXX" V 9500 4000 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 9430 4000 50  0001 C CNN
+F 3 "~" H 9500 4000 50  0001 C CNN
+	1    9500 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9900 4050 10050 4050
+Wire Wire Line
+	10050 4050 10450 4050
+Connection ~ 10050 4050
+Wire Wire Line
+	10450 3850 10450 3750
+Wire Wire Line
+	10450 3750 10050 3750
+Connection ~ 10050 3750
+Wire Wire Line
+	10050 3750 9500 3750
+Wire Wire Line
+	9300 4150 9500 4150
+Wire Wire Line
+	9500 4150 10450 4150
+Connection ~ 9500 4150
+Wire Wire Line
+	9500 3850 9500 3750
+Connection ~ 9500 3750
+Wire Wire Line
+	9500 3750 9350 3750
+$Comp
+L Connector:Screw_Terminal_01x04 J30
+U 1 1 60D185B1
+P 10650 5050
+F 0 "J30" H 10730 5042 50  0000 L CNN
+F 1 "I2C1_2" H 10730 4951 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 10650 5050 50  0001 C CNN
+F 3 "~" H 10650 5050 50  0001 C CNN
+	1    10650 5050
+	1    0    0    -1  
+$EndComp
+Text GLabel 9900 5150 0    50   Input ~ 0
+SDA1
+Text GLabel 9300 5250 0    50   Input ~ 0
+SCL1
+$Comp
+L power:GND #PWR068
+U 1 1 60D18FDB
+P 10450 5050
+F 0 "#PWR068" H 10450 4800 50  0001 C CNN
+F 1 "GND" V 10455 4922 50  0000 R CNN
+F 2 "" H 10450 5050 50  0001 C CNN
+F 3 "" H 10450 5050 50  0001 C CNN
+	1    10450 5050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR051
+U 1 1 60D18FE5
+P 9350 4850
+F 0 "#PWR051" H 9350 4700 50  0001 C CNN
+F 1 "+3.3V" V 9365 4978 50  0000 L CNN
+F 2 "" H 9350 4850 50  0001 C CNN
+F 3 "" H 9350 4850 50  0001 C CNN
+	1    9350 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 60D18FEF
+P 10050 5000
+F 0 "R4" V 9950 5000 50  0000 C CNN
+F 1 "XXX" V 10050 5000 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 9980 5000 50  0001 C CNN
+F 3 "~" H 10050 5000 50  0001 C CNN
+	1    10050 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 60D18FF9
+P 9500 5100
+F 0 "R2" V 9400 5100 50  0000 C CNN
+F 1 "XXX" V 9500 5100 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 9430 5100 50  0001 C CNN
+F 3 "~" H 9500 5100 50  0001 C CNN
+	1    9500 5100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9900 5150 10050 5150
+Wire Wire Line
+	10050 5150 10450 5150
+Connection ~ 10050 5150
+Wire Wire Line
+	10450 4950 10450 4850
+Wire Wire Line
+	10450 4850 10050 4850
+Connection ~ 10050 4850
+Wire Wire Line
+	10050 4850 9500 4850
+Wire Wire Line
+	9300 5250 9500 5250
+Wire Wire Line
+	9500 5250 10450 5250
+Connection ~ 9500 5250
+Wire Wire Line
+	9500 4950 9500 4850
+Connection ~ 9500 4850
+Wire Wire Line
+	9500 4850 9350 4850
+$Comp
+L Connector:Screw_Terminal_01x05 J?
+U 1 1 60D8BA62
+P 9200 6250
+F 0 "J?" H 9280 6292 50  0000 L CNN
+F 1 "Ser1" H 9280 6201 50  0000 L CNN
+F 2 "" H 9200 6250 50  0001 C CNN
+F 3 "~" H 9200 6250 50  0001 C CNN
+	1    9200 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 60D8E37F
+P 9000 6350
+F 0 "#PWR?" H 9000 6200 50  0001 C CNN
+F 1 "+3.3V" V 9015 6478 50  0000 L CNN
+F 2 "" H 9000 6350 50  0001 C CNN
+F 3 "" H 9000 6350 50  0001 C CNN
+	1    9000 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60D8F6A0
+P 9000 6450
+F 0 "#PWR?" H 9000 6200 50  0001 C CNN
+F 1 "GND" V 9005 6322 50  0000 R CNN
+F 2 "" H 9000 6450 50  0001 C CNN
+F 3 "" H 9000 6450 50  0001 C CNN
+	1    9000 6450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 60D9058A
+P 9000 6050
+F 0 "#PWR?" H 9000 5900 50  0001 C CNN
+F 1 "+5V" V 9015 6178 50  0000 L CNN
+F 2 "" H 9000 6050 50  0001 C CNN
+F 3 "" H 9000 6050 50  0001 C CNN
+	1    9000 6050
+	0    -1   -1   0   
+$EndComp
+Text GLabel 9900 6250 0    50   Input ~ 0
+RX2
+Text GLabel 9900 6150 0    50   Output ~ 0
+TX2
+$Comp
+L Connector:Screw_Terminal_01x05 J?
+U 1 1 60D92B9E
+P 10100 6250
+F 0 "J?" H 10180 6292 50  0000 L CNN
+F 1 "Ser2" H 10180 6201 50  0000 L CNN
+F 2 "" H 10100 6250 50  0001 C CNN
+F 3 "~" H 10100 6250 50  0001 C CNN
+	1    10100 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 60D92BA8
+P 9900 6350
+F 0 "#PWR?" H 9900 6200 50  0001 C CNN
+F 1 "+3.3V" V 9915 6478 50  0000 L CNN
+F 2 "" H 9900 6350 50  0001 C CNN
+F 3 "" H 9900 6350 50  0001 C CNN
+	1    9900 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60D92BB2
+P 9900 6450
+F 0 "#PWR?" H 9900 6200 50  0001 C CNN
+F 1 "GND" V 9905 6322 50  0000 R CNN
+F 2 "" H 9900 6450 50  0001 C CNN
+F 3 "" H 9900 6450 50  0001 C CNN
+	1    9900 6450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 60D92BBC
+P 9900 6050
+F 0 "#PWR?" H 9900 5900 50  0001 C CNN
+F 1 "+5V" V 9915 6178 50  0000 L CNN
+F 2 "" H 9900 6050 50  0001 C CNN
+F 3 "" H 9900 6050 50  0001 C CNN
+	1    9900 6050
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8100 6250 0    50   Input ~ 0
+RX0
+Text GLabel 8100 6150 0    50   Output ~ 0
+TX0
+$Comp
+L Connector:Screw_Terminal_01x05 J?
+U 1 1 60D9F760
+P 8300 6250
+F 0 "J?" H 8380 6292 50  0000 L CNN
+F 1 "Ser0" H 8380 6201 50  0000 L CNN
+F 2 "" H 8300 6250 50  0001 C CNN
+F 3 "~" H 8300 6250 50  0001 C CNN
+	1    8300 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 60D9F76A
+P 8100 6350
+F 0 "#PWR?" H 8100 6200 50  0001 C CNN
+F 1 "+3.3V" V 8115 6478 50  0000 L CNN
+F 2 "" H 8100 6350 50  0001 C CNN
+F 3 "" H 8100 6350 50  0001 C CNN
+	1    8100 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60D9F774
+P 8100 6450
+F 0 "#PWR?" H 8100 6200 50  0001 C CNN
+F 1 "GND" V 8105 6322 50  0000 R CNN
+F 2 "" H 8100 6450 50  0001 C CNN
+F 3 "" H 8100 6450 50  0001 C CNN
+	1    8100 6450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 60D9F77E
+P 8100 6050
+F 0 "#PWR?" H 8100 5900 50  0001 C CNN
+F 1 "+5V" V 8115 6178 50  0000 L CNN
+F 2 "" H 8100 6050 50  0001 C CNN
+F 3 "" H 8100 6050 50  0001 C CNN
+	1    8100 6050
+	0    -1   -1   0   
+$EndComp
+Text GLabel 10750 6250 0    50   Input ~ 0
+RX3
+Text GLabel 10750 6150 0    50   Output ~ 0
+TX3
+$Comp
+L Connector:Screw_Terminal_01x05 J?
+U 1 1 60DA6EC4
+P 10950 6250
+F 0 "J?" H 11030 6292 50  0000 L CNN
+F 1 "Ser3" H 11030 6201 50  0000 L CNN
+F 2 "" H 10950 6250 50  0001 C CNN
+F 3 "~" H 10950 6250 50  0001 C CNN
+	1    10950 6250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 60DA6ECE
+P 10750 6350
+F 0 "#PWR?" H 10750 6200 50  0001 C CNN
+F 1 "+3.3V" V 10765 6478 50  0000 L CNN
+F 2 "" H 10750 6350 50  0001 C CNN
+F 3 "" H 10750 6350 50  0001 C CNN
+	1    10750 6350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60DA6ED8
+P 10750 6450
+F 0 "#PWR?" H 10750 6200 50  0001 C CNN
+F 1 "GND" V 10755 6322 50  0000 R CNN
+F 2 "" H 10750 6450 50  0001 C CNN
+F 3 "" H 10750 6450 50  0001 C CNN
+	1    10750 6450
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 60DA6EE2
+P 10750 6050
+F 0 "#PWR?" H 10750 5900 50  0001 C CNN
+F 1 "+5V" V 10765 6178 50  0000 L CNN
+F 2 "" H 10750 6050 50  0001 C CNN
+F 3 "" H 10750 6050 50  0001 C CNN
+	1    10750 6050
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
