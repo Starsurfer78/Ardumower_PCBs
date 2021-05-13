@@ -683,9 +683,6 @@ F 3 "" H 10500 3700 50  0001 C CNN
 $EndComp
 NoConn ~ 4850 5600
 NoConn ~ 4850 5700
-NoConn ~ 4850 4200
-NoConn ~ 7450 5400
-NoConn ~ 7450 2200
 $Comp
 L power:GND #PWR019
 U 1 1 60A92EB8
@@ -710,7 +707,6 @@ F 3 "" H 2850 2900 50  0001 C CNN
 $EndComp
 Text GLabel 7450 1500 2    50   Output ~ 0
 pinMotorMowPWM
-NoConn ~ 7450 2100
 Text GLabel 7450 3400 2    50   Output ~ 0
 pinMotorMowDir
 Text GLabel 7450 3300 2    50   Output ~ 0
@@ -1589,4 +1585,12 @@ F 3 "" H 11950 3050 50  0001 C CNN
 	1    11950 3050
 	1    0    0    -1  
 $EndComp
+Text GLabel 7450 2100 2    50   Input ~ 0
+pinReserveD8
+Text GLabel 7450 2200 2    50   Input ~ 0
+pinReserveD9
+Text GLabel 7450 5400 2    50   Input ~ 0
+pinReserveD49
+Text GLabel 4850 4200 0    50   Input ~ 0
+pinReserveA10
 $EndSCHEMATC
