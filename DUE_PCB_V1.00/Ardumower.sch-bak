@@ -1713,10 +1713,10 @@ pinReserveD9
 Text GLabel 1100 3950 0    50   Input ~ 0
 pinReserveD49
 $Comp
-L Connector:Screw_Terminal_01x02 J?
+L Connector:Screw_Terminal_01x02 J33
 U 1 1 60E9F79C
 P 1300 3150
-F 0 "J?" H 1380 3142 50  0000 L CNN
+F 0 "J33" H 1380 3142 50  0000 L CNN
 F 1 "ReserveD8" H 1380 3051 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1300 3150 50  0001 C CNN
 F 3 "~" H 1300 3150 50  0001 C CNN
@@ -1724,10 +1724,10 @@ F 3 "~" H 1300 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR052
 U 1 1 60EA02A5
 P 1100 3150
-F 0 "#PWR?" H 1100 2900 50  0001 C CNN
+F 0 "#PWR052" H 1100 2900 50  0001 C CNN
 F 1 "GND" V 1105 3022 50  0000 R CNN
 F 2 "" H 1100 3150 50  0001 C CNN
 F 3 "" H 1100 3150 50  0001 C CNN
@@ -1735,10 +1735,10 @@ F 3 "" H 1100 3150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 J?
+L Connector:Screw_Terminal_01x02 J34
 U 1 1 60EA5E97
 P 1300 3500
-F 0 "J?" H 1380 3492 50  0000 L CNN
+F 0 "J34" H 1380 3492 50  0000 L CNN
 F 1 "ReserveD9" H 1380 3401 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1300 3500 50  0001 C CNN
 F 3 "~" H 1300 3500 50  0001 C CNN
@@ -1746,10 +1746,10 @@ F 3 "~" H 1300 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR059
 U 1 1 60EA5EA1
 P 1100 3500
-F 0 "#PWR?" H 1100 3250 50  0001 C CNN
+F 0 "#PWR059" H 1100 3250 50  0001 C CNN
 F 1 "GND" V 1105 3372 50  0000 R CNN
 F 2 "" H 1100 3500 50  0001 C CNN
 F 3 "" H 1100 3500 50  0001 C CNN
@@ -1757,10 +1757,10 @@ F 3 "" H 1100 3500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 J?
+L Connector:Screw_Terminal_01x02 J35
 U 1 1 60EA806D
 P 1300 3850
-F 0 "J?" H 1380 3842 50  0000 L CNN
+F 0 "J35" H 1380 3842 50  0000 L CNN
 F 1 "ReserveD49" H 1380 3751 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1300 3850 50  0001 C CNN
 F 3 "~" H 1300 3850 50  0001 C CNN
@@ -1768,10 +1768,10 @@ F 3 "~" H 1300 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR062
 U 1 1 60EA8077
 P 1100 3850
-F 0 "#PWR?" H 1100 3600 50  0001 C CNN
+F 0 "#PWR062" H 1100 3600 50  0001 C CNN
 F 1 "GND" V 1105 3722 50  0000 R CNN
 F 2 "" H 1100 3850 50  0001 C CNN
 F 3 "" H 1100 3850 50  0001 C CNN
@@ -1779,10 +1779,10 @@ F 3 "" H 1100 3850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 J?
+L Connector:Screw_Terminal_01x02 J36
 U 1 1 60EA8082
 P 1300 4200
-F 0 "J?" H 1380 4192 50  0000 L CNN
+F 0 "J36" H 1380 4192 50  0000 L CNN
 F 1 "ReserveA10" H 1380 4101 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1300 4200 50  0001 C CNN
 F 3 "~" H 1300 4200 50  0001 C CNN
@@ -1790,10 +1790,10 @@ F 3 "~" H 1300 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR065
 U 1 1 60EA808C
 P 1100 4200
-F 0 "#PWR?" H 1100 3950 50  0001 C CNN
+F 0 "#PWR065" H 1100 3950 50  0001 C CNN
 F 1 "GND" V 1105 4072 50  0000 R CNN
 F 2 "" H 1100 4200 50  0001 C CNN
 F 3 "" H 1100 4200 50  0001 C CNN
