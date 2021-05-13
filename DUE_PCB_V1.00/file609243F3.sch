@@ -324,10 +324,10 @@ Wire Wire Line
 Wire Wire Line
 	1350 950  1500 950 
 $Comp
-L Connector:Screw_Terminal_01x02 J?
+L Connector:Screw_Terminal_01x02 J26
 U 1 1 60E7534A
 P 6350 1350
-F 0 "J?" V 6314 1162 50  0000 R CNN
+F 0 "J26" V 6314 1162 50  0000 R CNN
 F 1 "Cutter" V 6450 1400 50  0000 R CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 6350 1350 50  0001 C CNN
 F 3 "~" H 6350 1350 50  0001 C CNN
@@ -339,10 +339,10 @@ Wire Wire Line
 Wire Wire Line
 	5900 1450 6150 1450
 $Comp
-L Connector:Screw_Terminal_01x02 J?
+L Connector:Screw_Terminal_01x02 J27
 U 1 1 60E78788
 P 6350 3500
-F 0 "J?" V 6314 3312 50  0000 R CNN
+F 0 "J27" V 6314 3312 50  0000 R CNN
 F 1 "MotorR" V 6450 3550 50  0000 R CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 6350 3500 50  0001 C CNN
 F 3 "~" H 6350 3500 50  0001 C CNN
@@ -354,10 +354,10 @@ Wire Wire Line
 Wire Wire Line
 	5900 3600 6150 3600
 $Comp
-L Connector:Screw_Terminal_01x02 J?
+L Connector:Screw_Terminal_01x02 J28
 U 1 1 60E799F8
 P 6350 4750
-F 0 "J?" V 6314 4562 50  0000 R CNN
+F 0 "J28" V 6314 4562 50  0000 R CNN
 F 1 "MotorL" V 6450 4800 50  0000 R CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 6350 4750 50  0001 C CNN
 F 3 "~" H 6350 4750 50  0001 C CNN
