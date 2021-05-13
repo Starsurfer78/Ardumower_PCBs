@@ -195,9 +195,9 @@ RX2
 Text GLabel 4850 2000 0    50   Output ~ 0
 TX2
 Text GLabel 4850 2100 0    50   Input ~ 0
-GPS_TX
+TX3
 Text GLabel 4850 2200 0    50   Output ~ 0
-GPS_RX
+RX3
 Text GLabel 4850 2300 0    50   Input ~ 0
 SDA0
 Text GLabel 4850 2400 0    50   Input ~ 0
@@ -1502,10 +1502,10 @@ F 3 "" H 10450 2750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H1
 U 1 1 60D6858C
 P 11950 850
-F 0 "H?" H 12050 899 50  0000 L CNN
+F 0 "H1" H 12050 899 50  0000 L CNN
 F 1 "MountingHole_Pad" H 12050 808 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom" H 11950 850 50  0001 C CNN
 F 3 "~" H 11950 850 50  0001 C CNN
@@ -1513,10 +1513,10 @@ F 3 "~" H 11950 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR047
 U 1 1 60D69D5C
 P 11950 950
-F 0 "#PWR?" H 11950 700 50  0001 C CNN
+F 0 "#PWR047" H 11950 700 50  0001 C CNN
 F 1 "GND" V 11955 822 50  0000 R CNN
 F 2 "" H 11950 950 50  0001 C CNN
 F 3 "" H 11950 950 50  0001 C CNN
@@ -1524,10 +1524,10 @@ F 3 "" H 11950 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H2
 U 1 1 60D6E833
 P 11950 1550
-F 0 "H?" H 12050 1599 50  0000 L CNN
+F 0 "H2" H 12050 1599 50  0000 L CNN
 F 1 "MountingHole_Pad" H 12050 1508 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom" H 11950 1550 50  0001 C CNN
 F 3 "~" H 11950 1550 50  0001 C CNN
@@ -1535,10 +1535,10 @@ F 3 "~" H 11950 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR048
 U 1 1 60D6F1F9
 P 11950 1650
-F 0 "#PWR?" H 11950 1400 50  0001 C CNN
+F 0 "#PWR048" H 11950 1400 50  0001 C CNN
 F 1 "GND" V 11955 1522 50  0000 R CNN
 F 2 "" H 11950 1650 50  0001 C CNN
 F 3 "" H 11950 1650 50  0001 C CNN
@@ -1546,10 +1546,10 @@ F 3 "" H 11950 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H3
 U 1 1 60D7064F
 P 11950 2250
-F 0 "H?" H 12050 2299 50  0000 L CNN
+F 0 "H3" H 12050 2299 50  0000 L CNN
 F 1 "MountingHole_Pad" H 12050 2208 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom" H 11950 2250 50  0001 C CNN
 F 3 "~" H 11950 2250 50  0001 C CNN
@@ -1557,10 +1557,10 @@ F 3 "~" H 11950 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR069
 U 1 1 60D7102F
 P 11950 2350
-F 0 "#PWR?" H 11950 2100 50  0001 C CNN
+F 0 "#PWR069" H 11950 2100 50  0001 C CNN
 F 1 "GND" V 11955 2222 50  0000 R CNN
 F 2 "" H 11950 2350 50  0001 C CNN
 F 3 "" H 11950 2350 50  0001 C CNN
@@ -1568,10 +1568,10 @@ F 3 "" H 11950 2350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H?
+L Mechanical:MountingHole_Pad H4
 U 1 1 60D71039
 P 11950 2950
-F 0 "H?" H 12050 2999 50  0000 L CNN
+F 0 "H4" H 12050 2999 50  0000 L CNN
 F 1 "MountingHole_Pad" H 12050 2908 50  0000 L CNN
 F 2 "MountingHole:MountingHole_2.2mm_M2_Pad_TopBottom" H 11950 2950 50  0001 C CNN
 F 3 "~" H 11950 2950 50  0001 C CNN
@@ -1579,10 +1579,10 @@ F 3 "~" H 11950 2950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR070
 U 1 1 60D71043
 P 11950 3050
-F 0 "#PWR?" H 11950 2800 50  0001 C CNN
+F 0 "#PWR070" H 11950 2800 50  0001 C CNN
 F 1 "GND" V 11955 2922 50  0000 R CNN
 F 2 "" H 11950 3050 50  0001 C CNN
 F 3 "" H 11950 3050 50  0001 C CNN
