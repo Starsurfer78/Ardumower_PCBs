@@ -13,701 +13,314 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Wire Wire Line
-	2050 1750 2050 1850
-$Comp
-L power:+5V #PWR?
-U 1 1 6095039A
-P 1650 1750
-AR Path="/6095039A" Ref="#PWR?"  Part="1" 
-AR Path="/609243F4/6095039A" Ref="#PWR052"  Part="1" 
-F 0 "#PWR052" H 1650 1600 50  0001 C CNN
-F 1 "+5V" H 1665 1923 50  0000 C CNN
-F 2 "" H 1650 1750 50  0001 C CNN
-F 3 "" H 1650 1750 50  0001 C CNN
-	1    1650 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:Jumper_2_Open JP?
-U 1 1 609503A0
-P 1850 1750
-AR Path="/609503A0" Ref="JP?"  Part="1" 
-AR Path="/609243F4/609503A0" Ref="JP4"  Part="1" 
-F 0 "JP4" H 1850 1985 50  0000 C CNN
-F 1 "5V" H 1850 1894 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 1850 1750 50  0001 C CNN
-F 3 "~" H 1850 1750 50  0001 C CNN
-	1    1850 1750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3550 950  3550 1050
-$Comp
-L power:+5V #PWR?
-U 1 1 609503A7
-P 3150 950
-AR Path="/609503A7" Ref="#PWR?"  Part="1" 
-AR Path="/609243F4/609503A7" Ref="#PWR059"  Part="1" 
-F 0 "#PWR059" H 3150 800 50  0001 C CNN
-F 1 "+5V" H 3165 1123 50  0000 C CNN
-F 2 "" H 3150 950 50  0001 C CNN
-F 3 "" H 3150 950 50  0001 C CNN
-	1    3150 950 
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:Jumper_2_Open JP?
-U 1 1 609503AD
-P 3350 950
-AR Path="/609503AD" Ref="JP?"  Part="1" 
-AR Path="/609243F4/609503AD" Ref="JP5"  Part="1" 
-F 0 "JP5" H 3350 1185 50  0000 C CNN
-F 1 "5V" H 3350 1094 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 3350 950 50  0001 C CNN
-F 3 "~" H 3350 950 50  0001 C CNN
-	1    3350 950 
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 609503B3
-P 6450 1750
-AR Path="/609503B3" Ref="#PWR?"  Part="1" 
-AR Path="/609243F4/609503B3" Ref="#PWR066"  Part="1" 
-F 0 "#PWR066" H 6450 1600 50  0001 C CNN
-F 1 "+5V" H 6465 1923 50  0000 C CNN
-F 2 "" H 6450 1750 50  0001 C CNN
-F 3 "" H 6450 1750 50  0001 C CNN
-	1    6450 1750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6850 1750 6850 1850
-$Comp
-L Jumper:Jumper_2_Open JP?
-U 1 1 609503BA
-P 6650 1750
-AR Path="/609503BA" Ref="JP?"  Part="1" 
-AR Path="/609243F4/609503BA" Ref="JP6"  Part="1" 
-F 0 "JP6" H 6650 1985 50  0000 C CNN
-F 1 "5V" H 6650 1894 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 6650 1750 50  0001 C CNN
-F 3 "~" H 6650 1750 50  0001 C CNN
-	1    6650 1750
-	1    0    0    -1  
-$EndComp
-Connection ~ 8750 2350
-Wire Wire Line
-	8550 2350 8750 2350
-Wire Wire Line
-	8550 2250 8550 2350
-Wire Wire Line
-	7350 2050 8750 2050
-$Comp
-L power:GND #PWR?
-U 1 1 609503C4
-P 9000 2350
-AR Path="/609503C4" Ref="#PWR?"  Part="1" 
-AR Path="/609243F4/609503C4" Ref="#PWR067"  Part="1" 
-F 0 "#PWR067" H 9000 2100 50  0001 C CNN
-F 1 "GND" V 9005 2222 50  0000 R CNN
-F 2 "" H 9000 2350 50  0001 C CNN
-F 3 "" H 9000 2350 50  0001 C CNN
-	1    9000 2350
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	9000 2350 8750 2350
-Connection ~ 8750 2050
-$Comp
-L Device:R R?
-U 1 1 609503CC
-P 8750 2200
-AR Path="/609503CC" Ref="R?"  Part="1" 
-AR Path="/609243F4/609503CC" Ref="R27"  Part="1" 
-F 0 "R27" V 8650 2200 50  0000 C CNN
-F 1 "1.5KO" V 8750 2200 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 8680 2200 50  0001 C CNN
-F 3 "~" H 8750 2200 50  0001 C CNN
-	1    8750 2200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8800 2050 8750 2050
-$Comp
-L Device:R R?
-U 1 1 609503D3
-P 8950 2050
-AR Path="/609503D3" Ref="R?"  Part="1" 
-AR Path="/609243F4/609503D3" Ref="R28"  Part="1" 
-F 0 "R28" V 8850 2050 50  0000 C CNN
-F 1 "1KO" V 8950 2050 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 8880 2050 50  0001 C CNN
-F 3 "~" H 8950 2050 50  0001 C CNN
-	1    8950 2050
-	0    -1   -1   0   
-$EndComp
-Connection ~ 5450 1550
-Wire Wire Line
-	5250 1550 5450 1550
-Wire Wire Line
-	5250 1450 5250 1550
-Wire Wire Line
-	4050 1250 5450 1250
-$Comp
-L power:GND #PWR?
-U 1 1 609503DD
-P 5700 1550
-AR Path="/609503DD" Ref="#PWR?"  Part="1" 
-AR Path="/609243F4/609503DD" Ref="#PWR065"  Part="1" 
-F 0 "#PWR065" H 5700 1300 50  0001 C CNN
-F 1 "GND" V 5705 1422 50  0000 R CNN
-F 2 "" H 5700 1550 50  0001 C CNN
-F 3 "" H 5700 1550 50  0001 C CNN
-	1    5700 1550
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5700 1550 5450 1550
-Connection ~ 5450 1250
-$Comp
-L Device:R R?
-U 1 1 609503E5
-P 5450 1400
-AR Path="/609503E5" Ref="R?"  Part="1" 
-AR Path="/609243F4/609503E5" Ref="R23"  Part="1" 
-F 0 "R23" V 5350 1400 50  0000 C CNN
-F 1 "1.5KO" V 5450 1400 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 5380 1400 50  0001 C CNN
-F 3 "~" H 5450 1400 50  0001 C CNN
-	1    5450 1400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5500 1250 5450 1250
-$Comp
-L Device:R R?
-U 1 1 609503EC
-P 5650 1250
-AR Path="/609503EC" Ref="R?"  Part="1" 
-AR Path="/609243F4/609503EC" Ref="R24"  Part="1" 
-F 0 "R24" V 5550 1250 50  0000 C CNN
-F 1 "1KO" V 5650 1250 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 5580 1250 50  0001 C CNN
-F 3 "~" H 5650 1250 50  0001 C CNN
-	1    5650 1250
-	0    -1   -1   0   
-$EndComp
-Connection ~ 3950 2350
-Wire Wire Line
-	3750 2350 3950 2350
-Wire Wire Line
-	3750 2250 3750 2350
-Wire Wire Line
-	2550 2050 3950 2050
-$Comp
-L power:GND #PWR?
-U 1 1 609503F6
-P 4200 2350
-AR Path="/609503F6" Ref="#PWR?"  Part="1" 
-AR Path="/609243F4/609503F6" Ref="#PWR062"  Part="1" 
-F 0 "#PWR062" H 4200 2100 50  0001 C CNN
-F 1 "GND" V 4205 2222 50  0000 R CNN
-F 2 "" H 4200 2350 50  0001 C CNN
-F 3 "" H 4200 2350 50  0001 C CNN
-	1    4200 2350
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4200 2350 3950 2350
-Connection ~ 3950 2050
-$Comp
-L Device:R R?
-U 1 1 609503FE
-P 3950 2200
-AR Path="/609503FE" Ref="R?"  Part="1" 
-AR Path="/609243F4/609503FE" Ref="R19"  Part="1" 
-F 0 "R19" V 3850 2200 50  0000 C CNN
-F 1 "1.5KO" V 3950 2200 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 3880 2200 50  0001 C CNN
-F 3 "~" H 3950 2200 50  0001 C CNN
-	1    3950 2200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4000 2050 3950 2050
-$Comp
-L Device:R R?
-U 1 1 60950405
-P 4150 2050
-AR Path="/60950405" Ref="R?"  Part="1" 
-AR Path="/609243F4/60950405" Ref="R20"  Part="1" 
-F 0 "R20" V 4050 2050 50  0000 C CNN
-F 1 "1KO" V 4150 2050 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 4080 2050 50  0001 C CNN
-F 3 "~" H 4150 2050 50  0001 C CNN
-	1    4150 2050
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2550 2150 2550 2250
-Wire Wire Line
-	2550 1950 3500 1950
-Wire Wire Line
-	2550 2250 3500 2250
-Wire Wire Line
-	3750 2250 3500 2250
-Connection ~ 3500 2250
-Connection ~ 3500 1950
-$Comp
-L Device:R R?
-U 1 1 60950411
-P 3500 2100
-AR Path="/60950411" Ref="R?"  Part="1" 
-AR Path="/609243F4/60950411" Ref="R17"  Part="1" 
-F 0 "R17" V 3400 2100 50  0000 C CNN
-F 1 "1.5KO" V 3500 2100 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 3430 2100 50  0001 C CNN
-F 3 "~" H 3500 2100 50  0001 C CNN
-	1    3500 2100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3550 1950 3500 1950
-$Comp
-L Device:R R?
-U 1 1 60950418
-P 3700 1950
-AR Path="/60950418" Ref="R?"  Part="1" 
-AR Path="/609243F4/60950418" Ref="R18"  Part="1" 
-F 0 "R18" V 3600 1950 50  0000 C CNN
-F 1 "1KO" V 3700 1950 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 3630 1950 50  0001 C CNN
-F 3 "~" H 3700 1950 50  0001 C CNN
-	1    3700 1950
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	4050 1350 4050 1450
-Wire Wire Line
-	4050 1150 5000 1150
-Wire Wire Line
-	4050 1450 5000 1450
-Wire Wire Line
-	5250 1450 5000 1450
-Connection ~ 5000 1450
-Connection ~ 5000 1150
-$Comp
-L Device:R R?
-U 1 1 60950424
-P 5000 1300
-AR Path="/60950424" Ref="R?"  Part="1" 
-AR Path="/609243F4/60950424" Ref="R21"  Part="1" 
-F 0 "R21" V 4900 1300 50  0000 C CNN
-F 1 "1.5KO" V 5000 1300 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 4930 1300 50  0001 C CNN
-F 3 "~" H 5000 1300 50  0001 C CNN
-	1    5000 1300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5050 1150 5000 1150
-$Comp
-L Device:R R?
-U 1 1 6095042B
-P 5200 1150
-AR Path="/6095042B" Ref="R?"  Part="1" 
-AR Path="/609243F4/6095042B" Ref="R22"  Part="1" 
-F 0 "R22" V 5100 1150 50  0000 C CNN
-F 1 "1KO" V 5200 1150 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 5130 1150 50  0001 C CNN
-F 3 "~" H 5200 1150 50  0001 C CNN
-	1    5200 1150
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7350 1950 8300 1950
-Wire Wire Line
-	7350 2250 8300 2250
-Wire Wire Line
-	7350 2150 7350 2250
-Wire Wire Line
-	8550 2250 8300 2250
-Connection ~ 8300 2250
-Connection ~ 8300 1950
-$Comp
-L Device:R R?
-U 1 1 60950437
-P 8300 2100
-AR Path="/60950437" Ref="R?"  Part="1" 
-AR Path="/609243F4/60950437" Ref="R25"  Part="1" 
-F 0 "R25" V 8200 2100 50  0000 C CNN
-F 1 "1.5KO" V 8300 2100 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 8230 2100 50  0001 C CNN
-F 3 "~" H 8300 2100 50  0001 C CNN
-	1    8300 2100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8350 1950 8300 1950
-$Comp
-L Device:R R?
-U 1 1 6095043E
-P 8500 1950
-AR Path="/6095043E" Ref="R?"  Part="1" 
-AR Path="/609243F4/6095043E" Ref="R26"  Part="1" 
-F 0 "R26" V 8400 1950 50  0000 C CNN
-F 1 "1KO" V 8500 1950 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 8430 1950 50  0001 C CNN
-F 3 "~" H 8500 1950 50  0001 C CNN
-	1    8500 1950
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J?
-U 1 1 60950444
-P 3750 1150
-AR Path="/60950444" Ref="J?"  Part="1" 
-AR Path="/609243F4/60950444" Ref="J27"  Part="1" 
-F 0 "J27" H 3800 1467 50  0000 C CNN
-F 1 "Cutter Motor" H 3800 1376 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical" H 3750 1150 50  0001 C CNN
-F 3 "~" H 3750 1150 50  0001 C CNN
-	1    3750 1150
-	1    0    0    -1  
-$EndComp
-Text GLabel 5800 1250 2    50   Input ~ 0
-pinMotorMowFault
-Text GLabel 5350 1150 2    50   Input ~ 0
-pinMotorMowRpm
-Text GLabel 4050 1050 2    50   Input ~ 0
-pinMotorMowEnable
-Text GLabel 3550 1350 0    50   Input ~ 0
-pinMotorMowPWM
-Text GLabel 3550 1250 0    50   Input ~ 0
-MotorMowBreak
-Text GLabel 3550 1150 0    50   Input ~ 0
-pinMotorMowDir
-$Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J?
-U 1 1 60950450
-P 7050 1950
-AR Path="/60950450" Ref="J?"  Part="1" 
-AR Path="/609243F4/60950450" Ref="J28"  Part="1" 
-F 0 "J28" H 7100 2267 50  0000 C CNN
-F 1 "Motor Right" H 7100 2176 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical" H 7050 1950 50  0001 C CNN
-F 3 "~" H 7050 1950 50  0001 C CNN
-	1    7050 1950
-	1    0    0    -1  
-$EndComp
-Text GLabel 9100 2050 2    50   Input ~ 0
-pinMotorRightFault
-Text GLabel 8650 1950 2    50   Input ~ 0
-pinOdometryRight
-Text GLabel 7350 1850 2    50   Input ~ 0
+Text GLabel 4300 4250 0    50   Input ~ 0
 pinMotorEnable
-Text GLabel 6850 2150 0    50   Input ~ 0
-pinMotorRightPWM
-Text GLabel 6850 2050 0    50   Input ~ 0
-MotorBreak
-Text GLabel 6850 1950 0    50   Input ~ 0
-pinMotorRightDir
-$Comp
-L Connector_Generic:Conn_02x04_Top_Bottom J?
-U 1 1 6095045C
-P 2250 1950
-AR Path="/6095045C" Ref="J?"  Part="1" 
-AR Path="/609243F4/6095045C" Ref="J26"  Part="1" 
-F 0 "J26" H 2300 2267 50  0000 C CNN
-F 1 "Motor Left" H 2300 2176 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x04_P2.54mm_Vertical" H 2250 1950 50  0001 C CNN
-F 3 "~" H 2250 1950 50  0001 C CNN
-	1    2250 1950
-	1    0    0    -1  
-$EndComp
-Text GLabel 4300 2050 2    50   Input ~ 0
-pinMotorLeftFault
-Text GLabel 3850 1950 2    50   Input ~ 0
-pinOdometryLeft
-Text GLabel 2550 1850 2    50   Input ~ 0
-pinMotorEnable
-Text GLabel 2050 2150 0    50   Input ~ 0
-pinMotorLeftPWM
-Text GLabel 2050 2050 0    50   Input ~ 0
-MotorBreak
-Text GLabel 2050 1950 0    50   Input ~ 0
-pinMotorLeftDir
-Text GLabel 2450 6300 0    50   Input ~ 0
-pinMotorEnable
-Text GLabel 2450 5500 0    50   Output ~ 0
+Text GLabel 4300 3450 0    50   Output ~ 0
 pinMotorRightSense
-Text GLabel 2450 5600 0    50   Output ~ 0
+Text GLabel 4300 3550 0    50   Output ~ 0
 pinMotorRightFault
 $Comp
 L power:GND #PWR?
 U 1 1 60958C88
-P 2450 5700
+P 4300 3650
 AR Path="/60958C88" Ref="#PWR?"  Part="1" 
 AR Path="/609243F4/60958C88" Ref="#PWR056"  Part="1" 
-F 0 "#PWR056" H 2450 5450 50  0001 C CNN
-F 1 "GND" V 2455 5527 50  0000 C CNN
-F 2 "" H 2450 5700 50  0001 C CNN
-F 3 "" H 2450 5700 50  0001 C CNN
-	1    2450 5700
+F 0 "#PWR056" H 4300 3400 50  0001 C CNN
+F 1 "GND" V 4305 3477 50  0000 C CNN
+F 2 "" H 4300 3650 50  0001 C CNN
+F 3 "" H 4300 3650 50  0001 C CNN
+	1    4300 3650
 	0    1    1    0   
 $EndComp
-Text GLabel 2450 5800 0    50   Input ~ 0
+Text GLabel 4300 3750 0    50   Input ~ 0
 IOREV
-Text GLabel 2450 5900 0    50   Input ~ 0
+Text GLabel 4300 3850 0    50   Input ~ 0
 pinMotorRightPWM
 $Comp
 L Lötpad_2,5mm:MC33926 U?
 U 1 1 60958C90
-P 3300 6450
+P 5150 4400
 AR Path="/60958C90" Ref="U?"  Part="1" 
 AR Path="/609243F4/60958C90" Ref="U2"  Part="1" 
-F 0 "U2" H 3250 7907 60  0000 C CNN
-F 1 "MC33926" H 3250 7801 60  0000 C CNN
-F 2 "Zimprich:MC_33926_31polig_mit_Bohrloch_neue_Masse" H 3450 6500 60  0001 C CNN
-F 3 "" H 3450 6500 60  0000 C CNN
-	1    3300 6450
+F 0 "U2" H 5100 5857 60  0000 C CNN
+F 1 "MC33926" H 5100 5751 60  0000 C CNN
+F 2 "Zimprich:MC_33926_31polig_mit_Bohrloch_neue_Masse" H 5300 4450 60  0001 C CNN
+F 3 "" H 5300 4450 60  0000 C CNN
+	1    5150 4400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Lötpad_2,5mm:MC33926 U?
 U 1 1 60958C96
-P 3300 4300
+P 5150 2250
 AR Path="/60958C96" Ref="U?"  Part="1" 
 AR Path="/609243F4/60958C96" Ref="U1"  Part="1" 
-F 0 "U1" H 3250 5757 60  0000 C CNN
-F 1 "MC33926" H 3250 5651 60  0000 C CNN
-F 2 "Zimprich:MC_33926_31polig_mit_Bohrloch_neue_Masse" H 3450 4350 60  0001 C CNN
-F 3 "" H 3450 4350 60  0000 C CNN
-	1    3300 4300
+F 0 "U1" H 5100 3707 60  0000 C CNN
+F 1 "MC33926" H 5100 3601 60  0000 C CNN
+F 2 "Zimprich:MC_33926_31polig_mit_Bohrloch_neue_Masse" H 5300 2300 60  0001 C CNN
+F 3 "" H 5300 2300 60  0000 C CNN
+	1    5150 2250
 	1    0    0    -1  
 $EndComp
-Text GLabel 2450 6000 0    50   Input ~ 0
+Text GLabel 4300 3950 0    50   Input ~ 0
 pinMotorRightDir
-NoConn ~ 2450 6100
-NoConn ~ 2450 6200
-Text GLabel 2450 6400 0    50   Output ~ 0
+NoConn ~ 4300 4050
+NoConn ~ 4300 4150
+Text GLabel 4300 4350 0    50   Output ~ 0
 pinMotorLeftSense
-Text GLabel 2450 6500 0    50   Output ~ 0
+Text GLabel 4300 4450 0    50   Output ~ 0
 pinMotorLeftFault
 $Comp
 L power:GND #PWR?
 U 1 1 60958CA1
-P 2450 6600
+P 4300 4550
 AR Path="/60958CA1" Ref="#PWR?"  Part="1" 
 AR Path="/609243F4/60958CA1" Ref="#PWR057"  Part="1" 
-F 0 "#PWR057" H 2450 6350 50  0001 C CNN
-F 1 "GND" V 2455 6472 50  0000 R CNN
-F 2 "" H 2450 6600 50  0001 C CNN
-F 3 "" H 2450 6600 50  0001 C CNN
-	1    2450 6600
+F 0 "#PWR057" H 4300 4300 50  0001 C CNN
+F 1 "GND" V 4305 4422 50  0000 R CNN
+F 2 "" H 4300 4550 50  0001 C CNN
+F 3 "" H 4300 4550 50  0001 C CNN
+	1    4300 4550
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 60958CA7
-P 2450 7100
+P 4300 5050
 AR Path="/60958CA7" Ref="#PWR?"  Part="1" 
 AR Path="/609243F4/60958CA7" Ref="#PWR058"  Part="1" 
-F 0 "#PWR058" H 2450 6850 50  0001 C CNN
-F 1 "GND" V 2455 6972 50  0000 R CNN
-F 2 "" H 2450 7100 50  0001 C CNN
-F 3 "" H 2450 7100 50  0001 C CNN
-	1    2450 7100
+F 0 "#PWR058" H 4300 4800 50  0001 C CNN
+F 1 "GND" V 4305 4922 50  0000 R CNN
+F 2 "" H 4300 5050 50  0001 C CNN
+F 3 "" H 4300 5050 50  0001 C CNN
+	1    4300 5050
 	0    1    1    0   
 $EndComp
-NoConn ~ 2450 7200
-NoConn ~ 2250 3950
-NoConn ~ 2250 4050
-NoConn ~ 2250 5050
-Text GLabel 2450 6700 0    50   Input ~ 0
+NoConn ~ 4300 5150
+NoConn ~ 4100 1900
+NoConn ~ 4100 2000
+NoConn ~ 4100 3000
+Text GLabel 4300 4650 0    50   Input ~ 0
 IOREV
-Text GLabel 2450 7000 0    50   Input ~ 0
+Text GLabel 4300 4950 0    50   Input ~ 0
 IOREV
-Text GLabel 2450 6800 0    50   Input ~ 0
+Text GLabel 4300 4750 0    50   Input ~ 0
 pinMotorLeftPWM
-Text GLabel 2450 6900 0    50   Input ~ 0
+Text GLabel 4300 4850 0    50   Input ~ 0
 pinMotorLeftDir
-Text GLabel 2250 3750 0    50   Input ~ 0
+Text GLabel 4100 1700 0    50   Input ~ 0
 pinMotorMowPWM
 $Comp
 L power:GND #PWR?
 U 1 1 60958CB6
-P 2250 4950
+P 4100 2900
 AR Path="/60958CB6" Ref="#PWR?"  Part="1" 
 AR Path="/609243F4/60958CB6" Ref="#PWR055"  Part="1" 
-F 0 "#PWR055" H 2250 4700 50  0001 C CNN
-F 1 "GND" V 2255 4822 50  0000 R CNN
-F 2 "" H 2250 4950 50  0001 C CNN
-F 3 "" H 2250 4950 50  0001 C CNN
-	1    2250 4950
+F 0 "#PWR055" H 4100 2650 50  0001 C CNN
+F 1 "GND" V 4105 2772 50  0000 R CNN
+F 2 "" H 4100 2900 50  0001 C CNN
+F 3 "" H 4100 2900 50  0001 C CNN
+	1    4100 2900
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 60958CBC
-P 2250 4450
+P 4100 2400
 AR Path="/60958CBC" Ref="#PWR?"  Part="1" 
 AR Path="/609243F4/60958CBC" Ref="#PWR054"  Part="1" 
-F 0 "#PWR054" H 2250 4200 50  0001 C CNN
-F 1 "GND" V 2255 4322 50  0000 R CNN
-F 2 "" H 2250 4450 50  0001 C CNN
-F 3 "" H 2250 4450 50  0001 C CNN
-	1    2250 4450
+F 0 "#PWR054" H 4100 2150 50  0001 C CNN
+F 1 "GND" V 4105 2272 50  0000 R CNN
+F 2 "" H 4100 2400 50  0001 C CNN
+F 3 "" H 4100 2400 50  0001 C CNN
+	1    4100 2400
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 60958CC2
-P 2250 3550
+P 4100 1500
 AR Path="/60958CC2" Ref="#PWR?"  Part="1" 
 AR Path="/609243F4/60958CC2" Ref="#PWR053"  Part="1" 
-F 0 "#PWR053" H 2250 3300 50  0001 C CNN
-F 1 "GND" V 2255 3422 50  0000 R CNN
-F 2 "" H 2250 3550 50  0001 C CNN
-F 3 "" H 2250 3550 50  0001 C CNN
-	1    2250 3550
+F 0 "#PWR053" H 4100 1250 50  0001 C CNN
+F 1 "GND" V 4105 1372 50  0000 R CNN
+F 2 "" H 4100 1500 50  0001 C CNN
+F 3 "" H 4100 1500 50  0001 C CNN
+	1    4100 1500
 	0    1    1    0   
 $EndComp
-Text GLabel 2250 3350 0    50   Output ~ 0
+Text GLabel 4100 1300 0    50   Output ~ 0
 pinMotorMowSense
-Text GLabel 2250 3450 0    50   Output ~ 0
+Text GLabel 4100 1400 0    50   Output ~ 0
 pinMotorMowFault
-Text GLabel 2250 3650 0    50   Input ~ 0
+Text GLabel 4100 1600 0    50   Input ~ 0
 IOREV
-Text GLabel 2250 3850 0    50   Input ~ 0
+Text GLabel 4100 1800 0    50   Input ~ 0
 pinMotorMowDir
-Text GLabel 2250 4150 0    50   Input ~ 0
+Text GLabel 4100 2100 0    50   Input ~ 0
 pinMotorMowEnable
 Wire Wire Line
-	2250 3350 2450 3350
+	4100 1300 4300 1300
 Wire Wire Line
-	2250 3550 2450 3550
+	4100 1500 4300 1500
 Wire Wire Line
-	2250 3650 2450 3650
+	4100 1600 4300 1600
 Wire Wire Line
-	2250 3750 2350 3750
+	4100 1700 4200 1700
 Wire Wire Line
-	2250 3850 2300 3850
+	4100 1800 4150 1800
 Wire Wire Line
-	2250 3950 2450 3950
+	4100 1900 4300 1900
 Wire Wire Line
-	2250 4050 2450 4050
+	4100 2000 4300 2000
 Wire Wire Line
-	2250 4150 2450 4150
+	4100 2100 4300 2100
 Wire Wire Line
-	2250 4450 2450 4450
+	4100 2400 4300 2400
 Wire Wire Line
-	2250 4950 2450 4950
+	4100 2900 4300 2900
 Wire Wire Line
-	2250 5050 2450 5050
+	4100 3000 4300 3000
 Wire Wire Line
-	2250 3450 2400 3450
+	4100 1400 4250 1400
 Wire Wire Line
-	2450 4350 2400 4350
+	4300 2300 4250 2300
 Wire Wire Line
-	2400 4350 2400 3450
-Connection ~ 2400 3450
+	4250 2300 4250 1400
+Connection ~ 4250 1400
 Wire Wire Line
-	2400 3450 2450 3450
+	4250 1400 4300 1400
 Wire Wire Line
-	2450 4650 2350 4650
+	4300 2600 4200 2600
 Wire Wire Line
-	2350 4650 2350 3750
-Connection ~ 2350 3750
+	4200 2600 4200 1700
+Connection ~ 4200 1700
 Wire Wire Line
-	2350 3750 2450 3750
+	4200 1700 4300 1700
 Wire Wire Line
-	2450 4750 2300 4750
+	4300 2700 4150 2700
 Wire Wire Line
-	2300 4750 2300 3850
-Connection ~ 2300 3850
+	4150 2700 4150 1800
+Connection ~ 4150 1800
 Wire Wire Line
-	2300 3850 2450 3850
-Text GLabel 1850 4250 0    50   Input ~ 0
+	4150 1800 4300 1800
+Text GLabel 3700 2200 0    50   Input ~ 0
 IOREV
 Wire Wire Line
-	1850 4250 2450 4250
-Text GLabel 1850 4550 0    50   Input ~ 0
+	3700 2200 4300 2200
+Text GLabel 3700 2500 0    50   Input ~ 0
 IOREV
 Wire Wire Line
-	1850 4550 2450 4550
-Text GLabel 1850 4850 0    50   Input ~ 0
+	3700 2500 4300 2500
+Text GLabel 3700 2800 0    50   Input ~ 0
 IOREV
 Wire Wire Line
-	1850 4850 2450 4850
+	3700 2800 4300 2800
 $Comp
 L power:+24V #PWR?
 U 1 1 60958CEB
-P 4200 4000
+P 6050 1950
 AR Path="/60958CEB" Ref="#PWR?"  Part="1" 
 AR Path="/609243F4/60958CEB" Ref="#PWR063"  Part="1" 
-F 0 "#PWR063" H 4200 3850 50  0001 C CNN
-F 1 "+24V" V 4215 4128 50  0000 L CNN
-F 2 "" H 4200 4000 50  0001 C CNN
-F 3 "" H 4200 4000 50  0001 C CNN
-	1    4200 4000
+F 0 "#PWR063" H 6050 1800 50  0001 C CNN
+F 1 "+24V" V 6065 2078 50  0000 L CNN
+F 2 "" H 6050 1950 50  0001 C CNN
+F 3 "" H 6050 1950 50  0001 C CNN
+	1    6050 1950
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+24V #PWR?
 U 1 1 60958CF1
-P 4200 6150
+P 6050 4100
 AR Path="/60958CF1" Ref="#PWR?"  Part="1" 
 AR Path="/609243F4/60958CF1" Ref="#PWR064"  Part="1" 
-F 0 "#PWR064" H 4200 6000 50  0001 C CNN
-F 1 "+24V" V 4215 6278 50  0000 L CNN
-F 2 "" H 4200 6150 50  0001 C CNN
-F 3 "" H 4200 6150 50  0001 C CNN
-	1    4200 6150
+F 0 "#PWR064" H 6050 3950 50  0001 C CNN
+F 1 "+24V" V 6065 4228 50  0000 L CNN
+F 2 "" H 6050 4100 50  0001 C CNN
+F 3 "" H 6050 4100 50  0001 C CNN
+	1    6050 4100
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 60958CF7
-P 4050 4100
+P 5900 2050
 AR Path="/60958CF7" Ref="#PWR?"  Part="1" 
 AR Path="/609243F4/60958CF7" Ref="#PWR060"  Part="1" 
-F 0 "#PWR060" H 4050 3850 50  0001 C CNN
-F 1 "GND" V 4055 3972 50  0000 R CNN
-F 2 "" H 4050 4100 50  0001 C CNN
-F 3 "" H 4050 4100 50  0001 C CNN
-	1    4050 4100
+F 0 "#PWR060" H 5900 1800 50  0001 C CNN
+F 1 "GND" V 5905 1922 50  0000 R CNN
+F 2 "" H 5900 2050 50  0001 C CNN
+F 3 "" H 5900 2050 50  0001 C CNN
+	1    5900 2050
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 60958CFD
-P 4050 6250
+P 5900 4200
 AR Path="/60958CFD" Ref="#PWR?"  Part="1" 
 AR Path="/609243F4/60958CFD" Ref="#PWR061"  Part="1" 
-F 0 "#PWR061" H 4050 6000 50  0001 C CNN
-F 1 "GND" V 4055 6122 50  0000 R CNN
-F 2 "" H 4050 6250 50  0001 C CNN
-F 3 "" H 4050 6250 50  0001 C CNN
-	1    4050 6250
+F 0 "#PWR061" H 5900 3950 50  0001 C CNN
+F 1 "GND" V 5905 4072 50  0000 R CNN
+F 2 "" H 5900 4200 50  0001 C CNN
+F 3 "" H 5900 4200 50  0001 C CNN
+	1    5900 4200
 	0    -1   -1   0   
 $EndComp
-Text GLabel 4050 3900 1    50   Input ~ 0
+Text GLabel 5900 1850 1    50   Input ~ 0
 +24V
 Wire Wire Line
-	4050 3900 4050 4000
+	5900 1850 5900 1950
 Wire Wire Line
-	4050 4000 4200 4000
-Connection ~ 4050 4000
+	5900 1950 6050 1950
+Connection ~ 5900 1950
 Wire Wire Line
-	4050 6150 4100 6150
-Text GLabel 4100 6050 1    50   Input ~ 0
+	5900 4100 5950 4100
+Text GLabel 5950 4000 1    50   Input ~ 0
 +24V
 Wire Wire Line
-	4100 6050 4100 6150
-Connection ~ 4100 6150
+	5950 4000 5950 4100
+Connection ~ 5950 4100
 Wire Wire Line
-	4100 6150 4200 6150
+	5950 4100 6050 4100
+$Comp
+L Connector:Screw_Terminal_01x02 J32
+U 1 1 60DDD092
+P 750 750
+F 0 "J32" V 714 562 50  0000 R CNN
+F 1 "24V In" V 850 800 50  0000 R CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 750 750 50  0001 C CNN
+F 3 "~" H 750 750 50  0001 C CNN
+	1    750  750 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N5819 D5
+U 1 1 60DDD098
+P 1200 950
+F 0 "D5" H 1200 733 50  0000 C CNN
+F 1 "1N5819" H 1200 824 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 1200 775 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 1200 950 50  0001 C CNN
+	1    1200 950 
+	-1   0    0    1   
+$EndComp
+Text GLabel 1500 950  2    50   Output ~ 0
++24V
+$Comp
+L power:GND #PWR081
+U 1 1 60DDD09F
+P 750 950
+F 0 "#PWR081" H 750 700 50  0001 C CNN
+F 1 "GND" H 755 777 50  0000 C CNN
+F 2 "" H 750 950 50  0001 C CNN
+F 3 "" H 750 950 50  0001 C CNN
+	1    750  950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  950  1050 950 
+Wire Wire Line
+	1350 950  1500 950 
 $EndSCHEMATC

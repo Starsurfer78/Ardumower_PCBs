@@ -710,4 +710,43 @@ Wire Wire Line
 Connection ~ 4100 6150
 Wire Wire Line
 	4100 6150 4200 6150
+$Comp
+L Connector:Screw_Terminal_01x02 J?
+U 1 1 60DDD092
+P 750 750
+F 0 "J?" V 714 562 50  0000 R CNN
+F 1 "24V In" V 850 800 50  0000 R CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 750 750 50  0001 C CNN
+F 3 "~" H 750 750 50  0001 C CNN
+	1    750  750 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Diode:1N5819 D?
+U 1 1 60DDD098
+P 1200 950
+F 0 "D?" H 1200 733 50  0000 C CNN
+F 1 "1N5819" H 1200 824 50  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 1200 775 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 1200 950 50  0001 C CNN
+	1    1200 950 
+	-1   0    0    1   
+$EndComp
+Text GLabel 1500 950  2    50   Output ~ 0
++24V
+$Comp
+L power:GND #PWR?
+U 1 1 60DDD09F
+P 750 950
+F 0 "#PWR?" H 750 700 50  0001 C CNN
+F 1 "GND" H 755 777 50  0000 C CNN
+F 2 "" H 750 950 50  0001 C CNN
+F 3 "" H 750 950 50  0001 C CNN
+	1    750  950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  950  1050 950 
+Wire Wire Line
+	1350 950  1500 950 
 $EndSCHEMATC
