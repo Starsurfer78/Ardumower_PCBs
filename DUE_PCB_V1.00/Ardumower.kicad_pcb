@@ -374,7 +374,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical (layer F.Cu) (tedit 5AE5139B) (tstamp 609EA55C)
-    (at 165.67 148.6)
+    (at 164.06 134.97)
     (descr "Resistor, Axial_DIN0207 series, Axial, Vertical, pin pitch=2.54mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Vertical pin pitch 2.54mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /609243F4/60A4079E)
@@ -407,7 +407,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical (layer F.Cu) (tedit 5AE5139B) (tstamp 609EA54D)
-    (at 159.53 148.6)
+    (at 147.21 135.07)
     (descr "Resistor, Axial_DIN0207 series, Axial, Vertical, pin pitch=2.54mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Vertical pin pitch 2.54mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /609243F4/60A447C8)
@@ -440,7 +440,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical (layer F.Cu) (tedit 5AE5139B) (tstamp 609EA53E)
-    (at 165.67 144.55)
+    (at 131.07 134.8)
     (descr "Resistor, Axial_DIN0207 series, Axial, Vertical, pin pitch=2.54mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Vertical pin pitch 2.54mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /609243F4/60A1AB11)
@@ -473,7 +473,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical (layer F.Cu) (tedit 5AE5139B) (tstamp 609EA52F)
-    (at 159.53 144.55)
+    (at 164.16 143.03)
     (descr "Resistor, Axial_DIN0207 series, Axial, Vertical, pin pitch=2.54mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Vertical pin pitch 2.54mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /609243F4/60A407A8)
@@ -506,7 +506,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical (layer F.Cu) (tedit 5AE5139B) (tstamp 609EA45C)
-    (at 165.67 140.5)
+    (at 147.32 143.13)
     (descr "Resistor, Axial_DIN0207 series, Axial, Vertical, pin pitch=2.54mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Vertical pin pitch 2.54mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /609243F4/60A447D2)
@@ -539,7 +539,7 @@
   )
 
   (module Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical (layer F.Cu) (tedit 5AE5139B) (tstamp 609EA44D)
-    (at 159.53 140.5)
+    (at 130.97 142.45)
     (descr "Resistor, Axial_DIN0207 series, Axial, Vertical, pin pitch=2.54mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0207 series Axial Vertical pin pitch 2.54mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
     (path /609243F4/60A243BE)
@@ -572,7 +572,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 609EA34C)
-    (at 155.18 140.8)
+    (at 160.33 135.28)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
     (path /609243F4/60A0D0C7)
@@ -616,7 +616,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 609EA334)
-    (at 150.53 140.8)
+    (at 153.1 135.38)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
     (path /609243F4/60A0AEEA)
@@ -660,7 +660,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 609EA31C)
-    (at 145.88 140.8)
+    (at 137.07 134.91)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
     (path /609243F4/609ECE3C)
@@ -4349,7 +4349,7 @@
     (arrow2b (pts (xy 213.970314 34.631059) (xy 214.560909 35.75538)))
   )
   (dimension 169.870042 (width 0.15) (layer Dwgs.User)
-    (gr_text "169,870 mm" (at 123.718454 139.309999 0.04047502442) (layer Dwgs.User)
+    (gr_text "169,870 mm" (at 123.718454 139.309999 0.04047502442) (layer Dwgs.User) (tstamp 609EAB2D)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (feature1 (pts (xy 208.65 134.36) (xy 208.65295 138.53642)))
