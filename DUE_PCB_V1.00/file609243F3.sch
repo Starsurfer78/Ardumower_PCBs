@@ -72,19 +72,6 @@ Text GLabel 3550 4450 0    50   Output ~ 0
 pinMotorLeftFault
 $Comp
 L power:GND #PWR?
-U 1 1 60958CA1
-P 4300 4550
-AR Path="/60958CA1" Ref="#PWR?"  Part="1" 
-AR Path="/609243F4/60958CA1" Ref="#PWR057"  Part="1" 
-F 0 "#PWR057" H 4300 4300 50  0001 C CNN
-F 1 "GND" V 4305 4422 50  0000 R CNN
-F 2 "" H 4300 4550 50  0001 C CNN
-F 3 "" H 4300 4550 50  0001 C CNN
-	1    4300 4550
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
 U 1 1 60958CA7
 P 4300 5050
 AR Path="/60958CA7" Ref="#PWR?"  Part="1" 
@@ -324,7 +311,7 @@ L Connector:Screw_Terminal_01x02 J26
 U 1 1 60E7534A
 P 6350 1350
 F 0 "J26" V 6314 1162 50  0000 R CNN
-F 1 "Cutter" V 6450 1400 50  0000 R CNN
+F 1 "Cutter1" V 6450 1400 50  0000 R CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 6350 1350 50  0001 C CNN
 F 3 "~" H 6350 1350 50  0001 C CNN
 	1    6350 1350
@@ -467,5 +454,142 @@ Wire Wire Line
 	3550 4350 3650 4350
 Wire Wire Line
 	3950 4450 4300 4450
-Connection ~ 4300 4550
+$Comp
+L Connector:Screw_Terminal_01x04 J?
+U 1 1 609ECE3C
+P 8350 1250
+F 0 "J?" H 8430 1242 50  0000 L CNN
+F 1 "RPM_Mow" H 8430 1151 50  0000 L CNN
+F 2 "" H 8350 1250 50  0001 C CNN
+F 3 "~" H 8350 1250 50  0001 C CNN
+	1    8350 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 609FEF3C
+P 8150 1450
+F 0 "#PWR?" H 8150 1300 50  0001 C CNN
+F 1 "+3.3V" V 8165 1578 50  0000 L CNN
+F 2 "" H 8150 1450 50  0001 C CNN
+F 3 "" H 8150 1450 50  0001 C CNN
+	1    8150 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 60A02069
+P 8150 1350
+F 0 "#PWR?" H 8150 1200 50  0001 C CNN
+F 1 "+5V" V 8165 1478 50  0000 L CNN
+F 2 "" H 8150 1350 50  0001 C CNN
+F 3 "" H 8150 1350 50  0001 C CNN
+	1    8150 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A04DCE
+P 8150 1250
+F 0 "#PWR?" H 8150 1000 50  0001 C CNN
+F 1 "GND" V 8155 1122 50  0000 R CNN
+F 2 "" H 8150 1250 50  0001 C CNN
+F 3 "" H 8150 1250 50  0001 C CNN
+	1    8150 1250
+	0    1    1    0   
+$EndComp
+Text GLabel 8150 1150 0    50   Input ~ 0
+pinMotorMowRpm
+$Comp
+L Connector:Screw_Terminal_01x04 J?
+U 1 1 60A0AEEA
+P 8350 1750
+F 0 "J?" H 8430 1742 50  0000 L CNN
+F 1 "ODO_Left" H 8430 1651 50  0000 L CNN
+F 2 "" H 8350 1750 50  0001 C CNN
+F 3 "~" H 8350 1750 50  0001 C CNN
+	1    8350 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 60A0B19C
+P 8150 1950
+F 0 "#PWR?" H 8150 1800 50  0001 C CNN
+F 1 "+3.3V" V 8165 2078 50  0000 L CNN
+F 2 "" H 8150 1950 50  0001 C CNN
+F 3 "" H 8150 1950 50  0001 C CNN
+	1    8150 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 60A0B1A6
+P 8150 1850
+F 0 "#PWR?" H 8150 1700 50  0001 C CNN
+F 1 "+5V" V 8165 1978 50  0000 L CNN
+F 2 "" H 8150 1850 50  0001 C CNN
+F 3 "" H 8150 1850 50  0001 C CNN
+	1    8150 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A0B1B0
+P 8150 1750
+F 0 "#PWR?" H 8150 1500 50  0001 C CNN
+F 1 "GND" V 8155 1622 50  0000 R CNN
+F 2 "" H 8150 1750 50  0001 C CNN
+F 3 "" H 8150 1750 50  0001 C CNN
+	1    8150 1750
+	0    1    1    0   
+$EndComp
+Text GLabel 8150 1650 0    50   Input ~ 0
+pinOdometryRight
+$Comp
+L Connector:Screw_Terminal_01x04 J?
+U 1 1 60A0D0C7
+P 8350 2300
+F 0 "J?" H 8430 2292 50  0000 L CNN
+F 1 "ODO_Right" H 8430 2201 50  0000 L CNN
+F 2 "" H 8350 2300 50  0001 C CNN
+F 3 "~" H 8350 2300 50  0001 C CNN
+	1    8350 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 60A0D3D3
+P 8150 2500
+F 0 "#PWR?" H 8150 2350 50  0001 C CNN
+F 1 "+3.3V" V 8165 2628 50  0000 L CNN
+F 2 "" H 8150 2500 50  0001 C CNN
+F 3 "" H 8150 2500 50  0001 C CNN
+	1    8150 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 60A0D3DD
+P 8150 2400
+F 0 "#PWR?" H 8150 2250 50  0001 C CNN
+F 1 "+5V" V 8165 2528 50  0000 L CNN
+F 2 "" H 8150 2400 50  0001 C CNN
+F 3 "" H 8150 2400 50  0001 C CNN
+	1    8150 2400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A0D3E7
+P 8150 2300
+F 0 "#PWR?" H 8150 2050 50  0001 C CNN
+F 1 "GND" V 8155 2172 50  0000 R CNN
+F 2 "" H 8150 2300 50  0001 C CNN
+F 3 "" H 8150 2300 50  0001 C CNN
+	1    8150 2300
+	0    1    1    0   
+$EndComp
+Text GLabel 8150 2200 0    50   Input ~ 0
+pinOdometryLeft
 $EndSCHEMATC
