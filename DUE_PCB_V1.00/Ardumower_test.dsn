@@ -21,8 +21,8 @@
       )
     )
     (boundary
-      (path pcb 0  208595 -131645  38645 -131645  38645 -34585  208595 -34585
-            208595 -131645)
+      (path pcb 0  208570 -131620  38840 -131620  38800 -34620  208570 -34610
+            208570 -131620)
     )
     (via "Via[0-1]_889:635_um")
     (rule
@@ -33,6 +33,15 @@
     )
   )
   (placement
+    (component Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical
+      (place JP5 180160 -51390 front 0 (PN CutterPower))
+      (place JP4 163420 -113860 front 0 (PN MotorPower))
+    )
+    (component Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical
+      (place J42 187200 -49450 front 0 (PN Cutter))
+      (place J41 188540 -103810 front 0 (PN Motor_Left))
+      (place J40 179700 -103890 front 0 (PN Motor_Right))
+    )
     (component Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical
       (place R17 147560 -113740 front 270 (PN 1,5KO))
       (place R16 137690 -113740 front 270 (PN 1,5KO))
@@ -47,12 +56,12 @@
       (place J37 122520 -113880 front 0 (PN RPM_Mow))
     )
     (component "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-      (place D13 178820 -111090 front 0 (PN 1N4728A))
-      (place D12 178520 -104690 front 0 (PN 1N4728A))
-      (place D11 178370 -89200 front 0 (PN 1N4728A))
-      (place D10 178330 -95610 front 0 (PN 1N4728A))
-      (place D9 179560 -49900 front 0 (PN 1N4728A))
-      (place D6 179410 -40970 front 0 (PN 1N4728A))
+      (place D13 176160 -119570 front 270 (PN 1N4728A))
+      (place D12 180960 -129810 front 90 (PN 1N4728A))
+      (place D11 188880 -92520 front 180 (PN 1N4728A))
+      (place D10 188800 -87460 front 180 (PN 1N4728A))
+      (place D9 189700 -42820 front 180 (PN 1N4728A))
+      (place D6 189700 -37850 front 180 (PN 1N4728A))
       (place D8 53690 -70220 front 270 (PN 1N5819))
       (place D7 53690 -57050 front 270 (PN 1N5819))
       (place D1 53690 -43880 front 270 (PN 1N5819))
@@ -72,13 +81,13 @@
       (place J32 202460 -85340 front 90 (PN "24V In"))
     )
     (component "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal::1"
-      (place D5 178310 -82750 front 0 (PN 1N5819))
+      (place D5 178650 -82570 front 0 (PN 1N4728A))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical
-      (place J31 162690 -37790 front 0 (PN Ser3))
-      (place J24 157630 -37880 front 0 (PN Ser2))
-      (place J23 152450 -37820 front 0 (PN Ser1))
-      (place J22 147400 -37810 front 0 (PN Ser0))
+      (place J31 147520 -37830 front 0 (PN Ser3))
+      (place J24 152570 -37910 front 0 (PN Ser2))
+      (place J23 157710 -37910 front 0 (PN Ser1))
+      (place J22 162770 -37990 front 0 (PN Ser0))
     )
     (component Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical::2
       (place J18 84270 -113520 front 0 (PN US3))
@@ -98,8 +107,8 @@
       (place J13 93860 -113650 front 0 (PN P_Right))
       (place J9 115260 -113700 front 0 (PN Rain))
       (place J8 109060 -113700 front 0 (PN Tilt))
-      (place J7 165480 -114060 front 0 (PN Drop_Right))
-      (place J6 157460 -114060 front 0 (PN Drop_Left))
+      (place J7 155750 -122550 front 0 (PN Drop_Right))
+      (place J6 155800 -112510 front 0 (PN Drop_Left))
     )
     (component Zimprich:MC_33926_31polig_mit_Bohrloch_neue_Masse
       (place U2 208820 -133580 front 90 (PN MC33926))
@@ -118,7 +127,7 @@
       (place R8 98820 -114390 front 90 (PN 1.5KO))
       (place R7 98820 -120230 front 90 (PN 1KO))
     )
-    (component Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical
+    (component Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical::1
       (place JP3 60700 -69760 front 0 (PN Jumper_3.3V))
       (place JP1 60660 -58020 front 0 (PN Jumper_5V))
     )
@@ -160,6 +169,48 @@
     )
   )
   (library
+    (image Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical
+      (outline (path signal 100  -1270 1270  635 1270))
+      (outline (path signal 100  635 1270  1270 635))
+      (outline (path signal 100  1270 635  1270 -6350))
+      (outline (path signal 100  1270 -6350  -1270 -6350))
+      (outline (path signal 100  -1270 -6350  -1270 1270))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  -1330 -1270  -1330 -6410))
+      (outline (path signal 120  -1330 -6410  1330 -6410))
+      (outline (path signal 120  1330 -1270  1330 -6410))
+      (outline (path signal 120  1330 1330  1330 0))
+      (outline (path signal 120  0 1330  1330 1330))
+      (outline (path signal 50  -1800 1800  1750 1800))
+      (outline (path signal 50  1750 1800  1750 -6850))
+      (outline (path signal 50  1750 -6850  -1800 -6850))
+      (outline (path signal 50  -1800 -6850  -1800 1800))
+      (pin Oval[A]Pad_1700x1700_um 3 0 -5080)
+      (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+    )
+    (image Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical
+      (outline (path signal 100  -1270 1270  635 1270))
+      (outline (path signal 100  635 1270  1270 635))
+      (outline (path signal 100  1270 635  1270 -11430))
+      (outline (path signal 100  1270 -11430  -1270 -11430))
+      (outline (path signal 100  -1270 -11430  -1270 1270))
+      (outline (path signal 120  -1330 -1270  1330 -1270))
+      (outline (path signal 120  -1330 -1270  -1330 -11490))
+      (outline (path signal 120  -1330 -11490  1330 -11490))
+      (outline (path signal 120  1330 -1270  1330 -11490))
+      (outline (path signal 120  1330 1330  1330 0))
+      (outline (path signal 120  0 1330  1330 1330))
+      (outline (path signal 50  -1800 1800  1750 1800))
+      (outline (path signal 50  1750 1800  1750 -11900))
+      (outline (path signal 50  1750 -11900  -1800 -11900))
+      (outline (path signal 50  -1800 -11900  -1800 1800))
+      (pin Oval[A]Pad_1700x1700_um 5 0 -10160)
+      (pin Oval[A]Pad_1700x1700_um 4 0 -7620)
+      (pin Oval[A]Pad_1700x1700_um 3 0 -5080)
+      (pin Oval[A]Pad_1700x1700_um 2 0 -2540)
+      (pin Rect[A]Pad_1700x1700_um 1 0 0)
+    )
     (image Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical
       (outline (path signal 100  1250 0  1174.62 -427.525  957.556 -803.485  625 -1082.53
             217.06 -1231.01  -217.06 -1231.01  -625 -1082.53  -957.556 -803.485
@@ -483,7 +534,7 @@
       (pin Oval[A]Pad_1600x1600_um 2 2540 0)
       (pin Round[A]Pad_1600_um 1 0 0)
     )
-    (image Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical
+    (image Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical::1
       (outline (path signal 50  -1800 -6850  -1800 1800))
       (outline (path signal 50  1750 -6850  -1800 -6850))
       (outline (path signal 50  1750 1800  1750 -6850))
@@ -982,12 +1033,12 @@
       (pins R4-1 J30-3 J4-3 XA1-SDA1)
     )
     (net GND
-      (pins R17-2 R16-2 R15-2 J39-2 J38-2 J37-2 J36-1 J35-1 J34-1 J33-1 J32-1 J31-5
-        J24-5 J23-5 J22-5 J18-1 J17-1 J16-1 J15-1 H4-1 H4-1@1 H4-1@2 H3-1 H3-1@1 H3-1@2
-        H2-1 H2-1@1 H2-1@2 H1-1 H1-1@1 H1-1@2 J14-2 U2-21 U2-16 U2-7 U2-2 J30-2 J29-1
-        J25-1 J19-2 U1-21 U1-16 U1-7 U1-2 D4-1 D2-1 J12-2 J11-2 J10-2 J5-3 J5-1 J4-2
-        J3-2 J2-2 XA1-GND6 XA1-GND5 XA1-GND1 XA1-GND2 XA1-GND3 SP1-1 R10-2 R8-2 J13-2
-        J9-2 J8-2 J7-2 J6-2 J1-1 D3-1 C1-1)
+      (pins J42-2 J41-2 J40-2 R17-2 R16-2 R15-2 J39-2 J38-2 J37-2 J36-1 J35-1 J34-1
+        J33-1 J32-1 J31-3 J24-3 J23-3 J22-3 J18-1 J17-1 J16-1 J15-1 H4-1 H4-1@1 H4-1@2
+        H3-1 H3-1@1 H3-1@2 H2-1 H2-1@1 H2-1@2 H1-1 H1-1@1 H1-1@2 J14-2 U2-21 U2-16
+        U2-7 U2-2 J30-2 J29-1 J25-1 J19-2 U1-21 U1-16 U1-7 U1-2 D4-1 D2-1 J12-2 J11-2
+        J10-2 J5-3 J5-1 J4-2 J3-2 J2-2 XA1-GND6 XA1-GND5 XA1-GND1 XA1-GND2 XA1-GND3
+        SP1-1 R10-2 R8-2 J13-2 J9-2 J8-2 J7-2 J6-2 J1-1 D3-1 C1-1)
     )
     (net +9V
       (pins XA1-VIN D1-1)
@@ -1002,13 +1053,13 @@
       (pins U2-15 U2-6 U2-3 U1-15 U1-9 U1-6 U1-3 XA1-IORF)
     )
     (net pinMotorRightPWM
-      (pins U2-14 XA1-D3)
+      (pins J40-3 U2-14 XA1-D3)
     )
     (net pinMotorEnable
-      (pins U2-10 XA1-D37)
+      (pins J41-5 J40-5 U2-10 XA1-D37)
     )
     (net pinMotorRightDir
-      (pins U2-13 XA1-D33)
+      (pins J40-4 U2-13 XA1-D33)
     )
     (net pinMotorLeftSense
       (pins D12-1 XA1-A1)
@@ -1017,10 +1068,10 @@
       (pins D13-1 XA1-D25)
     )
     (net pinMotorLeftPWM
-      (pins U2-5 XA1-D5)
+      (pins J41-3 U2-5 XA1-D5)
     )
     (net pinMotorLeftDir
-      (pins U2-4 XA1-D31)
+      (pins J41-4 U2-4 XA1-D31)
     )
     (net pinMotorMowSense
       (pins D6-1 XA1-A3)
@@ -1029,13 +1080,13 @@
       (pins D9-1 XA1-D26)
     )
     (net pinMotorMowPWM
-      (pins U1-14 U1-5 XA1-D2)
+      (pins J42-3 U1-14 U1-5 XA1-D2)
     )
     (net pinMotorMowDir
-      (pins U1-13 U1-4 XA1-D29)
+      (pins J42-4 U1-13 U1-4 XA1-D29)
     )
     (net pinMotorMowEnable
-      (pins U1-10 XA1-D28)
+      (pins J42-5 U1-10 XA1-D28)
     )
     (net +24V
       (pins D5-1 U2-22 U1-22)
@@ -1140,29 +1191,30 @@
       (pins XA1-AREF C1-2)
     )
     (net TX0
-      (pins J22-2 XA1-D1)
+      (pins J22-4 XA1-D1)
     )
     (net RX0
-      (pins J22-3 XA1-D0)
+      (pins J22-5 XA1-D0)
     )
     (net TX2
-      (pins J24-2 XA1-D16)
+      (pins J24-4 XA1-D16)
     )
     (net RX2
-      (pins J24-3 XA1-D17)
+      (pins J24-5 XA1-D17)
     )
     (net TX1
-      (pins J23-2 XA1-D18)
+      (pins J23-4 XA1-D18)
     )
     (net RX1
-      (pins J23-3 XA1-D19)
+      (pins J23-5 XA1-D19)
     )
     (net +5V
-      (pins J39-3 J38-3 J37-3 J31-1 J24-1 J23-1 J22-1 J14-1 JP1-2 J19-1 R12-2 J13-1)
+      (pins JP5-1 JP4-1 J39-3 J38-3 J37-3 J31-1 J24-1 J23-1 J22-1 J14-1 JP1-2 J19-1
+        R12-2 J13-1)
     )
     (net +3V3
-      (pins J39-4 J38-4 J37-4 J31-4 J24-4 J23-4 J22-4 R4-2 R3-2 R2-2 R1-2 JP3-2 J30-1
-        J12-1 J11-1 J10-1 J4-1 J3-1 J2-1 R11-2 J9-1 J8-1 J7-1 J6-1)
+      (pins JP5-3 JP4-3 J39-4 J38-4 J37-4 J31-2 J24-2 J23-2 J22-2 R4-2 R3-2 R2-2 R1-2
+        JP3-2 J30-1 J12-1 J11-1 J10-1 J4-1 J3-1 J2-1 R11-2 J9-1 J8-1 J7-1 J6-1)
     )
     (net "Net-(D1-Pad2)"
       (pins J1-2 D1-2)
@@ -1216,10 +1268,10 @@
       (pins JP3-3 XA1-3V3)
     )
     (net RX3
-      (pins J31-3 XA1-D14)
+      (pins J31-5 XA1-D14)
     )
     (net TX3
-      (pins J31-2 XA1-D15)
+      (pins J31-4 XA1-D15)
     )
     (net pinReserveD49
       (pins J35-2 XA1-D49)
@@ -1278,30 +1330,36 @@
     (net pinOdometryLeft
       (pins R14-2 XA1-DAC0)
     )
+    (net "Net-(J40-Pad1)"
+      (pins JP4-2 J41-1 J40-1)
+    )
+    (net "Net-(J42-Pad1)"
+      (pins JP5-2 J42-1)
+    )
     (class kicad_default "" IOREV "Net-(C1-Pad2)" "Net-(D1-Pad2)" "Net-(D10-Pad2)"
       "Net-(D11-Pad2)" "Net-(D12-Pad2)" "Net-(D13-Pad2)" "Net-(D2-Pad2)" "Net-(D3-Pad2)"
       "Net-(D4-Pad2)" "Net-(D5-Pad2)" "Net-(D6-Pad2)" "Net-(D7-Pad1)" "Net-(D7-Pad2)"
       "Net-(D8-Pad1)" "Net-(D8-Pad2)" "Net-(D9-Pad2)" "Net-(J13-Pad3)" "Net-(J19-Pad3)"
       "Net-(J26-Pad1)" "Net-(J26-Pad2)" "Net-(J27-Pad1)" "Net-(J27-Pad2)"
       "Net-(J28-Pad1)" "Net-(J28-Pad2)" "Net-(J37-Pad1)" "Net-(J38-Pad1)"
-      "Net-(J39-Pad1)" "Net-(JP2-Pad2)" "Net-(U1-Pad1)" "Net-(U1-Pad11)" "Net-(U1-Pad12)"
-      "Net-(U1-Pad19)" "Net-(U1-Pad20)" "Net-(U2-Pad1)" "Net-(U2-Pad11)" "Net-(U2-Pad12)"
-      "Net-(XA1-Pad5V2)" "Net-(XA1-Pad5V3)" "Net-(XA1-Pad5V4)" "Net-(XA1-PadGND4)"
-      "Net-(XA1-PadMISO)" "Net-(XA1-PadMOSI)" "Net-(XA1-PadRST2)" "Net-(XA1-PadSCK)"
-      RX0 RX1 RX2 RX3 Reset SCL0 SCL1 SDA0 SDA1 TX0 TX1 TX2 TX3 pinBatterySwitch
-      pinBatteryVoltage pinBumperLeft pinBumperRight pinButton pinBuzzer pinChargeCurrent
-      pinChargeRelay pinChargeVoltage pinDropLeft pinDropRight pinGreenLED
-      pinLED pinLawnBackRecv pinLawnBackSend pinLawnFrontRecv pinLawnFrontSend
-      pinMotorEnable pinMotorLeftDir pinMotorLeftFault pinMotorLeftPWM pinMotorLeftSense
-      pinMotorMowDir pinMotorMowEnable pinMotorMowFault pinMotorMowPWM pinMotorMowRpm
-      pinMotorMowSense pinMotorRightDir pinMotorRightFault pinMotorRightPWM
-      pinMotorRightSense pinOdometryLeft pinOdometryLeft2 pinOdometryRight
-      pinOdometryRight2 pinPerimeterCenter pinPerimeterLeft pinPerimeterRight
-      pinRain pinRedLED pinRemoteMow pinRemoteSpeed pinRemoteSteer pinRemoteSwitch
-      pinReserveA10 pinReserveD49 pinReserveD8 pinReserveD9 pinSonarCenterEcho
-      pinSonarCenterTrigger pinSonarLeftEcho pinSonarLeftTrigger pinSonarRightEcho
-      pinSonarRightTrigger pinTilt pinUserSwitch1 pinUserSwitch2 pinUserSwitch3
-      pinVoltageMeasurement
+      "Net-(J39-Pad1)" "Net-(J40-Pad1)" "Net-(J42-Pad1)" "Net-(JP2-Pad2)"
+      "Net-(U1-Pad1)" "Net-(U1-Pad11)" "Net-(U1-Pad12)" "Net-(U1-Pad19)" "Net-(U1-Pad20)"
+      "Net-(U2-Pad1)" "Net-(U2-Pad11)" "Net-(U2-Pad12)" "Net-(XA1-Pad5V2)"
+      "Net-(XA1-Pad5V3)" "Net-(XA1-Pad5V4)" "Net-(XA1-PadGND4)" "Net-(XA1-PadMISO)"
+      "Net-(XA1-PadMOSI)" "Net-(XA1-PadRST2)" "Net-(XA1-PadSCK)" RX0 RX1 RX2
+      RX3 Reset SCL0 SCL1 SDA0 SDA1 TX0 TX1 TX2 TX3 pinBatterySwitch pinBatteryVoltage
+      pinBumperLeft pinBumperRight pinButton pinBuzzer pinChargeCurrent pinChargeRelay
+      pinChargeVoltage pinDropLeft pinDropRight pinGreenLED pinLED pinLawnBackRecv
+      pinLawnBackSend pinLawnFrontRecv pinLawnFrontSend pinMotorEnable pinMotorLeftDir
+      pinMotorLeftFault pinMotorLeftPWM pinMotorLeftSense pinMotorMowDir pinMotorMowEnable
+      pinMotorMowFault pinMotorMowPWM pinMotorMowRpm pinMotorMowSense pinMotorRightDir
+      pinMotorRightFault pinMotorRightPWM pinMotorRightSense pinOdometryLeft
+      pinOdometryLeft2 pinOdometryRight pinOdometryRight2 pinPerimeterCenter
+      pinPerimeterLeft pinPerimeterRight pinRain pinRedLED pinRemoteMow pinRemoteSpeed
+      pinRemoteSteer pinRemoteSwitch pinReserveA10 pinReserveD49 pinReserveD8
+      pinReserveD9 pinSonarCenterEcho pinSonarCenterTrigger pinSonarLeftEcho
+      pinSonarLeftTrigger pinSonarRightEcho pinSonarRightTrigger pinTilt pinUserSwitch1
+      pinUserSwitch2 pinUserSwitch3 pinVoltageMeasurement
       (circuit
         (use_via Via[0-1]_889:635_um)
       )

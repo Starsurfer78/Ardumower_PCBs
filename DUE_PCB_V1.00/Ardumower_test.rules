@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 6867)
+    (start_pass_no 12077)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -92,7 +92,7 @@
     "Net-(J19-Pad3)" "Net-(J27-Pad1)" "Net-(J28-Pad1)" "Net-(D7-Pad2)" "Net-(D7-Pad1)" "Net-(D8-Pad2)" "Net-(D8-Pad1)" RX3
     TX3 pinReserveD49 pinReserveA10 pinReserveD9 pinReserveD8 "Net-(J26-Pad2)" "Net-(J27-Pad2)" "Net-(J28-Pad2)"
     "Net-(D6-Pad2)" "Net-(D9-Pad2)" "Net-(D10-Pad2)" "Net-(D11-Pad2)" "Net-(D12-Pad2)" "Net-(D13-Pad2)" "Net-(J37-Pad1)" "Net-(J38-Pad1)"
-    "Net-(J39-Pad1)" pinMotorMowRpm pinOdometryRight pinOdometryLeft
+    "Net-(J39-Pad1)" pinMotorMowRpm pinOdometryRight pinOdometryLeft "Net-(J40-Pad1)" "Net-(J42-Pad1)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
