@@ -1617,7 +1617,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 609E1C0D)
-    (at 162.69 37.79)
+    (at 147.52 37.83)
     (descr "Through hole straight pin header, 1x05, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x05 2.54mm single row")
     (path /60DA6EC4)
@@ -1663,7 +1663,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 609E1AC8)
-    (at 157.63 37.88)
+    (at 152.57 37.91)
     (descr "Through hole straight pin header, 1x05, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x05 2.54mm single row")
     (path /60D92B9E)
@@ -1709,7 +1709,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 609E1AAF)
-    (at 152.45 37.82)
+    (at 157.71 37.91)
     (descr "Through hole straight pin header, 1x05, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x05 2.54mm single row")
     (path /60D8BA62)
@@ -1755,7 +1755,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 609E1A96)
-    (at 147.4 37.81)
+    (at 162.77 37.99)
     (descr "Through hole straight pin header, 1x05, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x05 2.54mm single row")
     (path /60D9F760)
