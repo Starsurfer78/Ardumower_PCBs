@@ -645,12 +645,12 @@ Wire Wire Line
 Wire Wire Line
 	1600 2250 1650 2250
 $Comp
-L Switch:SW_Push SW?
+L Switch:SW_Push SW1
 U 1 1 60ADB192
 P 8450 3250
-F 0 "SW?" V 8404 3398 50  0000 L CNN
+F 0 "SW1" V 8404 3398 50  0000 L CNN
 F 1 "SW_Push" V 8495 3398 50  0000 L CNN
-F 2 "" H 8450 3450 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 8450 3450 50  0001 C CNN
 F 3 "~" H 8450 3450 50  0001 C CNN
 	1    8450 3250
 	0    1    1    0   
@@ -674,10 +674,10 @@ Wire Wire Line
 Wire Wire Line
 	5700 3850 7350 3850
 $Comp
-L Transistor_FET:IRF9540N Q?
+L Transistor_FET:IRF9540N Q4
 U 1 1 60AF8999
 P 9000 2350
-F 0 "Q?" V 9342 2350 50  0000 C CNN
+F 0 "Q4" V 9342 2350 50  0000 C CNN
 F 1 "IRF9540N" V 9251 2350 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 9200 2275 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irf9540n.pdf" H 9000 2350 50  0001 L CNN
@@ -690,10 +690,10 @@ Wire Wire Line
 	9000 2550 7950 2550
 Connection ~ 7950 2550
 $Comp
-L Transistor_FET:IRF9540N Q?
+L Transistor_FET:IRF9540N Q2
 U 1 1 60B073F2
 P 4300 2550
-F 0 "Q?" H 4504 2596 50  0000 L CNN
+F 0 "Q2" H 4504 2596 50  0000 L CNN
 F 1 "IRF9540N" H 4504 2505 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4500 2475 50  0001 L CIN
 F 3 "http://www.irf.com/product-info/datasheets/data/irf9540n.pdf" H 4300 2550 50  0001 L CNN
