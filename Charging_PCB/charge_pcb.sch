@@ -136,27 +136,7 @@ $EndComp
 Wire Wire Line
 	3000 2900 3200 2900
 Text GLabel 3000 3200 3    50   Input ~ 0
-pinChargeEnable
-$Comp
-L dk_Transistors-FETs-MOSFETs-Single:IRLML6344TRPBF Q2
-U 1 1 60715975
-P 4400 2550
-F 0 "Q2" H 4508 2603 60  0000 L CNN
-F 1 "IRLB 8721" H 4508 2497 60  0000 L CNN
-F 2 "Package_TO_SOT_THT:SIPAK-1EP_Horizontal_TabDown" H 4600 2750 60  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c" H 4600 2850 60  0001 L CNN
-F 4 "IRLML6344TRPBFCT-ND" H 4600 2950 60  0001 L CNN "Digi-Key_PN"
-F 5 "IRLML6344TRPBF" H 4600 3050 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 4600 3150 60  0001 L CNN "Category"
-F 7 "Transistors - FETs, MOSFETs - Single" H 4600 3250 60  0001 L CNN "Family"
-F 8 "https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c" H 4600 3350 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/infineon-technologies/IRLML6344TRPBF/IRLML6344TRPBFCT-ND/2538168" H 4600 3450 60  0001 L CNN "DK_Detail_Page"
-F 10 "MOSFET N-CH 30V 5A SOT23" H 4600 3550 60  0001 L CNN "Description"
-F 11 "Infineon Technologies" H 4600 3650 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 4600 3750 60  0001 L CNN "Status"
-	1    4400 2550
-	1    0    0    -1  
-$EndComp
+pinChargeRelay
 Wire Wire Line
 	3500 2650 4100 2650
 Connection ~ 3500 2650
@@ -164,8 +144,6 @@ Wire Wire Line
 	3500 2650 3500 2700
 Wire Wire Line
 	3500 2250 4400 2250
-Wire Wire Line
-	4400 2250 4400 2350
 Connection ~ 3500 2250
 $Comp
 L Lötpad_2,5mm:ACS712 U1
@@ -187,21 +165,8 @@ Text GLabel 5600 3850 3    50   Output ~ 0
 pinChargeCurrent
 Wire Wire Line
 	5600 3550 5600 3850
-$Comp
-L power:+3.3V #PWR03
-U 1 1 6071F590
-P 5950 3850
-F 0 "#PWR03" H 5950 3700 50  0001 C CNN
-F 1 "+3.3V" V 5965 3978 50  0000 L CNN
-F 2 "" H 5950 3850 50  0001 C CNN
-F 3 "" H 5950 3850 50  0001 C CNN
-	1    5950 3850
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	5700 3550 5700 3850
-Wire Wire Line
-	5700 3850 5950 3850
 $Comp
 L Zimprich:HEADER_2 J3
 U 1 1 607207B7
@@ -264,20 +229,18 @@ Wire Wire Line
 $Comp
 L Diode:MBR745 D4
 U 1 1 60735AE0
-P 6550 3200
-F 0 "D4" V 6504 3280 50  0000 L CNN
-F 1 "MBR1045" V 6595 3280 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-2_Vertical" H 6550 3025 50  0001 C CNN
-F 3 "http://www.onsemi.com/pub_link/Collateral/MBR735-D.PDF" H 6550 3200 50  0001 C CNN
-	1    6550 3200
+P 6500 2700
+F 0 "D4" V 6454 2780 50  0000 L CNN
+F 1 "MBR1045" V 6545 2780 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-2_Vertical" H 6500 2525 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MBR735-D.PDF" H 6500 2700 50  0001 C CNN
+	1    6500 2700
 	0    1    1    0   
 $EndComp
 Wire Wire Line
 	5200 3700 5200 4650
 Wire Wire Line
 	5200 4650 6550 4650
-Wire Wire Line
-	6550 4650 6550 3700
 Connection ~ 5200 3700
 Wire Wire Line
 	5200 3700 5500 3700
@@ -305,54 +268,34 @@ Wire Wire Line
 $Comp
 L dk_Transistors-Bipolar-BJT-Single:BC548BTA Q3
 U 1 1 6073AD5E
-P 7850 2850
-F 0 "Q3" H 8038 2903 60  0000 L CNN
-F 1 "BC547C" H 8038 2797 60  0000 L CNN
-F 2 "digikey-footprints:TO-92-3_Formed_Leads" H 8050 3050 60  0001 L CNN
-F 3 "https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/BC546-50.pdf" H 8050 3150 60  0001 L CNN
-F 4 "BC548BTACT-ND" H 8050 3250 60  0001 L CNN "Digi-Key_PN"
-F 5 "BC548BTA" H 8050 3350 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 8050 3450 60  0001 L CNN "Category"
-F 7 "Transistors - Bipolar (BJT) - Single" H 8050 3550 60  0001 L CNN "Family"
-F 8 "https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/BC546-50.pdf" H 8050 3650 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/on-semiconductor/BC548BTA/BC548BTACT-ND/4553029" H 8050 3750 60  0001 L CNN "DK_Detail_Page"
-F 10 "TRANS NPN 30V 0.1A TO-92" H 8050 3850 60  0001 L CNN "Description"
-F 11 "ON Semiconductor" H 8050 3950 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 8050 4050 60  0001 L CNN "Status"
-	1    7850 2850
+P 7850 3200
+F 0 "Q3" H 8038 3253 60  0000 L CNN
+F 1 "BC547C" H 8038 3147 60  0000 L CNN
+F 2 "digikey-footprints:TO-92-3_Formed_Leads" H 8050 3400 60  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/BC546-50.pdf" H 8050 3500 60  0001 L CNN
+F 4 "BC548BTACT-ND" H 8050 3600 60  0001 L CNN "Digi-Key_PN"
+F 5 "BC548BTA" H 8050 3700 60  0001 L CNN "MPN"
+F 6 "Discrete Semiconductor Products" H 8050 3800 60  0001 L CNN "Category"
+F 7 "Transistors - Bipolar (BJT) - Single" H 8050 3900 60  0001 L CNN "Family"
+F 8 "https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/BC546-50.pdf" H 8050 4000 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/BC548BTA/BC548BTACT-ND/4553029" H 8050 4100 60  0001 L CNN "DK_Detail_Page"
+F 10 "TRANS NPN 30V 0.1A TO-92" H 8050 4200 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 8050 4300 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 8050 4400 60  0001 L CNN "Status"
+	1    7850 3200
 	1    0    0    -1  
 $EndComp
-Text GLabel 7350 2850 0    50   Output ~ 0
+Text GLabel 7350 3200 0    50   Output ~ 0
 pinBatterySwitch
 $Comp
 L Device:R R5
 U 1 1 6073CDAC
-P 7500 2850
-F 0 "R5" V 7707 2850 50  0000 C CNN
-F 1 "4k7" V 7616 2850 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7430 2850 50  0001 C CNN
-F 3 "~" H 7500 2850 50  0001 C CNN
-	1    7500 2850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L dk_Transistors-FETs-MOSFETs-Single:IRLML6344TRPBF Q4
-U 1 1 6073F965
-P 9000 2250
-F 0 "Q4" V 9267 2250 60  0000 C CNN
-F 1 "IRLB 8721" V 9161 2250 60  0000 C CNN
-F 2 "Package_TO_SOT_THT:SIPAK-1EP_Horizontal_TabDown" H 9200 2450 60  0001 L CNN
-F 3 "https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c" H 9200 2550 60  0001 L CNN
-F 4 "IRLML6344TRPBFCT-ND" H 9200 2650 60  0001 L CNN "Digi-Key_PN"
-F 5 "IRLML6344TRPBF" H 9200 2750 60  0001 L CNN "MPN"
-F 6 "Discrete Semiconductor Products" H 9200 2850 60  0001 L CNN "Category"
-F 7 "Transistors - FETs, MOSFETs - Single" H 9200 2950 60  0001 L CNN "Family"
-F 8 "https://www.infineon.com/dgdl/irlml6344pbf.pdf?fileId=5546d462533600a4015356689c44262c" H 9200 3050 60  0001 L CNN "DK_Datasheet_Link"
-F 9 "/product-detail/en/infineon-technologies/IRLML6344TRPBF/IRLML6344TRPBFCT-ND/2538168" H 9200 3150 60  0001 L CNN "DK_Detail_Page"
-F 10 "MOSFET N-CH 30V 5A SOT23" H 9200 3250 60  0001 L CNN "Description"
-F 11 "Infineon Technologies" H 9200 3350 60  0001 L CNN "Manufacturer"
-F 12 "Active" H 9200 3450 60  0001 L CNN "Status"
-	1    9000 2250
+P 7500 3200
+F 0 "R5" V 7707 3200 50  0000 C CNN
+F 1 "4k7" V 7616 3200 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7430 3200 50  0001 C CNN
+F 3 "~" H 7500 3200 50  0001 C CNN
+	1    7500 3200
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -369,24 +312,8 @@ $EndComp
 Wire Wire Line
 	7050 2250 7300 2250
 Wire Wire Line
-	6550 3700 7950 3700
-Wire Wire Line
-	7950 3700 7950 3050
-Connection ~ 6550 3700
-Wire Wire Line
-	6550 3700 6550 3350
-Wire Wire Line
 	7950 2250 8800 2250
 Connection ~ 7950 2250
-Wire Wire Line
-	7950 2550 7950 2600
-Wire Wire Line
-	7950 2600 9100 2600
-Wire Wire Line
-	9100 2600 9100 2550
-Connection ~ 7950 2600
-Wire Wire Line
-	7950 2600 7950 2650
 $Comp
 L Zimprich:HEADER_2 J5
 U 1 1 60749513
@@ -420,18 +347,6 @@ F 3 "" H 11000 3000 60  0000 C CNN
 	1    11000 3000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	11350 3700 11350 3050
-Connection ~ 7950 3700
-Wire Wire Line
-	10900 3050 10900 3700
-Connection ~ 10900 3700
-Wire Wire Line
-	10900 3700 11350 3700
-Wire Wire Line
-	10500 3050 10500 3700
-Wire Wire Line
-	7950 3700 9250 3700
 Wire Wire Line
 	9200 2250 9250 2250
 Wire Wire Line
@@ -472,8 +387,6 @@ Wire Wire Line
 Wire Wire Line
 	9250 2700 9250 2900
 Wire Wire Line
-	9250 3500 9250 3700
-Wire Wire Line
 	9200 2900 9250 2900
 Connection ~ 9250 2900
 Wire Wire Line
@@ -491,12 +404,7 @@ F 3 "~" H 9700 3000 50  0001 C CNN
 $EndComp
 Connection ~ 9250 2250
 Wire Wire Line
-	9250 3700 9700 3700
-Connection ~ 9250 3700
-Wire Wire Line
 	9700 2850 9700 2250
-Wire Wire Line
-	9700 3150 9700 3700
 $Comp
 L Connector:Screw_Terminal_01x06 J1
 U 1 1 607FC1A2
@@ -517,7 +425,7 @@ pinVoltageMeasurement
 Text GLabel 5200 6050 1    50   Output ~ 0
 pinChargeCurrent
 Text GLabel 5100 6050 1    50   Input ~ 0
-pinChargeEnable
+pinChargeRelay
 Text GLabel 5500 6050 1    50   Output ~ 0
 pinBatteryVoltage
 Wire Wire Line
@@ -555,7 +463,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 2400 7050 2400
 Wire Wire Line
-	6500 2400 6500 3050
+	6500 2400 6500 2550
 Wire Wire Line
 	6500 3050 6550 3050
 Connection ~ 6500 2400
@@ -588,29 +496,18 @@ F 3 "" H 10200 3000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10100 3050 10100 3700
-Wire Wire Line
 	10100 2950 10100 2250
 Connection ~ 10100 2250
-Connection ~ 10100 3700
 Connection ~ 10500 2250
 Wire Wire Line
 	10500 2250 10900 2250
-Connection ~ 10500 3700
-Wire Wire Line
-	10500 3700 10900 3700
-Wire Wire Line
-	10100 3700 10500 3700
 Wire Wire Line
 	10100 2250 10500 2250
 Wire Wire Line
 	9250 2250 9700 2250
 Connection ~ 9700 2250
-Connection ~ 9700 3700
 Wire Wire Line
 	9700 2250 10100 2250
-Wire Wire Line
-	9700 3700 10100 3700
 $Comp
 L Device:R R9
 U 1 1 60730CD6
@@ -747,4 +644,101 @@ Wire Wire Line
 	650  3700 1600 3700
 Wire Wire Line
 	1600 2250 1650 2250
+$Comp
+L Switch:SW_Push SW1
+U 1 1 60ADB192
+P 8450 3250
+F 0 "SW1" V 8404 3398 50  0000 L CNN
+F 1 "SW_Push" V 8495 3398 50  0000 L CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 8450 3450 50  0001 C CNN
+F 3 "~" H 8450 3450 50  0001 C CNN
+	1    8450 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6500 2850 6500 3050
+Wire Wire Line
+	7950 3400 7950 3450
+Wire Wire Line
+	7950 3450 8450 3450
+Connection ~ 7950 3450
+Wire Wire Line
+	7950 2950 8450 2950
+Wire Wire Line
+	8450 2950 8450 3050
+Connection ~ 7950 2950
+Wire Wire Line
+	7950 2950 7950 3000
+Wire Wire Line
+	7350 3850 7350 3200
+Wire Wire Line
+	5700 3850 7350 3850
+$Comp
+L Transistor_FET:IRF9540N Q4
+U 1 1 60AF8999
+P 9000 2350
+F 0 "Q4" V 9342 2350 50  0000 C CNN
+F 1 "IRF9540N" V 9251 2350 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 9200 2275 50  0001 L CIN
+F 3 "http://www.irf.com/product-info/datasheets/data/irf9540n.pdf" H 9000 2350 50  0001 L CNN
+	1    9000 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7950 2550 7950 2950
+Wire Wire Line
+	9000 2550 7950 2550
+Connection ~ 7950 2550
+$Comp
+L Transistor_FET:IRF9540N Q2
+U 1 1 60B073F2
+P 4300 2550
+F 0 "Q2" H 4504 2596 50  0000 L CNN
+F 1 "IRF9540N" H 4504 2505 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4500 2475 50  0001 L CIN
+F 3 "http://www.irf.com/product-info/datasheets/data/irf9540n.pdf" H 4300 2550 50  0001 L CNN
+	1    4300 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 2250 4400 2350
+Wire Wire Line
+	4100 2650 4100 2550
+Wire Wire Line
+	6550 3050 6550 4650
+Wire Wire Line
+	11350 3050 11350 4650
+Connection ~ 6550 4650
+Wire Wire Line
+	7950 3450 7950 4650
+Connection ~ 7950 4650
+Wire Wire Line
+	7950 4650 6550 4650
+Wire Wire Line
+	9250 3500 9250 4650
+Connection ~ 9250 4650
+Wire Wire Line
+	9250 4650 7950 4650
+Wire Wire Line
+	9700 3150 9700 4650
+Wire Wire Line
+	9250 4650 9700 4650
+Connection ~ 9700 4650
+Wire Wire Line
+	9700 4650 10100 4650
+Wire Wire Line
+	10100 3050 10100 4650
+Connection ~ 10100 4650
+Wire Wire Line
+	10100 4650 10500 4650
+Wire Wire Line
+	10500 3050 10500 4650
+Connection ~ 10500 4650
+Wire Wire Line
+	10900 3050 10900 4650
+Wire Wire Line
+	10500 4650 10900 4650
+Connection ~ 10900 4650
+Wire Wire Line
+	10900 4650 11350 4650
 $EndSCHEMATC
