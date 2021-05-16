@@ -700,4 +700,163 @@ Wire Wire Line
 	8200 1700 8200 1900
 Wire Wire Line
 	8200 2450 8200 2650
+$Comp
+L Connector:Screw_Terminal_01x05 J40
+U 1 1 60A17AF1
+P 2250 2250
+F 0 "J40" H 2330 2292 50  0000 L CNN
+F 1 "Motor_Right" H 2330 2201 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 2250 2250 50  0001 C CNN
+F 3 "~" H 2250 2250 50  0001 C CNN
+	1    2250 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NC_Dual JP4
+U 1 1 60A196AB
+P 1100 1800
+F 0 "JP4" H 1100 2039 50  0000 C CNN
+F 1 "MotorPower" H 1100 1948 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 1100 1800 50  0001 C CNN
+F 3 "~" H 1100 1800 50  0001 C CNN
+	1    1100 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR092
+U 1 1 60A1A220
+P 1350 1800
+F 0 "#PWR092" H 1350 1650 50  0001 C CNN
+F 1 "+3.3V" V 1365 1928 50  0000 L CNN
+F 2 "" H 1350 1800 50  0001 C CNN
+F 3 "" H 1350 1800 50  0001 C CNN
+	1    1350 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR089
+U 1 1 60A1A61A
+P 850 1800
+F 0 "#PWR089" H 850 1650 50  0001 C CNN
+F 1 "+5V" V 865 1928 50  0000 L CNN
+F 2 "" H 850 1800 50  0001 C CNN
+F 3 "" H 850 1800 50  0001 C CNN
+	1    850  1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR091
+U 1 1 60A27474
+P 950 2900
+F 0 "#PWR091" H 950 2650 50  0001 C CNN
+F 1 "GND" V 955 2772 50  0000 R CNN
+F 2 "" H 950 2900 50  0001 C CNN
+F 3 "" H 950 2900 50  0001 C CNN
+	1    950  2900
+	0    1    1    0   
+$EndComp
+Text GLabel 2050 2250 0    50   Input ~ 0
+pinMotorRightPWM
+Text GLabel 2050 2350 0    50   Input ~ 0
+pinMotorRightDir
+Text GLabel 2050 2450 0    50   Input ~ 0
+pinMotorEnable
+$Comp
+L Connector:Screw_Terminal_01x05 J41
+U 1 1 60A2B4C3
+P 2250 3000
+F 0 "J41" H 2330 3042 50  0000 L CNN
+F 1 "Motor_Left" H 2330 2951 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 2250 3000 50  0001 C CNN
+F 3 "~" H 2250 3000 50  0001 C CNN
+	1    2250 3000
+	1    0    0    -1  
+$EndComp
+Text GLabel 2050 3000 0    50   Input ~ 0
+pinMotorLeftPWM
+Text GLabel 2050 3100 0    50   Input ~ 0
+pinMotorLeftDir
+Text GLabel 2050 3200 0    50   Input ~ 0
+pinMotorEnable
+$Comp
+L Connector:Screw_Terminal_01x05 J42
+U 1 1 60A3BF2F
+P 2250 4450
+F 0 "J42" H 2330 4492 50  0000 L CNN
+F 1 "Cutter" H 2330 4401 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 2250 4450 50  0001 C CNN
+F 3 "~" H 2250 4450 50  0001 C CNN
+	1    2250 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 2050 4450 0    50   Input ~ 0
+pinMotorMowPWM
+Text GLabel 2050 4550 0    50   Input ~ 0
+pinMotorMowDir
+Text GLabel 2050 4650 0    50   Input ~ 0
+pinMotorMowEnable
+$Comp
+L Device:Jumper_NC_Dual JP5
+U 1 1 60A40CF2
+P 1100 3900
+F 0 "JP5" H 1100 4139 50  0000 C CNN
+F 1 "CutterPower" H 1100 4048 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 1100 3900 50  0001 C CNN
+F 3 "~" H 1100 3900 50  0001 C CNN
+	1    1100 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR093
+U 1 1 60A4118A
+P 1350 3900
+F 0 "#PWR093" H 1350 3750 50  0001 C CNN
+F 1 "+3.3V" V 1365 4028 50  0000 L CNN
+F 2 "" H 1350 3900 50  0001 C CNN
+F 3 "" H 1350 3900 50  0001 C CNN
+	1    1350 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR090
+U 1 1 60A41194
+P 850 3900
+F 0 "#PWR090" H 850 3750 50  0001 C CNN
+F 1 "+5V" V 865 4028 50  0000 L CNN
+F 2 "" H 850 3900 50  0001 C CNN
+F 3 "" H 850 3900 50  0001 C CNN
+	1    850  3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1100 4000 1100 4250
+$Comp
+L power:GND #PWR094
+U 1 1 60A4A597
+P 2050 4350
+F 0 "#PWR094" H 2050 4100 50  0001 C CNN
+F 1 "GND" V 2055 4222 50  0000 R CNN
+F 2 "" H 2050 4350 50  0001 C CNN
+F 3 "" H 2050 4350 50  0001 C CNN
+	1    2050 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1100 4250 2050 4250
+Wire Wire Line
+	2050 2050 1100 2050
+Wire Wire Line
+	1100 2050 1100 1900
+Wire Wire Line
+	2050 2800 1100 2800
+Wire Wire Line
+	1100 2800 1100 2050
+Connection ~ 1100 2050
+Wire Wire Line
+	2050 2150 950  2150
+Wire Wire Line
+	950  2150 950  2900
+Wire Wire Line
+	950  2900 2050 2900
+Connection ~ 950  2900
 $EndSCHEMATC

@@ -455,21 +455,21 @@ Wire Wire Line
 Wire Wire Line
 	3950 4450 4300 4450
 $Comp
-L Connector:Screw_Terminal_01x04 J?
+L Connector:Screw_Terminal_01x04 J37
 U 1 1 609ECE3C
 P 8350 1250
-F 0 "J?" H 8430 1242 50  0000 L CNN
+F 0 "J37" H 8430 1242 50  0000 L CNN
 F 1 "RPM_Mow" H 8430 1151 50  0000 L CNN
-F 2 "" H 8350 1250 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 8350 1250 50  0001 C CNN
 F 3 "~" H 8350 1250 50  0001 C CNN
 	1    8350 1250
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR084
 U 1 1 609FEF3C
 P 8150 1450
-F 0 "#PWR?" H 8150 1300 50  0001 C CNN
+F 0 "#PWR084" H 8150 1300 50  0001 C CNN
 F 1 "+3.3V" V 8165 1578 50  0000 L CNN
 F 2 "" H 8150 1450 50  0001 C CNN
 F 3 "" H 8150 1450 50  0001 C CNN
@@ -477,10 +477,10 @@ F 3 "" H 8150 1450 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR083
 U 1 1 60A02069
 P 8150 1350
-F 0 "#PWR?" H 8150 1200 50  0001 C CNN
+F 0 "#PWR083" H 8150 1200 50  0001 C CNN
 F 1 "+5V" V 8165 1478 50  0000 L CNN
 F 2 "" H 8150 1350 50  0001 C CNN
 F 3 "" H 8150 1350 50  0001 C CNN
@@ -488,10 +488,10 @@ F 3 "" H 8150 1350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR057
 U 1 1 60A04DCE
 P 7700 1250
-F 0 "#PWR?" H 7700 1000 50  0001 C CNN
+F 0 "#PWR057" H 7700 1000 50  0001 C CNN
 F 1 "GND" V 7705 1122 50  0000 R CNN
 F 2 "" H 7700 1250 50  0001 C CNN
 F 3 "" H 7700 1250 50  0001 C CNN
@@ -501,21 +501,21 @@ $EndComp
 Text GLabel 7500 950  0    50   Input ~ 0
 pinMotorMowRpm
 $Comp
-L Connector:Screw_Terminal_01x04 J?
+L Connector:Screw_Terminal_01x04 J38
 U 1 1 60A0AEEA
 P 8400 2000
-F 0 "J?" H 8480 1992 50  0000 L CNN
+F 0 "J38" H 8480 1992 50  0000 L CNN
 F 1 "ODO_Left" H 8480 1901 50  0000 L CNN
-F 2 "" H 8400 2000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 8400 2000 50  0001 C CNN
 F 3 "~" H 8400 2000 50  0001 C CNN
 	1    8400 2000
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR086
 U 1 1 60A0B19C
 P 8200 2200
-F 0 "#PWR?" H 8200 2050 50  0001 C CNN
+F 0 "#PWR086" H 8200 2050 50  0001 C CNN
 F 1 "+3.3V" V 8215 2328 50  0000 L CNN
 F 2 "" H 8200 2200 50  0001 C CNN
 F 3 "" H 8200 2200 50  0001 C CNN
@@ -525,21 +525,21 @@ $EndComp
 Text GLabel 7550 1700 0    50   Input ~ 0
 pinOdometryRight
 $Comp
-L Connector:Screw_Terminal_01x04 J?
+L Connector:Screw_Terminal_01x04 J39
 U 1 1 60A0D0C7
 P 8400 2750
-F 0 "J?" H 8480 2742 50  0000 L CNN
+F 0 "J39" H 8480 2742 50  0000 L CNN
 F 1 "ODO_Right" H 8480 2651 50  0000 L CNN
-F 2 "" H 8400 2750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 8400 2750 50  0001 C CNN
 F 3 "~" H 8400 2750 50  0001 C CNN
 	1    8400 2750
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR088
 U 1 1 60A0D3D3
 P 8200 2950
-F 0 "#PWR?" H 8200 2800 50  0001 C CNN
+F 0 "#PWR088" H 8200 2800 50  0001 C CNN
 F 1 "+3.3V" V 8215 3078 50  0000 L CNN
 F 2 "" H 8200 2950 50  0001 C CNN
 F 3 "" H 8200 2950 50  0001 C CNN
@@ -547,10 +547,10 @@ F 3 "" H 8200 2950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR087
 U 1 1 60A0D3DD
 P 8200 2850
-F 0 "#PWR?" H 8200 2700 50  0001 C CNN
+F 0 "#PWR087" H 8200 2700 50  0001 C CNN
 F 1 "+5V" V 8215 2978 50  0000 L CNN
 F 2 "" H 8200 2850 50  0001 C CNN
 F 3 "" H 8200 2850 50  0001 C CNN
@@ -560,10 +560,10 @@ $EndComp
 Text GLabel 7550 2450 0    50   Input ~ 0
 pinOdometryLeft
 $Comp
-L Device:R R?
+L Device:R R15
 U 1 1 60A1AB11
 P 8000 1100
-F 0 "R?" H 8070 1146 50  0000 L CNN
+F 0 "R15" H 8070 1146 50  0000 L CNN
 F 1 "1,5KO" V 8000 1000 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 7930 1100 50  0001 C CNN
 F 3 "~" H 8000 1100 50  0001 C CNN
@@ -571,10 +571,10 @@ F 3 "~" H 8000 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R5
 U 1 1 60A243BE
 P 7750 950
-F 0 "R?" V 7650 950 50  0000 C CNN
+F 0 "R5" V 7650 950 50  0000 C CNN
 F 1 "1KO" V 7750 950 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 7680 950 50  0001 C CNN
 F 3 "~" H 7750 950 50  0001 C CNN
@@ -596,10 +596,10 @@ Wire Wire Line
 	8000 1250 7700 1250
 Connection ~ 8000 1250
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR085
 U 1 1 60A0B1A6
 P 8200 2100
-F 0 "#PWR?" H 8200 1950 50  0001 C CNN
+F 0 "#PWR085" H 8200 1950 50  0001 C CNN
 F 1 "+5V" V 8215 2228 50  0000 L CNN
 F 2 "" H 8200 2100 50  0001 C CNN
 F 3 "" H 8200 2100 50  0001 C CNN
@@ -607,10 +607,10 @@ F 3 "" H 8200 2100 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR082
 U 1 1 60A40444
 P 7750 2750
-F 0 "#PWR?" H 7750 2500 50  0001 C CNN
+F 0 "#PWR082" H 7750 2500 50  0001 C CNN
 F 1 "GND" V 7755 2622 50  0000 R CNN
 F 2 "" H 7750 2750 50  0001 C CNN
 F 3 "" H 7750 2750 50  0001 C CNN
@@ -618,10 +618,10 @@ F 3 "" H 7750 2750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R17
 U 1 1 60A4079E
 P 8050 2600
-F 0 "R?" H 8120 2646 50  0000 L CNN
+F 0 "R17" H 8120 2646 50  0000 L CNN
 F 1 "1,5KO" V 8050 2500 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 7980 2600 50  0001 C CNN
 F 3 "~" H 8050 2600 50  0001 C CNN
@@ -629,10 +629,10 @@ F 3 "~" H 8050 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R14
 U 1 1 60A407A8
 P 7800 2450
-F 0 "R?" V 7700 2450 50  0000 C CNN
+F 0 "R14" V 7700 2450 50  0000 C CNN
 F 1 "1KO" V 7800 2450 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 7730 2450 50  0001 C CNN
 F 3 "~" H 7800 2450 50  0001 C CNN
@@ -652,10 +652,10 @@ Wire Wire Line
 	8050 2750 7750 2750
 Connection ~ 8050 2750
 $Comp
-L power:GND #PWR?
+L power:GND #PWR067
 U 1 1 60A447B6
 P 7750 2000
-F 0 "#PWR?" H 7750 1750 50  0001 C CNN
+F 0 "#PWR067" H 7750 1750 50  0001 C CNN
 F 1 "GND" V 7755 1872 50  0000 R CNN
 F 2 "" H 7750 2000 50  0001 C CNN
 F 3 "" H 7750 2000 50  0001 C CNN
@@ -663,10 +663,10 @@ F 3 "" H 7750 2000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R16
 U 1 1 60A447C8
 P 8050 1850
-F 0 "R?" H 8120 1896 50  0000 L CNN
+F 0 "R16" H 8120 1896 50  0000 L CNN
 F 1 "1,5KO" V 8050 1750 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 7980 1850 50  0001 C CNN
 F 3 "~" H 8050 1850 50  0001 C CNN
@@ -674,10 +674,10 @@ F 3 "~" H 8050 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R6
 U 1 1 60A447D2
 P 7800 1700
-F 0 "R?" V 7700 1700 50  0000 C CNN
+F 0 "R6" V 7700 1700 50  0000 C CNN
 F 1 "1KO" V 7800 1700 50  0000 C CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical" V 7730 1700 50  0001 C CNN
 F 3 "~" H 7800 1700 50  0001 C CNN
@@ -700,4 +700,163 @@ Wire Wire Line
 	8200 1700 8200 1900
 Wire Wire Line
 	8200 2450 8200 2650
+$Comp
+L Connector:Screw_Terminal_01x05 J?
+U 1 1 60A17AF1
+P 2250 2250
+F 0 "J?" H 2330 2292 50  0000 L CNN
+F 1 "Motor_Right" H 2330 2201 50  0000 L CNN
+F 2 "" H 2250 2250 50  0001 C CNN
+F 3 "~" H 2250 2250 50  0001 C CNN
+	1    2250 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NC_Dual JP?
+U 1 1 60A196AB
+P 1100 1800
+F 0 "JP?" H 1100 2039 50  0000 C CNN
+F 1 "MotorPower" H 1100 1948 50  0000 C CNN
+F 2 "" H 1100 1800 50  0001 C CNN
+F 3 "~" H 1100 1800 50  0001 C CNN
+	1    1100 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 60A1A220
+P 1350 1800
+F 0 "#PWR?" H 1350 1650 50  0001 C CNN
+F 1 "+3.3V" V 1365 1928 50  0000 L CNN
+F 2 "" H 1350 1800 50  0001 C CNN
+F 3 "" H 1350 1800 50  0001 C CNN
+	1    1350 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 60A1A61A
+P 850 1800
+F 0 "#PWR?" H 850 1650 50  0001 C CNN
+F 1 "+5V" V 865 1928 50  0000 L CNN
+F 2 "" H 850 1800 50  0001 C CNN
+F 3 "" H 850 1800 50  0001 C CNN
+	1    850  1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60A27474
+P 950 2900
+F 0 "#PWR?" H 950 2650 50  0001 C CNN
+F 1 "GND" V 955 2772 50  0000 R CNN
+F 2 "" H 950 2900 50  0001 C CNN
+F 3 "" H 950 2900 50  0001 C CNN
+	1    950  2900
+	0    1    1    0   
+$EndComp
+Text GLabel 2050 2250 0    50   Input ~ 0
+pinMotorRightPWM
+Text GLabel 2050 2350 0    50   Input ~ 0
+pinMotorRightDir
+Text GLabel 2050 2450 0    50   Input ~ 0
+pinMotorEnable
+$Comp
+L Connector:Screw_Terminal_01x05 J?
+U 1 1 60A2B4C3
+P 2250 3000
+F 0 "J?" H 2330 3042 50  0000 L CNN
+F 1 "Motor_Left" H 2330 2951 50  0000 L CNN
+F 2 "" H 2250 3000 50  0001 C CNN
+F 3 "~" H 2250 3000 50  0001 C CNN
+	1    2250 3000
+	1    0    0    -1  
+$EndComp
+Text GLabel 2050 3000 0    50   Input ~ 0
+pinMotorLeftPWM
+Text GLabel 2050 3100 0    50   Input ~ 0
+pinMotorLeftDir
+Text GLabel 2050 3200 0    50   Input ~ 0
+pinMotorEnable
+$Comp
+L Connector:Screw_Terminal_01x05 J?
+U 1 1 60A3BF2F
+P 2250 4450
+F 0 "J?" H 2330 4492 50  0000 L CNN
+F 1 "Cutter" H 2330 4401 50  0000 L CNN
+F 2 "" H 2250 4450 50  0001 C CNN
+F 3 "~" H 2250 4450 50  0001 C CNN
+	1    2250 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 2050 4450 0    50   Input ~ 0
+pinMotorMowPWM
+Text GLabel 2050 4550 0    50   Input ~ 0
+pinMotorMowDir
+Text GLabel 2050 4650 0    50   Input ~ 0
+pinMotorMowEnable
+$Comp
+L Device:Jumper_NC_Dual JP?
+U 1 1 60A40CF2
+P 1100 3900
+F 0 "JP?" H 1100 4139 50  0000 C CNN
+F 1 "CutterPower" H 1100 4048 50  0000 C CNN
+F 2 "" H 1100 3900 50  0001 C CNN
+F 3 "~" H 1100 3900 50  0001 C CNN
+	1    1100 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 60A4118A
+P 1350 3900
+F 0 "#PWR?" H 1350 3750 50  0001 C CNN
+F 1 "+3.3V" V 1365 4028 50  0000 L CNN
+F 2 "" H 1350 3900 50  0001 C CNN
+F 3 "" H 1350 3900 50  0001 C CNN
+	1    1350 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 60A41194
+P 850 3900
+F 0 "#PWR?" H 850 3750 50  0001 C CNN
+F 1 "+5V" V 865 4028 50  0000 L CNN
+F 2 "" H 850 3900 50  0001 C CNN
+F 3 "" H 850 3900 50  0001 C CNN
+	1    850  3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1100 4000 1100 4250
+$Comp
+L power:GND #PWR?
+U 1 1 60A4A597
+P 2050 4350
+F 0 "#PWR?" H 2050 4100 50  0001 C CNN
+F 1 "GND" V 2055 4222 50  0000 R CNN
+F 2 "" H 2050 4350 50  0001 C CNN
+F 3 "" H 2050 4350 50  0001 C CNN
+	1    2050 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1100 4250 2050 4250
+Wire Wire Line
+	2050 2050 1100 2050
+Wire Wire Line
+	1100 2050 1100 1900
+Wire Wire Line
+	2050 2800 1100 2800
+Wire Wire Line
+	1100 2800 1100 2050
+Connection ~ 1100 2050
+Wire Wire Line
+	2050 2150 950  2150
+Wire Wire Line
+	950  2150 950  2900
+Wire Wire Line
+	950  2900 2050 2900
+Connection ~ 950  2900
 $EndSCHEMATC
