@@ -673,8 +673,6 @@ Text GLabel 4700 7400 0    50   Input ~ 0
 pinChargeCurrent
 Text GLabel 4700 7500 0    50   Output ~ 0
 pinChargeRelay
-Text GLabel 4700 7600 0    50   Input ~ 0
-pinVoltageMeasurement
 $Comp
 L Connector:Screw_Terminal_01x04 J20
 U 1 1 608B0DBA
@@ -1800,4 +1798,17 @@ F 3 "~" H 2700 1500 50  0001 C CNN
 	1    2700 1500
 	-1   0    0    1   
 $EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 60B536A7
+P 4100 7600
+F 0 "#PWR?" H 4100 7450 50  0001 C CNN
+F 1 "+3.3V" V 4115 7728 50  0000 L CNN
+F 2 "" H 4100 7600 50  0001 C CNN
+F 3 "" H 4100 7600 50  0001 C CNN
+	1    4100 7600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4100 7600 4700 7600
 $EndSCHEMATC
