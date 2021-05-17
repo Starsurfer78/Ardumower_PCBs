@@ -277,58 +277,6 @@ $EndComp
 Text GLabel 2350 2250 0    50   Output ~ 0
 pinPerimeterRight
 $Comp
-L Connector:Screw_Terminal_01x03 J6
-U 1 1 60780996
-P 1650 5700
-F 0 "J6" H 1730 5742 50  0000 L CNN
-F 1 "Drop_Left" H 1730 5651 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1650 5700 50  0001 C CNN
-F 3 "~" H 1650 5700 50  0001 C CNN
-	1    1650 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Screw_Terminal_01x03 J7
-U 1 1 6078194B
-P 1650 6250
-F 0 "J7" H 1730 6292 50  0000 L CNN
-F 1 "Drop_Right" H 1730 6201 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1650 6250 50  0001 C CNN
-F 3 "~" H 1650 6250 50  0001 C CNN
-	1    1650 6250
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR08
-U 1 1 607849F2
-P 1150 5600
-F 0 "#PWR08" H 1150 5450 50  0001 C CNN
-F 1 "+3.3V" H 1165 5773 50  0000 C CNN
-F 2 "" H 1150 5600 50  0001 C CNN
-F 3 "" H 1150 5600 50  0001 C CNN
-	1    1150 5600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1150 5600 1450 5600
-$Comp
-L power:+3.3V #PWR09
-U 1 1 60785E20
-P 1150 6150
-F 0 "#PWR09" H 1150 6000 50  0001 C CNN
-F 1 "+3.3V" H 1165 6323 50  0000 C CNN
-F 2 "" H 1150 6150 50  0001 C CNN
-F 3 "" H 1150 6150 50  0001 C CNN
-	1    1150 6150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1150 6150 1450 6150
-Text GLabel 1450 6350 0    50   Output ~ 0
-pinDropRight
-Text GLabel 1450 5800 0    50   Output ~ 0
-pinDropLeft
-$Comp
 L Connector:Screw_Terminal_01x03 J8
 U 1 1 6078D35B
 P 1650 6850
@@ -485,28 +433,6 @@ F 1 "GND" V 1455 6722 50  0000 R CNN
 F 2 "" H 1450 6850 50  0001 C CNN
 F 3 "" H 1450 6850 50  0001 C CNN
 	1    1450 6850
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR015
-U 1 1 6097E7D6
-P 1450 6250
-F 0 "#PWR015" H 1450 6000 50  0001 C CNN
-F 1 "GND" V 1455 6122 50  0000 R CNN
-F 2 "" H 1450 6250 50  0001 C CNN
-F 3 "" H 1450 6250 50  0001 C CNN
-	1    1450 6250
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR014
-U 1 1 6097E9D0
-P 1450 5700
-F 0 "#PWR014" H 1450 5450 50  0001 C CNN
-F 1 "GND" V 1455 5572 50  0000 R CNN
-F 2 "" H 1450 5700 50  0001 C CNN
-F 3 "" H 1450 5700 50  0001 C CNN
-	1    1450 5700
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1799,10 +1725,10 @@ F 3 "~" H 2700 1500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR08
 U 1 1 60B536A7
 P 4100 7600
-F 0 "#PWR?" H 4100 7450 50  0001 C CNN
+F 0 "#PWR08" H 4100 7450 50  0001 C CNN
 F 1 "+3.3V" V 4115 7728 50  0000 L CNN
 F 2 "" H 4100 7600 50  0001 C CNN
 F 3 "" H 4100 7600 50  0001 C CNN
@@ -1811,4 +1737,41 @@ F 3 "" H 4100 7600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4100 7600 4700 7600
+$Comp
+L Connector:Screw_Terminal_01x04 J6
+U 1 1 60B57732
+P 1700 6100
+F 0 "J6" H 1780 6092 50  0000 L CNN
+F 1 "Drop" H 1780 6001 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1700 6100 50  0001 C CNN
+F 3 "~" H 1700 6100 50  0001 C CNN
+	1    1700 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR014
+U 1 1 6097E9D0
+P 1500 6000
+F 0 "#PWR014" H 1500 5750 50  0001 C CNN
+F 1 "GND" V 1505 5872 50  0000 R CNN
+F 2 "" H 1500 6000 50  0001 C CNN
+F 3 "" H 1500 6000 50  0001 C CNN
+	1    1500 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR015
+U 1 1 6097E7D6
+P 1500 6200
+F 0 "#PWR015" H 1500 5950 50  0001 C CNN
+F 1 "GND" V 1505 6072 50  0000 R CNN
+F 2 "" H 1500 6200 50  0001 C CNN
+F 3 "" H 1500 6200 50  0001 C CNN
+	1    1500 6200
+	0    1    1    0   
+$EndComp
+Text GLabel 1500 6100 0    50   Output ~ 0
+pinDropLeft
+Text GLabel 1500 6300 0    50   Output ~ 0
+pinDropRight
 $EndSCHEMATC

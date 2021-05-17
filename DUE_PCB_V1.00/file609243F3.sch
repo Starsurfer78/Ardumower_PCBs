@@ -15,9 +15,9 @@ Comment4 ""
 $EndDescr
 Text GLabel 4300 4250 0    50   Input ~ 0
 pinMotorEnable
-Text GLabel 3550 3450 0    50   Output ~ 0
+Text GLabel 4300 3450 0    50   Output ~ 0
 pinMotorRightSense
-Text GLabel 3550 3550 0    50   Output ~ 0
+Text GLabel 4300 3550 0    50   Output ~ 0
 pinMotorRightFault
 $Comp
 L power:GND #PWR?
@@ -49,26 +49,13 @@ F 3 "" H 5300 4450 60  0000 C CNN
 	1    5150 4400
 	1    0    0    -1  
 $EndComp
-$Comp
-L Lötpad_2,5mm:MC33926 U?
-U 1 1 60958C96
-P 5150 2250
-AR Path="/60958C96" Ref="U?"  Part="1" 
-AR Path="/609243F4/60958C96" Ref="U1"  Part="1" 
-F 0 "U1" H 5100 3707 60  0000 C CNN
-F 1 "MC33926" H 5100 3601 60  0000 C CNN
-F 2 "Zimprich:MC_33926_31polig_mit_Bohrloch_neue_Masse" H 5300 2300 60  0001 C CNN
-F 3 "" H 5300 2300 60  0000 C CNN
-	1    5150 2250
-	1    0    0    -1  
-$EndComp
 Text GLabel 4300 3950 0    50   Input ~ 0
 pinMotorRightDir
 NoConn ~ 4300 4050
 NoConn ~ 4300 4150
-Text GLabel 3550 4350 0    50   Output ~ 0
+Text GLabel 4300 4350 0    50   Output ~ 0
 pinMotorLeftSense
-Text GLabel 3550 4450 0    50   Output ~ 0
+Text GLabel 4300 4450 0    50   Output ~ 0
 pinMotorLeftFault
 $Comp
 L power:GND #PWR?
@@ -136,9 +123,9 @@ F 3 "" H 4100 1500 50  0001 C CNN
 	1    4100 1500
 	0    1    1    0   
 $EndComp
-Text GLabel 3550 1300 0    50   Output ~ 0
+Text GLabel 4300 1300 0    50   Output ~ 0
 pinMotorMowSense
-Text GLabel 3550 1400 0    50   Output ~ 0
+Text GLabel 3950 1400 0    50   Output ~ 0
 pinMotorMowFault
 Text GLabel 4100 1600 0    50   Input ~ 0
 IOREV
@@ -199,218 +186,8 @@ Text GLabel 3700 2800 0    50   Input ~ 0
 IOREV
 Wire Wire Line
 	3700 2800 4300 2800
-$Comp
-L power:+24V #PWR?
-U 1 1 60958CEB
-P 6050 1950
-AR Path="/60958CEB" Ref="#PWR?"  Part="1" 
-AR Path="/609243F4/60958CEB" Ref="#PWR063"  Part="1" 
-F 0 "#PWR063" H 6050 1800 50  0001 C CNN
-F 1 "+24V" V 6065 2078 50  0000 L CNN
-F 2 "" H 6050 1950 50  0001 C CNN
-F 3 "" H 6050 1950 50  0001 C CNN
-	1    6050 1950
-	0    1    1    0   
-$EndComp
-$Comp
-L power:+24V #PWR?
-U 1 1 60958CF1
-P 6050 4100
-AR Path="/60958CF1" Ref="#PWR?"  Part="1" 
-AR Path="/609243F4/60958CF1" Ref="#PWR064"  Part="1" 
-F 0 "#PWR064" H 6050 3950 50  0001 C CNN
-F 1 "+24V" V 6065 4228 50  0000 L CNN
-F 2 "" H 6050 4100 50  0001 C CNN
-F 3 "" H 6050 4100 50  0001 C CNN
-	1    6050 4100
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60958CF7
-P 5900 2050
-AR Path="/60958CF7" Ref="#PWR?"  Part="1" 
-AR Path="/609243F4/60958CF7" Ref="#PWR060"  Part="1" 
-F 0 "#PWR060" H 5900 1800 50  0001 C CNN
-F 1 "GND" V 5905 1922 50  0000 R CNN
-F 2 "" H 5900 2050 50  0001 C CNN
-F 3 "" H 5900 2050 50  0001 C CNN
-	1    5900 2050
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 60958CFD
-P 5900 4200
-AR Path="/60958CFD" Ref="#PWR?"  Part="1" 
-AR Path="/609243F4/60958CFD" Ref="#PWR061"  Part="1" 
-F 0 "#PWR061" H 5900 3950 50  0001 C CNN
-F 1 "GND" V 5905 4072 50  0000 R CNN
-F 2 "" H 5900 4200 50  0001 C CNN
-F 3 "" H 5900 4200 50  0001 C CNN
-	1    5900 4200
-	0    -1   -1   0   
-$EndComp
-Text GLabel 5900 1850 1    50   Input ~ 0
-+24V
-Wire Wire Line
-	5900 1850 5900 1950
-Wire Wire Line
-	5900 1950 6050 1950
-Connection ~ 5900 1950
-Wire Wire Line
-	5900 4100 5950 4100
-Text GLabel 5950 4000 1    50   Input ~ 0
-+24V
-Wire Wire Line
-	5950 4000 5950 4100
-Connection ~ 5950 4100
-Wire Wire Line
-	5950 4100 6050 4100
-$Comp
-L Connector:Screw_Terminal_01x02 J32
-U 1 1 60DDD092
-P 750 750
-F 0 "J32" V 714 562 50  0000 R CNN
-F 1 "24V In" V 850 800 50  0000 R CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 750 750 50  0001 C CNN
-F 3 "~" H 750 750 50  0001 C CNN
-	1    750  750 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Diode:1N5819 D5
-U 1 1 60DDD098
-P 1200 950
-F 0 "D5" H 1200 733 50  0000 C CNN
-F 1 "1N5819" H 1200 824 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 1200 775 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88525/1n5817.pdf" H 1200 950 50  0001 C CNN
-	1    1200 950 
-	-1   0    0    1   
-$EndComp
-Text GLabel 1500 950  2    50   Output ~ 0
-+24V
-$Comp
-L power:GND #PWR081
-U 1 1 60DDD09F
-P 750 950
-F 0 "#PWR081" H 750 700 50  0001 C CNN
-F 1 "GND" H 755 777 50  0000 C CNN
-F 2 "" H 750 950 50  0001 C CNN
-F 3 "" H 750 950 50  0001 C CNN
-	1    750  950 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	850  950  1050 950 
-Wire Wire Line
-	1350 950  1500 950 
-$Comp
-L Connector:Screw_Terminal_01x02 J26
-U 1 1 60E7534A
-P 6350 1350
-F 0 "J26" V 6314 1162 50  0000 R CNN
-F 1 "Cutter1" V 6450 1400 50  0000 R CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 6350 1350 50  0001 C CNN
-F 3 "~" H 6350 1350 50  0001 C CNN
-	1    6350 1350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5900 1350 6150 1350
-Wire Wire Line
-	5900 1450 6150 1450
-$Comp
-L Connector:Screw_Terminal_01x02 J27
-U 1 1 60E78788
-P 6350 3500
-F 0 "J27" V 6314 3312 50  0000 R CNN
-F 1 "MotorR" V 6450 3550 50  0000 R CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 6350 3500 50  0001 C CNN
-F 3 "~" H 6350 3500 50  0001 C CNN
-	1    6350 3500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5900 3500 6150 3500
-Wire Wire Line
-	5900 3600 6150 3600
-$Comp
-L Connector:Screw_Terminal_01x02 J28
-U 1 1 60E799F8
-P 6350 4750
-F 0 "J28" V 6314 4562 50  0000 R CNN
-F 1 "MotorL" V 6450 4800 50  0000 R CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 6350 4750 50  0001 C CNN
-F 3 "~" H 6350 4750 50  0001 C CNN
-	1    6350 4750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5900 4750 6150 4750
-Wire Wire Line
-	5900 4850 6150 4850
-$Comp
-L Diode:1N47xxA D6
-U 1 1 609D8865
-P 3800 1300
-F 0 "D6" H 3800 1517 50  0000 C CNN
-F 1 "1N4728A" H 3800 1426 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3800 1125 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85816/1n4728a.pdf" H 3800 1300 50  0001 C CNN
-	1    3800 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Diode:1N47xxA D9
-U 1 1 609DAEC2
-P 3800 1400
-F 0 "D9" H 3800 1617 50  0000 C CNN
-F 1 "1N4728A" H 3800 1526 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3800 1225 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85816/1n4728a.pdf" H 3800 1400 50  0001 C CNN
-	1    3800 1400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3950 1300 4300 1300
-Wire Wire Line
-	3550 1400 3650 1400
 Wire Wire Line
 	3950 1400 4250 1400
-Wire Wire Line
-	3550 1300 3650 1300
-$Comp
-L Diode:1N47xxA D10
-U 1 1 609E18E1
-P 3800 3450
-F 0 "D10" H 3800 3667 50  0000 C CNN
-F 1 "1N4728A" H 3800 3576 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3800 3275 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85816/1n4728a.pdf" H 3800 3450 50  0001 C CNN
-	1    3800 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Diode:1N47xxA D11
-U 1 1 609E1AC5
-P 3800 3550
-F 0 "D11" H 3800 3767 50  0000 C CNN
-F 1 "1N4728A" H 3800 3676 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3800 3375 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85816/1n4728a.pdf" H 3800 3550 50  0001 C CNN
-	1    3800 3550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3950 3450 4300 3450
-Wire Wire Line
-	3550 3550 3650 3550
-Wire Wire Line
-	3550 3450 3650 3450
-Wire Wire Line
-	3950 3550 4300 3550
 $Comp
 L power:GND #PWR?
 U 1 1 609E6ACA
@@ -424,36 +201,6 @@ F 3 "" H 4300 4550 50  0001 C CNN
 	1    4300 4550
 	0    1    1    0   
 $EndComp
-$Comp
-L Diode:1N47xxA D12
-U 1 1 609E6CD2
-P 3800 4350
-F 0 "D12" H 3800 4567 50  0000 C CNN
-F 1 "1N4728A" H 3800 4476 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3800 4175 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85816/1n4728a.pdf" H 3800 4350 50  0001 C CNN
-	1    3800 4350
-	1    0    0    -1  
-$EndComp
-$Comp
-L Diode:1N47xxA D13
-U 1 1 609E6CDC
-P 3800 4450
-F 0 "D13" H 3800 4667 50  0000 C CNN
-F 1 "1N4728A" H 3800 4576 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3800 4275 50  0001 C CNN
-F 3 "https://www.vishay.com/docs/85816/1n4728a.pdf" H 3800 4450 50  0001 C CNN
-	1    3800 4450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3950 4350 4300 4350
-Wire Wire Line
-	3550 4450 3650 4450
-Wire Wire Line
-	3550 4350 3650 4350
-Wire Wire Line
-	3950 4450 4300 4450
 $Comp
 L Connector:Screw_Terminal_01x04 J37
 U 1 1 609ECE3C
@@ -859,4 +606,17 @@ Wire Wire Line
 Wire Wire Line
 	950  2900 2050 2900
 Connection ~ 950  2900
+$Comp
+L Lötpad_2,5mm:MC33926 U?
+U 1 1 60958C96
+P 5150 2250
+AR Path="/60958C96" Ref="U?"  Part="1" 
+AR Path="/609243F4/60958C96" Ref="U1"  Part="1" 
+F 0 "U1" H 5100 3707 60  0000 C CNN
+F 1 "MC33926" H 5100 3601 60  0000 C CNN
+F 2 "Zimprich:MC_33926_31polig_mit_Bohrloch_neue_Masse" H 5300 2300 60  0001 C CNN
+F 3 "" H 5300 2300 60  0000 C CNN
+	1    5150 2250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
