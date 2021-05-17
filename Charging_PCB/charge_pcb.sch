@@ -142,8 +142,6 @@ Wire Wire Line
 Connection ~ 3500 2650
 Wire Wire Line
 	3500 2650 3500 2700
-Wire Wire Line
-	3500 2250 4400 2250
 Connection ~ 3500 2250
 $Comp
 L Lötpad_2,5mm:ACS712 U1
@@ -157,8 +155,6 @@ F 3 "" H 5600 3150 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Connection ~ 3500 3700
-Wire Wire Line
-	4400 2750 4850 2750
 Wire Wire Line
 	5500 3700 5500 3550
 Text GLabel 5600 3850 3    50   Output ~ 0
@@ -257,7 +253,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 4850 
 $EndComp
 Wire Wire Line
 	4850 3000 4850 2750
-Connection ~ 4850 2750
 Wire Wire Line
 	4850 2750 5500 2750
 Wire Wire Line
@@ -674,34 +669,27 @@ Wire Wire Line
 $Comp
 L Transistor_FET:IRF9540N Q4
 U 1 1 60AF8999
-P 9000 2350
-F 0 "Q4" V 9342 2350 50  0000 C CNN
-F 1 "IRF9540N" V 9251 2350 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 9200 2275 50  0001 L CIN
-F 3 "http://www.irf.com/product-info/datasheets/data/irf9540n.pdf" H 9000 2350 50  0001 L CNN
-	1    9000 2350
-	0    -1   -1   0   
+P 9000 2150
+F 0 "Q4" V 9342 2150 50  0000 C CNN
+F 1 "IRF9540N" V 9251 2150 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 9200 2075 50  0001 L CIN
+F 3 "http://www.irf.com/product-info/datasheets/data/irf9540n.pdf" H 9000 2150 50  0001 L CNN
+	1    9000 2150
+	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7950 2550 7950 2950
-Wire Wire Line
-	9000 2550 7950 2550
-Connection ~ 7950 2550
+	7950 2550 7950 2600
 $Comp
 L Transistor_FET:IRF9540N Q2
 U 1 1 60B073F2
-P 4300 2550
-F 0 "Q2" H 4504 2596 50  0000 L CNN
-F 1 "IRF9540N" H 4504 2505 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4500 2475 50  0001 L CIN
-F 3 "http://www.irf.com/product-info/datasheets/data/irf9540n.pdf" H 4300 2550 50  0001 L CNN
-	1    4300 2550
-	1    0    0    -1  
+P 4500 2650
+F 0 "Q2" H 4704 2696 50  0000 L CNN
+F 1 "IRF9540N" H 4704 2605 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 4700 2575 50  0001 L CIN
+F 3 "http://www.irf.com/product-info/datasheets/data/irf9540n.pdf" H 4500 2650 50  0001 L CNN
+	1    4500 2650
+	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4400 2250 4400 2350
-Wire Wire Line
-	4100 2650 4100 2550
 Wire Wire Line
 	6550 3050 6550 4650
 Wire Wire Line
@@ -741,4 +729,26 @@ Wire Wire Line
 	10900 4650 11350 4650
 Text GLabel 5500 6050 1    50   Output ~ 0
 pinBatteryVoltage
+Wire Wire Line
+	4700 2250 4700 2550
+Wire Wire Line
+	3500 2250 4700 2250
+Wire Wire Line
+	4300 2550 4300 2750
+Wire Wire Line
+	4300 2750 4850 2750
+Connection ~ 4850 2750
+Wire Wire Line
+	4100 2650 4100 2850
+Wire Wire Line
+	4100 2850 4500 2850
+Wire Wire Line
+	9000 1950 8400 1950
+Wire Wire Line
+	8400 1950 8400 2600
+Wire Wire Line
+	8400 2600 7950 2600
+Connection ~ 7950 2600
+Wire Wire Line
+	7950 2600 7950 2950
 $EndSCHEMATC

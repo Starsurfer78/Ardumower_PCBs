@@ -426,8 +426,6 @@ Text GLabel 5200 6050 1    50   Output ~ 0
 pinChargeCurrent
 Text GLabel 5100 6050 1    50   Input ~ 0
 pinChargeRelay
-Text GLabel 5500 6050 1    50   Output ~ 0
-pinBatteryVoltage
 Wire Wire Line
 	650  2250 1050 2250
 Wire Wire Line
@@ -741,4 +739,6 @@ Wire Wire Line
 Connection ~ 10900 4650
 Wire Wire Line
 	10900 4650 11350 4650
+Text GLabel 5500 6050 1    50   Output ~ 0
+pinBatteryVoltage
 $EndSCHEMATC
