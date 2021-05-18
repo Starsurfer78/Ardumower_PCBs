@@ -88,7 +88,7 @@ pinPerimeterRight
 Text GLabel 4850 3700 0    50   Input ~ 0
 pinPerimeterLeft
 Text GLabel 4850 3800 0    50   Input ~ 0
-pinPerimeterCenter
+pinMotorMow1Sense
 Text GLabel 7450 1900 2    50   Output ~ 0
 pinMotorLeft2PWM
 Text GLabel 7450 2600 2    50   Output ~ 0
@@ -191,7 +191,7 @@ U 1 1 60757000
 P 3050 2900
 F 0 "J10" H 3130 2892 50  0000 L CNN
 F 1 "Sonar_R" H 3130 2801 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3050 2900 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical" H 3050 2900 50  0001 C CNN
 F 3 "~" H 3050 2900 50  0001 C CNN
 	1    3050 2900
 	1    0    0    -1  
@@ -202,7 +202,7 @@ U 1 1 607583E5
 P 3050 3550
 F 0 "J11" H 3130 3542 50  0000 L CNN
 F 1 "Sonar_C" H 3130 3451 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3050 3550 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical" H 3050 3550 50  0001 C CNN
 F 3 "~" H 3050 3550 50  0001 C CNN
 	1    3050 3550
 	1    0    0    -1  
@@ -213,7 +213,7 @@ U 1 1 60758E5B
 P 3050 4150
 F 0 "J12" H 3130 4142 50  0000 L CNN
 F 1 "Sonar_L" H 3130 4051 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3050 4150 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical" H 3050 4150 50  0001 C CNN
 F 3 "~" H 3050 4150 50  0001 C CNN
 	1    3050 4150
 	1    0    0    -1  
@@ -230,7 +230,7 @@ U 1 1 60770CE6
 P 3250 6100
 F 0 "J5" H 3330 6092 50  0000 L CNN
 F 1 "Bumper" H 3330 6001 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3250 6100 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical" H 3250 6100 50  0001 C CNN
 F 3 "~" H 3250 6100 50  0001 C CNN
 	1    3250 6100
 	1    0    0    -1  
@@ -245,7 +245,7 @@ U 1 1 60776476
 P 3300 1550
 F 0 "J19" H 3380 1592 50  0000 L CNN
 F 1 "P_Left" H 3380 1501 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3300 1550 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-AM_1x03_P2.50mm_Vertical" H 3300 1550 50  0001 C CNN
 F 3 "~" H 3300 1550 50  0001 C CNN
 	1    3300 1550
 	1    0    0    -1  
@@ -256,7 +256,7 @@ U 1 1 6077742A
 P 3300 2150
 F 0 "J13" H 3380 2192 50  0000 L CNN
 F 1 "P_Right" H 3380 2101 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 3300 2150 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-AM_1x03_P2.50mm_Vertical" H 3300 2150 50  0001 C CNN
 F 3 "~" H 3300 2150 50  0001 C CNN
 	1    3300 2150
 	1    0    0    -1  
@@ -280,7 +280,7 @@ U 1 1 6078D35B
 P 1650 6850
 F 0 "J8" H 1730 6892 50  0000 L CNN
 F 1 "Tilt" H 1730 6801 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1650 6850 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-AM_1x03_P2.50mm_Vertical" H 1650 6850 50  0001 C CNN
 F 3 "~" H 1650 6850 50  0001 C CNN
 	1    1650 6850
 	1    0    0    -1  
@@ -306,7 +306,7 @@ U 1 1 607A8DE0
 P 1650 7350
 F 0 "J9" H 1730 7392 50  0000 L CNN
 F 1 "Rain" H 1730 7301 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1650 7350 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-AM_1x03_P2.50mm_Vertical" H 1650 7350 50  0001 C CNN
 F 3 "~" H 1650 7350 50  0001 C CNN
 	1    1650 7350
 	1    0    0    -1  
@@ -332,7 +332,7 @@ U 1 1 607D1A82
 P 3250 6600
 F 0 "J15" H 3330 6592 50  0000 L CNN
 F 1 "Button" H 3330 6501 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3250 6600 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 3250 6600 50  0001 C CNN
 F 3 "~" H 3250 6600 50  0001 C CNN
 	1    3250 6600
 	1    0    0    -1  
@@ -545,7 +545,7 @@ U 1 1 6089BF76
 P 4900 7300
 F 0 "J21" H 4980 7292 50  0000 L CNN
 F 1 "PCB_2" H 4980 7201 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 4900 7300 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B6B-XH-AM_1x06_P2.50mm_Vertical" H 4900 7300 50  0001 C CNN
 F 3 "~" H 4900 7300 50  0001 C CNN
 	1    4900 7300
 	1    0    0    -1  
@@ -566,7 +566,7 @@ U 1 1 608B0DBA
 P 4900 6550
 F 0 "J20" H 4980 6542 50  0000 L CNN
 F 1 "Remote" H 4980 6451 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 4900 6550 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical" H 4900 6550 50  0001 C CNN
 F 3 "~" H 4900 6550 50  0001 C CNN
 	1    4900 6550
 	1    0    0    -1  
@@ -585,7 +585,7 @@ U 1 1 608FC19B
 P 3250 6900
 F 0 "J16" H 3330 6892 50  0000 L CNN
 F 1 "US1" H 3330 6801 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3250 6900 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 3250 6900 50  0001 C CNN
 F 3 "~" H 3250 6900 50  0001 C CNN
 	1    3250 6900
 	1    0    0    -1  
@@ -609,7 +609,7 @@ U 1 1 609039FE
 P 3250 7200
 F 0 "J17" H 3330 7192 50  0000 L CNN
 F 1 "US2" H 3330 7101 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3250 7200 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 3250 7200 50  0001 C CNN
 F 3 "~" H 3250 7200 50  0001 C CNN
 	1    3250 7200
 	1    0    0    -1  
@@ -633,7 +633,7 @@ U 1 1 6090A18A
 P 3250 7500
 F 0 "J18" H 3330 7492 50  0000 L CNN
 F 1 "US3" H 3330 7401 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3250 7500 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 3250 7500 50  0001 C CNN
 F 3 "~" H 3250 7500 50  0001 C CNN
 	1    3250 7500
 	1    0    0    -1  
@@ -966,7 +966,7 @@ U 1 1 60D52135
 P 10800 1800
 F 0 "J14" H 10880 1842 50  0000 L CNN
 F 1 "Buzzer" H 10880 1751 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 10800 1800 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-AM_1x03_P2.50mm_Vertical" H 10800 1800 50  0001 C CNN
 F 3 "~" H 10800 1800 50  0001 C CNN
 	1    10800 1800
 	1    0    0    -1  
@@ -1101,7 +1101,7 @@ U 1 1 606BAE4D
 P 10800 2300
 F 0 "J2" H 10880 2292 50  0000 L CNN
 F 1 "I2C0_1" H 10880 2201 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 10800 2300 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical" H 10800 2300 50  0001 C CNN
 F 3 "~" H 10800 2300 50  0001 C CNN
 	1    10800 2300
 	1    0    0    -1  
@@ -1112,7 +1112,7 @@ U 1 1 606BF01B
 P 10800 2900
 F 0 "J3" H 10880 2892 50  0000 L CNN
 F 1 "I2C0_2" H 10880 2801 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 10800 2900 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical" H 10800 2900 50  0001 C CNN
 F 3 "~" H 10800 2900 50  0001 C CNN
 	1    10800 2900
 	1    0    0    -1  
@@ -1123,7 +1123,7 @@ U 1 1 606BFED6
 P 10800 3450
 F 0 "J4" H 10880 3442 50  0000 L CNN
 F 1 "I2C1_1" H 10880 3351 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 10800 3450 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical" H 10800 3450 50  0001 C CNN
 F 3 "~" H 10800 3450 50  0001 C CNN
 	1    10800 3450
 	1    0    0    -1  
@@ -1256,7 +1256,7 @@ U 1 1 60D185B1
 P 10800 4000
 F 0 "J30" H 10880 3992 50  0000 L CNN
 F 1 "I2C1_2" H 10880 3901 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 10800 4000 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical" H 10800 4000 50  0001 C CNN
 F 3 "~" H 10800 4000 50  0001 C CNN
 	1    10800 4000
 	1    0    0    -1  
@@ -1337,7 +1337,7 @@ U 1 1 60D8BA62
 P 9200 6250
 F 0 "J23" H 9280 6292 50  0000 L CNN
 F 1 "Ser1" H 9280 6201 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 9200 6250 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B5B-XH-AM_1x05_P2.50mm_Vertical" H 9200 6250 50  0001 C CNN
 F 3 "~" H 9200 6250 50  0001 C CNN
 	1    9200 6250
 	1    0    0    -1  
@@ -1385,7 +1385,7 @@ U 1 1 60D92B9E
 P 10100 6250
 F 0 "J24" H 10180 6292 50  0000 L CNN
 F 1 "Ser2" H 10180 6201 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 10100 6250 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B5B-XH-AM_1x05_P2.50mm_Vertical" H 10100 6250 50  0001 C CNN
 F 3 "~" H 10100 6250 50  0001 C CNN
 	1    10100 6250
 	1    0    0    -1  
@@ -1433,7 +1433,7 @@ U 1 1 60D9F760
 P 8300 6250
 F 0 "J22" H 8380 6292 50  0000 L CNN
 F 1 "Ser0" H 8380 6201 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 8300 6250 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B5B-XH-AM_1x05_P2.50mm_Vertical" H 8300 6250 50  0001 C CNN
 F 3 "~" H 8300 6250 50  0001 C CNN
 	1    8300 6250
 	1    0    0    -1  
@@ -1481,7 +1481,7 @@ U 1 1 60DA6EC4
 P 10950 6250
 F 0 "J31" H 11030 6292 50  0000 L CNN
 F 1 "Ser3" H 11030 6201 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 10950 6250 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B5B-XH-AM_1x05_P2.50mm_Vertical" H 10950 6250 50  0001 C CNN
 F 3 "~" H 10950 6250 50  0001 C CNN
 	1    10950 6250
 	1    0    0    -1  
@@ -1531,7 +1531,7 @@ U 1 1 60E9F79C
 P 1300 3150
 F 0 "J33" H 1380 3142 50  0000 L CNN
 F 1 "ReserveD8" H 1380 3051 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1300 3150 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 1300 3150 50  0001 C CNN
 F 3 "~" H 1300 3150 50  0001 C CNN
 	1    1300 3150
 	1    0    0    -1  
@@ -1553,7 +1553,7 @@ U 1 1 60EA5E97
 P 1300 3500
 F 0 "J34" H 1380 3492 50  0000 L CNN
 F 1 "ReserveD9" H 1380 3401 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1300 3500 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 1300 3500 50  0001 C CNN
 F 3 "~" H 1300 3500 50  0001 C CNN
 	1    1300 3500
 	1    0    0    -1  
@@ -1575,7 +1575,7 @@ U 1 1 60EA8082
 P 1300 3850
 F 0 "J36" H 1380 3842 50  0000 L CNN
 F 1 "ReserveA10" H 1380 3751 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1300 3850 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 1300 3850 50  0001 C CNN
 F 3 "~" H 1300 3850 50  0001 C CNN
 	1    1300 3850
 	1    0    0    -1  
@@ -1621,7 +1621,7 @@ U 1 1 60B57732
 P 1700 6100
 F 0 "J6" H 1780 6092 50  0000 L CNN
 F 1 "Drop" H 1780 6001 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1700 6100 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-AM_1x04_P2.50mm_Vertical" H 1700 6100 50  0001 C CNN
 F 3 "~" H 1700 6100 50  0001 C CNN
 	1    1700 6100
 	1    0    0    -1  
@@ -1657,21 +1657,21 @@ DUE_3.3V
 Text GLabel 1100 4300 0    50   Input ~ 0
 pinReserveD13
 $Comp
-L Connector:Screw_Terminal_01x02 J?
+L Connector:Screw_Terminal_01x02 J32
 U 1 1 60C2784B
 P 1300 4200
-F 0 "J?" H 1380 4192 50  0000 L CNN
+F 0 "J32" H 1380 4192 50  0000 L CNN
 F 1 "ReserveD13" H 1380 4101 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1300 4200 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 1300 4200 50  0001 C CNN
 F 3 "~" H 1300 4200 50  0001 C CNN
 	1    1300 4200
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR09
 U 1 1 60C27855
 P 1100 4200
-F 0 "#PWR?" H 1100 3950 50  0001 C CNN
+F 0 "#PWR09" H 1100 3950 50  0001 C CNN
 F 1 "GND" V 1105 4072 50  0000 R CNN
 F 2 "" H 1100 4200 50  0001 C CNN
 F 3 "" H 1100 4200 50  0001 C CNN

@@ -207,7 +207,7 @@ U 1 1 60A0AEEA
 P 9600 1300
 F 0 "J38" H 9680 1292 50  0000 L CNN
 F 1 "ODO_Left" H 9680 1201 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 9600 1300 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 9600 1300 50  0001 C CNN
 F 3 "~" H 9600 1300 50  0001 C CNN
 	1    9600 1300
 	1    0    0    -1  
@@ -231,7 +231,7 @@ U 1 1 60A0D0C7
 P 9600 2050
 F 0 "J39" H 9680 2042 50  0000 L CNN
 F 1 "ODO_Right" H 9680 1951 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 9600 2050 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 9600 2050 50  0001 C CNN
 F 3 "~" H 9600 2050 50  0001 C CNN
 	1    9600 2050
 	1    0    0    -1  
@@ -371,7 +371,7 @@ U 1 1 60A17AF1
 P 2300 1450
 F 0 "J40" H 2380 1492 50  0000 L CNN
 F 1 "Motor_Right1" H 2380 1401 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 2300 1450 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical" H 2300 1450 50  0001 C CNN
 F 3 "~" H 2300 1450 50  0001 C CNN
 	1    2300 1450
 	1    0    0    -1  
@@ -421,7 +421,7 @@ U 1 1 60A2B4C3
 P 2300 2850
 F 0 "J41" H 2380 2892 50  0000 L CNN
 F 1 "Motor_Left1" H 2380 2801 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 2300 2850 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical" H 2300 2850 50  0001 C CNN
 F 3 "~" H 2300 2850 50  0001 C CNN
 	1    2300 2850
 	1    0    0    -1  
@@ -438,7 +438,7 @@ U 1 1 60A3BF2F
 P 2350 5350
 F 0 "J42" H 2430 5392 50  0000 L CNN
 F 1 "Cutter" H 2430 5301 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 2350 5350 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical" H 2350 5350 50  0001 C CNN
 F 3 "~" H 2350 5350 50  0001 C CNN
 	1    2350 5350
 	1    0    0    -1  
@@ -522,7 +522,7 @@ U 1 1 60B9D4E7
 P 2300 2100
 F 0 "J7" H 2380 2142 50  0000 L CNN
 F 1 "Motor_Right2" H 2380 2051 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 2300 2100 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical" H 2300 2100 50  0001 C CNN
 F 3 "~" H 2300 2100 50  0001 C CNN
 	1    2300 2100
 	1    0    0    -1  
@@ -539,7 +539,7 @@ U 1 1 60B9D888
 P 2300 3650
 F 0 "J26" H 2380 3692 50  0000 L CNN
 F 1 "Motor_Left2" H 2380 3601 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical" H 2300 3650 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical" H 2300 3650 50  0001 C CNN
 F 3 "~" H 2300 3650 50  0001 C CNN
 	1    2300 3650
 	1    0    0    -1  
@@ -568,7 +568,7 @@ U 1 1 60BA8B67
 P 9600 2850
 F 0 "J27" H 9680 2842 50  0000 L CNN
 F 1 "ODO_Left2" H 9680 2751 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 9600 2850 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 9600 2850 50  0001 C CNN
 F 3 "~" H 9600 2850 50  0001 C CNN
 	1    9600 2850
 	1    0    0    -1  
@@ -592,7 +592,7 @@ U 1 1 60BA8F72
 P 9600 3600
 F 0 "J28" H 9680 3592 50  0000 L CNN
 F 1 "ODO_Right2" H 9680 3501 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 9600 3600 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical" H 9600 3600 50  0001 C CNN
 F 3 "~" H 9600 3600 50  0001 C CNN
 	1    9600 3600
 	1    0    0    -1  
