@@ -73,12 +73,12 @@ Wire Wire Line
 $Comp
 L Lötpad_2,5mm:DIODE D2
 U 1 1 6071023D
-P 1850 2250
-F 0 "D2" H 1850 2442 40  0000 C CNN
-F 1 "SB1240" H 1850 2366 40  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 1850 2250 60  0001 C CNN
-F 3 "" H 1850 2250 60  0000 C CNN
-	1    1850 2250
+P 3000 2250
+F 0 "D2" H 3000 2442 40  0000 C CNN
+F 1 "SB1240" H 3000 2366 40  0000 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 3000 2250 60  0001 C CNN
+F 3 "" H 3000 2250 60  0000 C CNN
+	1    3000 2250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -136,7 +136,7 @@ $EndComp
 Wire Wire Line
 	3000 2900 3200 2900
 Text GLabel 3000 3200 3    50   Input ~ 0
-pinChargeRelay
+pinChargeEnable
 Wire Wire Line
 	3500 2650 4100 2650
 Connection ~ 3500 2650
@@ -415,16 +415,14 @@ Text GLabel 5300 6050 1    50   Output ~ 0
 pinChargeVoltage
 Text GLabel 5400 6050 1    50   Output ~ 0
 pinBatterySwitch
-Text GLabel 5000 6050 1    50   Output ~ 0
-pinVoltageMeasurement
 Text GLabel 5200 6050 1    50   Output ~ 0
 pinChargeCurrent
 Text GLabel 5100 6050 1    50   Input ~ 0
-pinChargeRelay
+pinChargeEnable
 Wire Wire Line
 	650  2250 1050 2250
 Wire Wire Line
-	2500 2250 3500 2250
+	2500 2250 2800 2250
 $Comp
 L Lötpad_2,5mm:DIODE D5
 U 1 1 608CEAE9
@@ -516,8 +514,6 @@ Wire Wire Line
 	2250 2900 2250 3900
 Wire Wire Line
 	2250 2900 2500 2900
-Wire Wire Line
-	2050 2250 2150 2250
 Wire Wire Line
 	2150 2400 2150 2250
 Connection ~ 2150 2250
@@ -635,14 +631,12 @@ Wire Wire Line
 	1600 3700 2000 3700
 Wire Wire Line
 	650  3700 1600 3700
-Wire Wire Line
-	1600 2250 1650 2250
 $Comp
 L Switch:SW_Push SW1
 U 1 1 60ADB192
 P 8450 3250
 F 0 "SW1" V 8404 3398 50  0000 L CNN
-F 1 "SW_Push" V 8495 3398 50  0000 L CNN
+F 1 "Start_PCB" V 8495 3398 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 8450 3450 50  0001 C CNN
 F 3 "~" H 8450 3450 50  0001 C CNN
 	1    8450 3250
@@ -662,10 +656,6 @@ Wire Wire Line
 Connection ~ 7950 2950
 Wire Wire Line
 	7950 2950 7950 3000
-Wire Wire Line
-	7350 3850 7350 3200
-Wire Wire Line
-	5700 3850 7350 3850
 $Comp
 L Transistor_FET:IRF9540N Q4
 U 1 1 60AF8999
@@ -751,4 +741,32 @@ Wire Wire Line
 Connection ~ 7950 2600
 Wire Wire Line
 	7950 2600 7950 2950
+$Comp
+L power:+3.3V #PWR?
+U 1 1 60A5AE88
+P 5000 6050
+F 0 "#PWR?" H 5000 5900 50  0001 C CNN
+F 1 "+3.3V" H 5015 6223 50  0000 C CNN
+F 2 "" H 5000 6050 50  0001 C CNN
+F 3 "" H 5000 6050 50  0001 C CNN
+	1    5000 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 60A5B730
+P 5950 3850
+F 0 "#PWR?" H 5950 3700 50  0001 C CNN
+F 1 "+3.3V" V 5965 3978 50  0000 L CNN
+F 2 "" H 5950 3850 50  0001 C CNN
+F 3 "" H 5950 3850 50  0001 C CNN
+	1    5950 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 3850 5950 3850
+Wire Wire Line
+	3200 2250 3500 2250
+Wire Wire Line
+	1600 2250 2150 2250
 $EndSCHEMATC
