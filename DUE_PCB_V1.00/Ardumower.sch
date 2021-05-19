@@ -108,7 +108,7 @@ pinChargeVoltage
 Text GLabel 4850 4000 0    50   Input ~ 0
 pinChargeCurrent
 Text GLabel 7450 5500 2    50   Output ~ 0
-pinChargeRelay
+pinChargeEnable
 Text GLabel 7450 2500 2    50   Input ~ 0
 pinRemoteMow
 Text GLabel 7450 2400 2    50   Input ~ 0
@@ -559,7 +559,7 @@ pinChargeVoltage
 Text GLabel 4700 7400 0    50   Input ~ 0
 pinChargeCurrent
 Text GLabel 4700 7500 0    50   Output ~ 0
-pinChargeRelay
+pinChargeEnable
 $Comp
 L Connector:Screw_Terminal_01x04 J20
 U 1 1 608B0DBA
