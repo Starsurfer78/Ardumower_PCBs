@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 12077)
+    (start_pass_no 7705)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -84,15 +84,14 @@
     SCL1 SDA1 pinMotorRightSense pinMotorRightFault IOREV pinMotorRightPWM pinMotorEnable pinMotorRightDir
     pinMotorLeftSense pinMotorLeftFault pinMotorLeftPWM pinMotorLeftDir pinMotorMowSense pinMotorMowFault pinMotorMowPWM pinMotorMowDir
     pinMotorMowEnable pinDropLeft pinBumperLeft pinBumperRight pinDropRight pinBuzzer pinRemoteSwitch pinButton
-    pinChargeRelay pinUserSwitch3 pinUserSwitch2 pinUserSwitch1 pinRain pinSonarLeftEcho pinTilt pinSonarLeftTrigger
-    pinSonarRightEcho pinSonarRightTrigger pinSonarCenterTrigger pinSonarCenterEcho pinChargeVoltage pinChargeCurrent pinVoltageMeasurement pinPerimeterLeft
-    pinPerimeterRight pinBatteryVoltage pinRemoteSteer pinRemoteMow pinLED pinRemoteSpeed pinBatterySwitch SCL0
-    SDA0 "Net-(C1-Pad2)" TX0 RX0 TX2 RX2 TX1 RX1
-    "Net-(D1-Pad2)" "Net-(D2-Pad2)" "Net-(J13-Pad3)" "Net-(D3-Pad2)" "Net-(D4-Pad2)" "Net-(D5-Pad2)" "Net-(JP2-Pad2)" "Net-(J26-Pad1)"
-    "Net-(J19-Pad3)" "Net-(J27-Pad1)" "Net-(J28-Pad1)" "Net-(D7-Pad2)" "Net-(D7-Pad1)" "Net-(D8-Pad2)" "Net-(D8-Pad1)" RX3
-    TX3 pinReserveD49 pinReserveA10 pinReserveD9 pinReserveD8 "Net-(J26-Pad2)" "Net-(J27-Pad2)" "Net-(J28-Pad2)"
-    "Net-(D6-Pad2)" "Net-(D9-Pad2)" "Net-(D10-Pad2)" "Net-(D11-Pad2)" "Net-(D12-Pad2)" "Net-(D13-Pad2)" "Net-(J37-Pad1)" "Net-(J38-Pad1)"
-    "Net-(J39-Pad1)" pinMotorMowRpm pinOdometryRight pinOdometryLeft "Net-(J40-Pad1)" "Net-(J42-Pad1)"
+    pinUserSwitch3 pinUserSwitch2 pinUserSwitch1 pinRain pinSonarLeftEcho pinTilt pinSonarLeftTrigger pinSonarRightEcho
+    pinSonarRightTrigger pinSonarCenterTrigger pinSonarCenterEcho pinChargeVoltage pinChargeCurrent pinPerimeterLeft pinPerimeterRight pinBatteryVoltage
+    pinRemoteSteer pinRemoteMow pinRemoteSpeed pinBatterySwitch SCL0 SDA0 "Net-(C1-Pad2)" TX0
+    RX0 TX2 RX2 TX1 RX1 "Net-(D1-Pad2)" "Net-(D2-Pad2)" "Net-(J13-Pad3)"
+    "Net-(JP2-Pad2)" "Net-(J26-Pad1)" "Net-(J19-Pad3)" "Net-(J27-Pad1)" "Net-(J28-Pad1)" "Net-(D7-Pad2)" "Net-(D7-Pad1)" "Net-(D8-Pad2)"
+    "Net-(D8-Pad1)" RX3 TX3 pinReserveA10 pinReserveD9 pinReserveD8 "Net-(J38-Pad1)" "Net-(J39-Pad1)"
+    pinOdometryRight pinOdometryLeft "Net-(J42-Pad1)" pinOdometryRight2 pinOdometryLeft2 pinMotorRight2Dir pinMotorRight2PWM pinMotorLeft2Dir
+    pinMotorLeft2PWM pinMotorRight2Enable pinMotorLeft2Enable pinReserveD13 pinMotorLeftEnable pinMotorMow1Sense pinChargeEnable
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
@@ -103,7 +102,6 @@
     )
   )
   (class 24v
-    +24V
     (clearance_class 24v)
     (via_rule 24v)
     (rule

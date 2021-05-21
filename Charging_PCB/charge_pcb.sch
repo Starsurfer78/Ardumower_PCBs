@@ -280,7 +280,7 @@ F 12 "Active" H 8050 4400 60  0001 L CNN "Status"
 	1    7850 3200
 	1    0    0    -1  
 $EndComp
-Text GLabel 7350 3200 0    50   Output ~ 0
+Text GLabel 7300 3200 0    50   Output ~ 0
 pinBatterySwitch
 $Comp
 L Device:R R5
@@ -769,4 +769,6 @@ Wire Wire Line
 	3200 2250 3500 2250
 Wire Wire Line
 	1600 2250 2150 2250
+Wire Wire Line
+	7300 3200 7350 3200
 $EndSCHEMATC
