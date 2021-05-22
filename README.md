@@ -1,17 +1,17 @@
-# Ardumower_PCBs
+# Simple Ardumower_PCBs
 
 # Attention PCB is not yet finished!
 
-So i have made some test with the Board and i think it need a redesign. 
-Some 3V LED did not burn.
-The Place between the RTC and the I2c Socket is too small
-The 2x4 Pin Connectors fit not with the Schematic, the Pins have a different order.
-The Brushless Adapter Board does not fit properly because the distance is not exact
-The Board needs more labelling on the pins
-Buzzer did not work
-
-
-And perhaps some other things that i have not tested yet. 
+New Board Design. All Pins from Software are now on the PCB. 
+Supports 4 Motor Driver for Mowing.
+Only a few Electronic Parts are needed. 
+- JST-XH Connectors
+- Screw Terminal 5.04mm
+- Resistors
+- Pin Header Connector 2.54mm
+- Active Buzzer
+- LED
+- Jumper
 
 A small simple circuit board for the Ardumower to lead out all the necessary pins.
 The charging board and the power supply for the motors are on a separate board.
