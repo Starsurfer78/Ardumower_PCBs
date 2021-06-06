@@ -1,6 +1,29 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Connector_Screw_Terminal_01x02
+#
+DEF Connector_Screw_Terminal_01x02 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Screw_Terminal_01x02" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TerminalBlock*:*
+$ENDFPLIST
+DRAW
+C 0 -100 25 1 1 6 N
+C 0 0 25 1 1 6 N
+S -50 50 50 -150 1 1 10 f
+P 2 1 1 6 -21 -87 13 -120 N
+P 2 1 1 6 -21 13 13 -20 N
+P 2 1 1 6 -14 -80 20 -113 N
+P 2 1 1 6 -14 20 20 -13 N
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+X Pin_2 2 -200 -100 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Connector_Screw_Terminal_01x06
 #
 DEF Connector_Screw_Terminal_01x06 J 0 40 Y N 1 F N
@@ -165,55 +188,6 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Lötpad_2,5mm_ACS712
-#
-DEF Lötpad_2,5mm_ACS712 U 0 40 Y Y 1 F N
-F0 "U" 0 250 50 H V C CNN
-F1 "Lötpad_2,5mm_ACS712" 0 -250 50 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-S -250 200 250 -200 0 1 0 f
-X VCC 1 400 100 150 L 50 50 1 1 W
-X GND 2 400 -100 150 L 50 50 1 1 W
-X OUT 3 400 0 150 L 50 50 1 1 O
-X IP+ 4 -400 100 150 R 50 50 1 1 I
-X IP- 5 -400 -100 150 R 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# Lötpad_2,5mm_DIODE
-#
-DEF Lötpad_2,5mm_DIODE D 0 40 N N 1 F N
-F0 "D" 0 100 40 H V C CNN
-F1 "Lötpad_2,5mm_DIODE" 0 -100 40 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-$FPLIST
- D?
- S*
-$ENDFPLIST
-DRAW
-P 2 0 1 6 50 50 50 -50 N
-P 3 0 1 0 -50 50 50 0 -50 -50 F
-X A 1 -200 0 150 R 40 40 1 1 P
-X K 2 200 0 150 L 40 40 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Lötpad_2,5mm_GND
-#
-DEF Lötpad_2,5mm_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 60 H I C CNN
-F1 "Lötpad_2,5mm_GND" 0 -150 60 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
 # Mechanical_MountingHole_Pad
 #
 DEF Mechanical_MountingHole_Pad H 0 40 N N 1 F N
@@ -227,23 +201,6 @@ $ENDFPLIST
 DRAW
 C 0 50 50 0 1 50 N
 X 1 1 0 -100 100 U 50 50 1 1 I
-ENDDRAW
-ENDDEF
-#
-# Switch_SW_Push
-#
-DEF Switch_SW_Push SW 0 40 N N 1 F N
-F0 "SW" 50 100 50 H V L CNN
-F1 "Switch_SW_Push" 0 -60 50 H V C CNN
-F2 "" 0 200 50 H I C CNN
-F3 "" 0 200 50 H I C CNN
-DRAW
-C -80 0 20 0 1 0 N
-C 80 0 20 0 1 0 N
-P 2 0 1 0 0 50 0 120 N
-P 2 0 1 0 100 50 -100 50 N
-X 1 1 -200 0 100 R 50 50 0 1 P
-X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
@@ -279,40 +236,28 @@ X S 3 100 -200 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Zimprich_FUSE
+# charge_pcb-rescue_ACS712-Lötpad_2,5mm
 #
-DEF Zimprich_FUSE F 0 10 Y Y 1 F N
-F0 "F" 100 50 50 H V C CNN
-F1 "Zimprich_FUSE" -100 -50 50 H V C CNN
+DEF charge_pcb-rescue_ACS712-Lötpad_2,5mm U 0 40 Y Y 1 F N
+F0 "U" 0 250 50 H V C CNN
+F1 "charge_pcb-rescue_ACS712-Lötpad_2,5mm" 0 -250 50 H V C CNN
 F2 "" 0 0 60 H V C CNN
 F3 "" 0 0 60 H V C CNN
 DRAW
-A -75 0 75 1 1799 0 1 0 N 0 0 -150 0
-A 75 0 75 -1799 -1 0 1 0 N 0 0 150 0
-X ~ 1 -250 0 100 R 40 40 1 1 I
-X ~ 2 250 0 100 L 40 40 1 1 I
+S -250 200 250 -200 0 1 0 f
+X VCC 1 400 100 150 L 50 50 1 1 W
+X GND 2 400 -100 150 L 50 50 1 1 W
+X OUT 3 400 0 150 L 50 50 1 1 O
+X IP+ 4 -400 100 150 R 50 50 1 1 I
+X IP- 5 -400 -100 150 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Zimprich_HEADER_2
+# charge_pcb-rescue_BC548BTA-dk_Transistors-Bipolar-BJT-Single
 #
-DEF Zimprich_HEADER_2 J 0 0 Y Y 1 F N
-F0 "J" 0 150 60 H V C CNN
-F1 "Zimprich_HEADER_2" 0 -150 60 H V C CNN
-F2 "" 0 0 60 H V C CNN
-F3 "" 0 0 60 H V C CNN
-DRAW
-S 100 100 0 -100 0 1 0 N
-X ~ 1 -100 50 100 R 35 50 1 1 P
-X ~ 2 -100 -50 100 R 35 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# dk_Transistors-Bipolar-BJT-Single_BC548BTA
-#
-DEF dk_Transistors-Bipolar-BJT-Single_BC548BTA Q 0 0 Y Y 1 F N
+DEF charge_pcb-rescue_BC548BTA-dk_Transistors-Bipolar-BJT-Single Q 0 0 Y Y 1 F N
 F0 "Q" -126 166 60 H V L CNN
-F1 "dk_Transistors-Bipolar-BJT-Single_BC548BTA" 206 0 60 V V C CNN
+F1 "charge_pcb-rescue_BC548BTA-dk_Transistors-Bipolar-BJT-Single" 206 0 60 V V C CNN
 F2 "digikey-footprints:TO-92-3_Formed_Leads" 200 200 60 H I L CNN
 F3 "https://media.digikey.com/pdf/Data%20Sheets/ON%20Semiconductor%20PDFs/BC546-50.pdf" 200 300 60 H I L CNN
 F4 "BC548BTACT-ND" 200 400 60 H I L CNN "Digi-Key_PN"
@@ -335,6 +280,67 @@ P 4 0 1 0 60 -50 80 -90 40 -100 60 -50 F
 X C 1 100 200 100 D 50 50 1 1 P
 X B 2 -200 0 100 R 50 50 1 1 I
 X E 3 100 -200 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# charge_pcb-rescue_DIODE-Lötpad_2,5mm
+#
+DEF charge_pcb-rescue_DIODE-Lötpad_2,5mm D 0 40 N N 1 F N
+F0 "D" 0 100 40 H V C CNN
+F1 "charge_pcb-rescue_DIODE-Lötpad_2,5mm" 0 -100 40 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ D?
+ S*
+$ENDFPLIST
+DRAW
+P 2 0 1 6 50 50 50 -50 N
+P 3 0 1 0 -50 50 50 0 -50 -50 F
+X A 1 -200 0 150 R 40 40 1 1 P
+X K 2 200 0 150 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# charge_pcb-rescue_FUSE-Zimprich
+#
+DEF charge_pcb-rescue_FUSE-Zimprich F 0 10 Y Y 1 F N
+F0 "F" 100 50 50 H V C CNN
+F1 "charge_pcb-rescue_FUSE-Zimprich" -100 -50 50 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+A -75 0 75 1 1799 0 1 0 N 0 0 -150 0
+A 75 0 75 -1799 -1 0 1 0 N 0 0 150 0
+X ~ 1 -250 0 100 R 40 40 1 1 I
+X ~ 2 250 0 100 L 40 40 1 1 I
+ENDDRAW
+ENDDEF
+#
+# charge_pcb-rescue_GND-Lötpad_2,5mm
+#
+DEF charge_pcb-rescue_GND-Lötpad_2,5mm #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 60 H I C CNN
+F1 "charge_pcb-rescue_GND-Lötpad_2,5mm" 0 -150 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# charge_pcb-rescue_HEADER_2-Zimprich
+#
+DEF charge_pcb-rescue_HEADER_2-Zimprich J 0 0 Y Y 1 F N
+F0 "J" 0 150 60 H V C CNN
+F1 "charge_pcb-rescue_HEADER_2-Zimprich" 0 -150 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+S 100 100 0 -100 0 1 0 N
+X ~ 1 -100 50 100 R 35 50 1 1 P
+X ~ 2 -100 -50 100 R 35 50 1 1 P
 ENDDRAW
 ENDDEF
 #
