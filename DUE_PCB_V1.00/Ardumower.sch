@@ -660,7 +660,7 @@ Wire Wire Line
 	4850 5000 4850 4900
 Connection ~ 4850 5000
 $Comp
-L arduino:Arduino_Due_Shield XA1
+L Ardumower-rescue:Arduino_Due_Shield-arduino XA1
 U 1 1 606B55C4
 P 6150 3650
 F 0 "XA1" H 6150 1269 60  0000 C CNN
@@ -882,7 +882,7 @@ F 3 "" H 9600 700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Zimprich:LED D2
+L Ardumower-rescue:LED-Zimprich D2
 U 1 1 608BB0E1
 P 9800 700
 F 0 "D2" H 9800 455 50  0000 C CNN
@@ -893,7 +893,7 @@ F 3 "" H 9800 700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Lötpad_2,5mm:SPEAKER SP1
+L Ardumower-rescue:SPEAKER-Lötpad_2,5mm SP1
 U 1 1 607B6900
 P 10400 1200
 F 0 "SP1" H 10678 1261 70  0000 L CNN
