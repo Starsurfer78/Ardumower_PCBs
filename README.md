@@ -15,11 +15,14 @@ Only a few Electronic Parts are needed.
 
 Tested with MC33926 motor driver. Brushless Motordriver did not work at the Moment with Azuritber.
 
+![Vorschau Due PCB](https://raw.githubusercontent.com/Starsurfer78/Ardumower_PCBs/main/DUE_PCB_V1.01/Images/Ardumower_PCB_oben.png)
 
 # Power PCB for Simple MainPCB
 # Attention: Charging Board need some Improvements and did not work at the Moment
 
 The charging board and the power supply for the motors are on a separate board.
+
+![Vorschau Charging Board](https://github.com/Starsurfer78/Ardumower_PCBs/blob/main/Charging_PCB/charge_pcb.png)
 
 Should also fit into small housings.
 
@@ -33,8 +36,4 @@ Software Azuritber: https://github.com/Boilevin/AzuritBer
 Ardumower Original Software: https://github.com/Ardumower
 
 Facebook Gruppe DIY Robot Lawn Mower: https://www.facebook.com/groups/319588508137220
-
-![Vorschau Due PCB](https://github.com/Starsurfer78/Ardumower_PCBs/blob/main/DUE_PCB_V1.00/Images/Ardumower_PCB_oben.png)
-
-![Vorschau Charging Board](https://github.com/Starsurfer78/Ardumower_PCBs/blob/main/Charging_PCB/charge_pcb.png)
 
