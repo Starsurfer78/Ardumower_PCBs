@@ -1,5 +1,7 @@
 # Simple Ardumower_PCBs
 
+If you want to buy a Board, you can send me an E-Mail: info@projekt-heimwerken.de
+
 # Simple MainPCB only for Arduino DUE or Grand Central
 
 New Board Design. All Pins from Software are now on the PCB. 
