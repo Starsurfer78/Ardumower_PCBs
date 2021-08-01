@@ -19,7 +19,7 @@ Tested with MC33926 motor driver. Brushless Motordriver did not work at the Mome
 
 ![Vorschau Due PCB](https://raw.githubusercontent.com/Starsurfer78/Ardumower_PCBs/main/DUE_PCB_V1.01/Images/Ardumower_PCB_oben.png)
 
-# Power PCB for Simple MainPCB ATTENTION: Board did not WORK!!!
+# Power PCB for Simple MainPCB
 
 The charging board and the power supply for the motors are on a separate board.
 
